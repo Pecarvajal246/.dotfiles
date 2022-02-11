@@ -4371,3 +4371,21 @@ Feb 09 22:41 : alsa_output: Decoder is too slow; playing silence to avoid xrun
 Feb 09 22:46 : alsa_output: Decoder is too slow; playing silence to avoid xrun
 Feb 09 22:49 : alsa_output: Decoder is too slow; playing silence to avoid xrun
 Feb 10 00:04 : player: played "CZARFACE/Inspectah Deck + 7L & Esoteric = CZARFACE/06 Savagely Attack (feat. Ghostface Killah).mp3"
+Feb 10 00:19 : exception: Failed to open "My ALSA Device" (alsa); Failed to open ALSA device "hw:0,0": Device or resource busy
+Feb 10 00:19 : exception: Failed to open "My ALSA Device" (alsa); Failed to open ALSA device "hw:0,0": Device or resource busy
+Feb 10 00:20 : player: played "CZARFACE/Inspectah Deck + 7L & Esoteric = CZARFACE/06 Savagely Attack (feat. Ghostface Killah).mp3"
+Feb 10 00:20 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 00:28 : player: played "CZARFACE/Inspectah Deck + 7L & Esoteric = CZARFACE/06 Savagely Attack (feat. Ghostface Killah).mp3"
+Feb 10 13:58 : player: played "CZARFACE/Inspectah Deck + 7L & Esoteric = CZARFACE/06 Savagely Attack (feat. Ghostface Killah).mp3"
+Feb 10 13:58 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 13:59 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 14:02 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 14:05 : player: played "Purity Ring/Asido/01 soshy.mp3"
+Feb 10 14:06 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 14:09 : player: played "Purity Ring/WOMB/01 rubyinsides.mp3"
+Feb 10 15:53 : player: played "Purity Ring/WOMB/02 pink lightning.mp3"
+Feb 10 15:57 : player: played "Purity Ring/Shrines/07 Belispeak.mp3"
+Feb 10 17:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 17:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 10 17:19 : player: played "A Day to Remember/What Separates Me from You/06 Better Off This Way.mp3"
+Feb 10 20:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun

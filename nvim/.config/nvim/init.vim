@@ -13,26 +13,31 @@ set termguicolors
 set autochdir
 set updatetime=500
 set fileformat=unix
+set autoindent
+" set smartindent
+augroup Indentation
+    autocmd!
+    autocmd FileType html set shiftwidth=2 softtabstop=2 expandtab
+augroup END
 
 call plug#begin('~/.local/share/nvim/plugged')
-Plug 'lukas-reineke/indent-blankline.nvim'
-Plug 'jiangmiao/auto-pairs'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+" LSP
 Plug 'williamboman/nvim-lsp-installer'
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer'
+Plug 'jose-elias-alvarez/null-ls.nvim'
+
+" Completion
+Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
-Plug 'hrsh7th/nvim-cmp'
-Plug 'numToStr/Comment.nvim'
+Plug 'saadparwaiz1/cmp_luasnip'
+
+" Telescope
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'ggandor/lightspeed.nvim'
-Plug 'AckslD/nvim-neoclip.lua'
-Plug 'nvim-neorg/neorg'
-Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'nvim-telescope/telescope-file-browser.nvim'
-" Plug 'mhartington/formatter.nvim'
+Plug 'AckslD/nvim-neoclip.lua'
 
 "Debugging
 Plug 'mfussenegger/nvim-dap'
@@ -44,14 +49,24 @@ Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 source ~/.config/nvim/after/themes/tokyonight.vim
 
 "Dashboard
-" Plug 'glepnir/dashboard-nvim'
-" let g:dashboard_default_executive ='telescope'
 Plug 'goolord/alpha-nvim'
 
 "Lualine and bufferline
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'akinsho/bufferline.nvim'
+
+" Snippets
+Plug 'L3MON4D3/LuaSnip'
+Plug 'rafamadriz/friendly-snippets'
+
+"Misc
+Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'jiangmiao/auto-pairs'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'numToStr/Comment.nvim'
+Plug 'ggandor/lightspeed.nvim'
+Plug 'nvim-neorg/neorg'
 
 call plug#end()
 

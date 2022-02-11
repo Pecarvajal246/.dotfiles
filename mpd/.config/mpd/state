@@ -2,8 +2,8 @@ sw_volume: 100
 audio_device_state:1:My ALSA Device
 audio_device_state:1:toggle_visualizer
 state: pause
-current: 12
-time: 63.930000
+current: 0
+time: 69.929000
 random: 0
 repeat: 0
 single: 0
@@ -12,17 +12,27 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Madvillain/Madvillainy/01 The Illest Villains.mp3
-1:Madvillain/Madvillainy/13 Operation Lifesaver aka Mint Test.mp3
-2:Madvillain/Madvillainy/14 Figaro.mp3
-3:Madvillain/Madvillainy/15 Hardcore Hustle.mp3
-4:Madvillain/Madvillainy/16 Strange Ways.mp3
-5:Madvillain/Madvillainy/17 Fancy Clown.mp3
-6:Madvillain/Madvillainy/18 Eye.mp3
-7:Madvillain/Madvillainy/19 Supervillain Theme.mp3
-8:Madvillain/Madvillainy/20 All Caps.mp3
-9:Madvillain/Madvillainy/21 Great Day.mp3
-10:Madvillain/Madvillainy/22 Rhinestone Cowboy.mp3
-11:Charli XCX/Charli/05 Click (feat. Kim Petras and Tommy Cash).mp3
-12:CZARFACE/Inspectah Deck + 7L & Esoteric = CZARFACE/06 Savagely Attack (feat. Ghostface Killah).mp3
+0:DangerDoom/The Mouse & The Mask (Metalface Edition)/01 El Chupa Nibre.mp3
+1:DangerDoom/The Mouse & The Mask (Metalface Edition)/02 Sofa King.mp3
+2:DangerDoom/The Mouse & The Mask (Metalface Edition)/03 The Mask (feat. Ghostface Killah).mp3
+3:DangerDoom/The Mouse & The Mask (Metalface Edition)/04 Perfect Hair.mp3
+4:DangerDoom/The Mouse & The Mask (Metalface Edition)/05 Benzie Box (feat. Cee Lo Green).mp3
+5:DangerDoom/The Mouse & The Mask (Metalface Edition)/06 Old School (feat. Talib Kweli).mp3
+6:DangerDoom/The Mouse & The Mask (Metalface Edition)/07 A.T.H.F. (Aqua Teen Hunger Force).mp3
+7:DangerDoom/The Mouse & The Mask (Metalface Edition)/08 Basket Case.mp3
+8:DangerDoom/The Mouse & The Mask (Metalface Edition)/09 No Names.mp3
+9:DangerDoom/The Mouse & The Mask (Metalface Edition)/10 Crosshairs.mp3
+10:DangerDoom/The Mouse & The Mask (Metalface Edition)/11 Mince Meat.mp3
+11:DangerDoom/The Mouse & The Mask (Metalface Edition)/12 Vats Of Urine.mp3
+12:DangerDoom/The Mouse & The Mask (Metalface Edition)/13 Space Ho's.mp3
+13:DangerDoom/The Mouse & The Mask (Metalface Edition)/14 Bada Bing.mp3
+14:DangerDoom/The Mouse & The Mask (Metalface Edition)/15 Skit 1.mp3
+15:DangerDoom/The Mouse & The Mask (Metalface Edition)/16 El Chupa Nibre (Remix).mp3
+16:DangerDoom/The Mouse & The Mask (Metalface Edition)/17 Perfect Hair II.mp3
+17:DangerDoom/The Mouse & The Mask (Metalface Edition)/18 Korn Dogz.mp3
+18:DangerDoom/The Mouse & The Mask (Metalface Edition)/19 Skit 2.mp3
+19:DangerDoom/The Mouse & The Mask (Metalface Edition)/20 Sofa King (Remix).mp3
+20:DangerDoom/The Mouse & The Mask (Metalface Edition)/21 Space Ho's (Madlib Remix).mp3
+21:DangerDoom/The Mouse & The Mask (Metalface Edition)/22 Mad Nice.mp3
+22:DangerDoom/The Mouse & The Mask (Metalface Edition)/23 Spokesman.mp3
 playlist_end
