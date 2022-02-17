@@ -10,7 +10,7 @@ options = {
   }}
 EOF
 
-nnoremap <silent><leader>} :BufferLineCycleNext<CR>
-nnoremap <silent><leader>{ :BufferLineCyclePrev<CR>
+nnoremap <silent><leader>l :BufferLineCycleNext<CR>
+nnoremap <silent><leader>h :BufferLineCyclePrev<CR>
 nnoremap <silent><leader>bd :bd<CR>
 nnoremap <silent><leader>gb :BufferLinePick<CR>
