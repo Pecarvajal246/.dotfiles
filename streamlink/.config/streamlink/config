@@ -1,3 +1,3 @@
-player=mpv --profile=Dynaudnorm
+player=mpv --profile=Streamlink
 twitch-disable-ads
 twitch-low-latency

@@ -14,7 +14,7 @@ set autochdir
 set updatetime=500
 set fileformat=unix
 set autoindent
-" set smartindent
+set smartindent
 augroup Indentation
     autocmd!
     autocmd FileType html set shiftwidth=2 softtabstop=2 expandtab
@@ -67,6 +67,8 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'numToStr/Comment.nvim'
 Plug 'ggandor/lightspeed.nvim'
 Plug 'nvim-neorg/neorg'
+Plug 'Darazaki/indent-o-matic'
+Plug 'norcalli/nvim-colorizer.lua'
 
 call plug#end()
 

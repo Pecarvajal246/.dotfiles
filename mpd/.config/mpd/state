@@ -1,8 +1,9 @@
 sw_volume: 100
-audio_device_state:1:My ALSA Device
+audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:toggle_visualizer
-state: stop
-current: 0
+state: pause
+current: 8
+time: 2.851000
 random: 0
 repeat: 0
 single: 0
@@ -11,6 +12,15 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Sidewalks And Skeletons/The Void/01 VHS Death.mp3
-1:Youryoungbody_Sidewalks And Skeletons/Wrapping Around Your Insides/01 Wrapping Around Your Insides (Sidewalks and Skeletons REMIX).mp3
+0:Little Dragon/New Me, Same Us/01 Hold On.mp3
+1:Little Dragon/New Me, Same Us/02 Rush.mp3
+2:Little Dragon/New Me, Same Us/03 Another Lover.mp3
+3:Little Dragon/New Me, Same Us/04 Kids.mp3
+4:Little Dragon/New Me, Same Us/05 Every Rain.mp3
+5:Little Dragon/New Me, Same Us/06 New Fiction.mp3
+6:Little Dragon/New Me, Same Us/07 Sadness.mp3
+7:Little Dragon/New Me, Same Us/08 Are You Feeling Sad_.mp3
+8:Little Dragon/New Me, Same Us/09 Where You Belong.mp3
+9:Little Dragon/New Me, Same Us/10 Stay Right Here.mp3
+10:Little Dragon/New Me, Same Us/11 Water.mp3
 playlist_end

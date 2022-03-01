@@ -4444,3 +4444,149 @@ Feb 15 17:53 : alsa_output: Decoder is too slow; playing silence to avoid xrun
 Feb 15 17:57 : player: played "Sidewalks And Skeletons/The Void/01 VHS Death.mp3"
 Feb 15 17:58 : alsa_output: Decoder is too slow; playing silence to avoid xrun
 Feb 15 18:02 : player: played "Youryoungbody_Sidewalks And Skeletons/Wrapping Around Your Insides/01 Wrapping Around Your Insides (Sidewalks and Skeletons REMIX).mp3"
+Feb 18 15:54 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 18 15:58 : player: played "Youryoungbody_Sidewalks And Skeletons/Wrapping Around Your Insides/01 Wrapping Around Your Insides (Sidewalks and Skeletons REMIX).mp3"
+Feb 18 16:00 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 18 16:03 : player: played "Sidewalks And Skeletons/The Void/01 VHS Death.mp3"
+Feb 18 16:07 : player: played "Sidewalks And Skeletons/The Void/02 The Void.mp3"
+Feb 18 16:11 : player: played "Sidewalks And Skeletons/The Void/03 Black Flowers.mp3"
+Feb 18 16:15 : player: played "Sidewalks And Skeletons/The Void/04 Morphine.mp3"
+Feb 18 16:18 : player: played "Sidewalks And Skeletons/The Void/05 Drowning.mp3"
+Feb 18 16:21 : player: played "Sidewalks And Skeletons/The Void/06 Feel Nothing.mp3"
+Feb 18 16:24 : player: played "Sidewalks And Skeletons/The Void/07 Slip Away.mp3"
+Feb 18 16:27 : player: played "Sidewalks And Skeletons/The Void/08 Entity.mp3"
+Feb 18 16:30 : player: played "Sidewalks And Skeletons/The Void/09 1996.mp3"
+Feb 18 17:03 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 18 17:05 : player: played "Sidewalks And Skeletons/The Void/10 Forgive.mp3"
+Feb 18 17:08 : player: played "Sidewalks And Skeletons/The Void/11 Morgue.mp3"
+Feb 18 17:12 : player: played "Sidewalks And Skeletons/The Void/12 Glow.mp3"
+Feb 18 17:14 : player: played "Sidewalks And Skeletons/The Void/13 Fading Light.mp3"
+Feb 18 18:02 : player: played "Clepsydra/Synthetic Anima/01 Phantom.mp3"
+Feb 18 18:06 : player: played "Clepsydra/Synthetic Anima/02 Aether.mp3"
+Feb 18 18:09 : player: played "Clepsydra/Synthetic Anima/03 Embodiment of Night.mp3"
+Feb 18 18:13 : player: played "Clepsydra/Synthetic Anima/04 Synthetic Anima.mp3"
+Feb 18 18:16 : player: played "Clepsydra/Synthetic Anima/05 Spectral Harmony.mp3"
+Feb 18 18:20 : player: played "Clepsydra/Synthetic Anima/06 Plasma.mp3"
+Feb 18 18:23 : player: played "Clepsydra/Synthetic Anima/07 Metaphysical.mp3"
+Feb 19 15:21 : exception: Not playing
+Feb 20 19:03 : player: played "Sidewalks And Skeletons/The Void/01 VHS Death.mp3"
+Feb 21 01:11 : player: played "Sidewalks And Skeletons/The Void/01 VHS Death.mp3"
+Feb 22 17:24 : player: played "Sidewalks And Skeletons/The Void/01 VHS Death.mp3"
+Feb 22 17:24 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 22 17:28 : player: played "Sidewalks And Skeletons/Entity/10 Ocean (Feat. Goo Munday).mp3"
+Feb 22 17:43 : player: played "Youryoungbody/Devotion/01 4ever.mp3"
+Feb 22 17:50 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 22 17:50 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 22 17:53 : player: played "Youryoungbody/Devotion/03 Casting.mp3"
+Feb 22 17:56 : player: played "Youryoungbody/Devotion/04 Intentions.mp3"
+Feb 22 17:56 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 22 17:59 : player: played "Youryoungbody/Devotion/06 Swordswallower.mp3"
+Feb 22 18:02 : player: played "Youryoungbody/Devotion/07 Cement.mp3"
+Feb 22 18:04 : player: played "Youryoungbody/Devotion/08 OD.mp3"
+Feb 22 18:07 : player: played "Youryoungbody/Devotion/09 I Wish.mp3"
+Feb 22 18:11 : player: played "Youryoungbody/Devotion/10 LiveLeak.mp3"
+Feb 22 18:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 22 18:15 : player: played "Clepsydra/Sacred Symphonies/01 Dusk Burial.mp3"
+Feb 22 18:18 : player: played "Clepsydra/Sacred Symphonies/02 Incense (Redux).mp3"
+Feb 22 18:21 : player: played "Clepsydra/Sacred Symphonies/03 Potions, Pt. 1.mp3"
+Feb 22 18:24 : player: played "Clepsydra/Sacred Symphonies/04 Ritual Fire.mp3"
+Feb 22 18:28 : player: played "Clepsydra/Sacred Symphonies/05 Absinthe.mp3"
+Feb 22 18:31 : player: played "Clepsydra/Sacred Symphonies/06 Whispering Souls.mp3"
+Feb 22 18:36 : player: played "Clepsydra/Sacred Symphonies/07 Opal Bones.mp3"
+Feb 22 18:37 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 22 18:39 : player: played "Clepsydra/Sacred Symphonies/08 Soul Atlas.mp3"
+Feb 22 18:43 : player: played "Clepsydra/Sacred Symphonies/09 Two Faced Serpent God.mp3"
+Feb 22 18:46 : player: played "Clepsydra/Sacred Symphonies/10 Black Plague Lullaby, Pt. 1.mp3"
+Feb 22 18:50 : player: played "Clepsydra/Sacred Symphonies/11 Black Plague Lullaby, Pt. 2.mp3"
+Feb 22 18:53 : player: played "Clepsydra/Sacred Symphonies/12 Feathers.mp3"
+Feb 22 23:41 : player: played "Clepsydra/Sacred Symphonies/13 Potions, Pt. 2.mp3"
+Feb 23 10:39 : player: played "Clepsydra/Sacred Symphonies/13 Potions, Pt. 2.mp3"
+Feb 23 10:39 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 23 10:43 : player: played "Youryoungbody_Sidewalks And Skeletons/Wrapping Around Your Insides/01 Wrapping Around Your Insides (Sidewalks and Skeletons REMIX).mp3"
+Feb 23 10:44 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 23 10:47 : player: played "Sidewalks And Skeletons/The Void/01 VHS Death.mp3"
+Feb 23 10:51 : player: played "Sidewalks And Skeletons/The Void/02 The Void.mp3"
+Feb 23 10:55 : player: played "Sidewalks And Skeletons/The Void/03 Black Flowers.mp3"
+Feb 23 10:56 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 23 10:59 : player: played "Sidewalks And Skeletons/The Void/05 Drowning.mp3"
+Feb 23 11:02 : player: played "Sidewalks And Skeletons/The Void/06 Feel Nothing.mp3"
+Feb 23 11:05 : player: played "Sidewalks And Skeletons/The Void/07 Slip Away.mp3"
+Feb 23 11:08 : player: played "Sidewalks And Skeletons/The Void/08 Entity.mp3"
+Feb 23 11:11 : player: played "Sidewalks And Skeletons/The Void/09 1996.mp3"
+Feb 23 16:41 : player: played "Sidewalks And Skeletons/The Void/10 Forgive.mp3"
+Feb 24 00:52 : player: played "Sidewalks And Skeletons/The Void/10 Forgive.mp3"
+Feb 24 10:40 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 24 15:42 : exception: Failed to open "My ALSA Device" (alsa); Failed to open ALSA device "hw:0,0": Device or resource busy
+Feb 24 15:45 : player: played "Sidewalks And Skeletons/The Void/10 Forgive.mp3"
+Feb 24 15:45 : exception: Failed to open "My ALSA Device" (alsa); Failed to open ALSA device "hw:0,0": Device or resource busy
+Feb 24 15:47 : exception: Failed to open "My ALSA Device" (alsa); Failed to open ALSA device "hw:0,0": Device or resource busy
+Feb 24 15:47 : exception: Failed to open "My ALSA Device" (alsa); Failed to open ALSA device "hw:0,0": Device or resource busy
+Feb 24 15:48 : exception: Failed to open "My ALSA Device" (alsa); Failed to open ALSA device "hw:0,0": Device or resource busy
+Feb 24 15:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 24 15:48 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 24 15:50 : player: played "Sidewalks And Skeletons/The Void/06 Feel Nothing.mp3"
+Feb 24 16:11 : exception: Failed to open "My ALSA Device" (alsa); Failed to open ALSA device "hw:0,0": Device or resource busy
+Feb 24 16:13 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 24 17:45 : player: played "Sidewalks And Skeletons/The Void/06 Feel Nothing.mp3"
+Feb 24 17:51 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 24 18:02 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 24 18:05 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Feb 24 18:08 : player: played "Sidewalks And Skeletons/The Void/06 Feel Nothing.mp3"
+Feb 24 18:08 : config: option 'device' on line 119 was not recognized
+Feb 24 18:08 : player: played "Sidewalks And Skeletons/The Void/06 Feel Nothing.mp3"
+Feb 24 18:21 : player: played "Sidewalks And Skeletons/The Void/07 Slip Away.mp3"
+Feb 24 18:24 : player: played "Sidewalks And Skeletons/The Void/08 Entity.mp3"
+Feb 24 18:27 : player: played "Sidewalks And Skeletons/The Void/09 1996.mp3"
+Feb 24 18:31 : player: played "Sidewalks And Skeletons/The Void/10 Forgive.mp3"
+Feb 24 18:35 : player: played "Sidewalks And Skeletons/The Void/11 Morgue.mp3"
+Feb 24 18:36 : player: played "Sidewalks And Skeletons/The Void/12 Glow.mp3"
+Feb 24 18:36 : config: option 'device' on line 119 was not recognized
+Feb 24 18:37 : player: played "Sidewalks And Skeletons/The Void/12 Glow.mp3"
+Feb 24 18:37 : config: option 'device' on line 119 was not recognized
+Feb 24 18:40 : player: played "Sidewalks And Skeletons/The Void/12 Glow.mp3"
+Feb 24 18:40 : config: option 'device' on line 119 was not recognized
+Feb 24 21:11 : player: played "Sidewalks And Skeletons/The Void/12 Glow.mp3"
+Feb 24 21:13 : config: option 'device' on line 119 was not recognized
+Feb 24 21:33 : player: played "Sidewalks And Skeletons/The Void/12 Glow.mp3"
+Feb 24 21:33 : config: option 'device' on line 119 was not recognized
+Feb 24 21:51 : player: played "Sidewalks And Skeletons/The Void/12 Glow.mp3"
+Feb 24 21:51 : config: option 'device' on line 119 was not recognized
+Feb 24 21:53 : player: played "Sidewalks And Skeletons/The Void/12 Glow.mp3"
+Feb 24 21:55 : config: option 'device' on line 119 was not recognized
+Feb 24 22:19 : player: played "Sidewalks And Skeletons/The Void/12 Glow.mp3"
+Feb 24 22:19 : config: option 'device' on line 119 was not recognized
+Feb 25 01:06 : player: played "Sidewalks And Skeletons/The Void/12 Glow.mp3"
+Feb 25 08:54 : config: option 'device' on line 119 was not recognized
+Feb 25 11:01 : player: played "Sidewalks And Skeletons/The Void/12 Glow.mp3"
+Feb 25 11:01 : config: option 'device' on line 119 was not recognized
+Feb 25 14:13 : config: option 'device' on line 119 was not recognized
+Feb 25 18:07 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Feb 25 18:11 : player: played "Sidewalks And Skeletons/The Void/11 Morgue.mp3"
+Feb 25 18:14 : player: played "Sidewalks And Skeletons/The Void/12 Glow.mp3"
+Feb 25 18:17 : player: played "Sidewalks And Skeletons/The Void/13 Fading Light.mp3"
+Feb 25 21:13 : config: option 'device' on line 119 was not recognized
+Feb 25 21:57 : config: option 'device' on line 119 was not recognized
+Feb 26 00:53 : player: played "Youryoungbody_Sidewalks And Skeletons/Wrapping Around Your Insides/01 Wrapping Around Your Insides (Sidewalks and Skeletons REMIX).mp3"
+Feb 26 09:06 : config: option 'device' on line 119 was not recognized
+Feb 26 16:13 : player: played "Youryoungbody_Sidewalks And Skeletons/Wrapping Around Your Insides/01 Wrapping Around Your Insides (Sidewalks and Skeletons REMIX).mp3"
+Feb 27 00:07 : player: played "Sidewalks And Skeletons/The Void/01 VHS Death.mp3"
+Feb 27 00:09 : config: option 'device' on line 119 was not recognized
+Feb 27 00:31 : player: played "Sidewalks And Skeletons/The Void/01 VHS Death.mp3"
+Feb 27 10:53 : config: option 'device' on line 119 was not recognized
+Feb 28 00:45 : player: played "Sidewalks And Skeletons/The Void/01 VHS Death.mp3"
+Feb 28 09:19 : config: option 'device' on line 119 was not recognized
+Feb 28 11:22 : player: played "Sidewalks And Skeletons/The Void/01 VHS Death.mp3"
+Feb 28 11:23 : player: played "Little Dragon/New Me, Same Us/01 Hold On.mp3"
+Feb 28 11:23 : player: played "Little Dragon/New Me, Same Us/01 Hold On.mp3"
+Feb 28 11:40 : player: played "Little Dragon/New Me, Same Us/01 Hold On.mp3"
+Feb 28 11:44 : player: played "Little Dragon/New Me, Same Us/02 Rush.mp3"
+Feb 28 11:48 : player: played "Little Dragon/New Me, Same Us/03 Another Lover.mp3"
+Feb 28 11:53 : player: played "Little Dragon/New Me, Same Us/04 Kids.mp3"
+Feb 28 11:57 : player: played "Little Dragon/New Me, Same Us/05 Every Rain.mp3"
+Feb 28 12:01 : player: played "Little Dragon/New Me, Same Us/06 New Fiction.mp3"
+Feb 28 12:05 : player: played "Little Dragon/New Me, Same Us/07 Sadness.mp3"
+Mar 01 00:23 : player: played "Little Dragon/New Me, Same Us/08 Are You Feeling Sad_.mp3"
+Mar 01 10:29 : config: option 'device' on line 119 was not recognized
+Mar 01 11:58 : config: option 'device' on line 119 was not recognized
+Mar 01 13:56 : player: played "Little Dragon/New Me, Same Us/08 Are You Feeling Sad_.mp3"
+Mar 01 15:03 : config: option 'device' on line 119 was not recognized
