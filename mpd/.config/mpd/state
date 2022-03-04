@@ -2,8 +2,8 @@ sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:toggle_visualizer
 state: pause
-current: 8
-time: 2.851000
+current: 4
+time: 32.312000
 random: 0
 repeat: 0
 single: 0
@@ -12,15 +12,17 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Little Dragon/New Me, Same Us/01 Hold On.mp3
-1:Little Dragon/New Me, Same Us/02 Rush.mp3
-2:Little Dragon/New Me, Same Us/03 Another Lover.mp3
-3:Little Dragon/New Me, Same Us/04 Kids.mp3
-4:Little Dragon/New Me, Same Us/05 Every Rain.mp3
-5:Little Dragon/New Me, Same Us/06 New Fiction.mp3
-6:Little Dragon/New Me, Same Us/07 Sadness.mp3
-7:Little Dragon/New Me, Same Us/08 Are You Feeling Sad_.mp3
-8:Little Dragon/New Me, Same Us/09 Where You Belong.mp3
-9:Little Dragon/New Me, Same Us/10 Stay Right Here.mp3
-10:Little Dragon/New Me, Same Us/11 Water.mp3
+0:CHVRCHES/Screen Violence_ Director’s Cut/01 Asking for a Friend.mp3
+1:CHVRCHES/Screen Violence_ Director’s Cut/02 He Said She Said.mp3
+2:CHVRCHES/Screen Violence_ Director’s Cut/03 California.mp3
+3:CHVRCHES/Screen Violence_ Director’s Cut/04 Violent Delights.mp3
+4:CHVRCHES/Screen Violence_ Director’s Cut/05 How Not to Drown (feat. Robert Smith).mp3
+5:CHVRCHES/Screen Violence_ Director’s Cut/06 Final Girl.mp3
+6:CHVRCHES/Screen Violence_ Director’s Cut/07 Good Girls.mp3
+7:CHVRCHES/Screen Violence_ Director’s Cut/08 Lullabies.mp3
+8:CHVRCHES/Screen Violence_ Director’s Cut/09 Nightmares.mp3
+9:CHVRCHES/Screen Violence_ Director’s Cut/10 Better If You Don’t.mp3
+10:CHVRCHES/Screen Violence_ Director’s Cut/11 Killer.mp3
+11:CHVRCHES/Screen Violence_ Director’s Cut/12 Screaming.mp3
+12:CHVRCHES/Screen Violence_ Director’s Cut/13 Bitter End.mp3
 playlist_end

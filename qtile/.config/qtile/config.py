@@ -27,7 +27,7 @@
 from typing import List  # noqa: F401
 
 from libqtile import bar, layout, widget
-from libqtile.config import Click, Drag, Group, Key, Match, Screen
+from libqtile.config import Click, Drag, Group, Key, Match, Screen, ScratchPad, DropDown
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 import os
@@ -135,6 +135,8 @@ keys = [
     Key([mod], "e", lazy.spawn("thunar"), desc="Spawn thunar"),
     Key([mod], "b", lazy.spawn("brave --enable-features=VaapiVideoDecoder"), desc="open brave"),
     Key([mod], "y", lazy.spawn('streams.sh')),
+    Key([mod, "mod1" ], "m", lazy.group['scratchpad'].dropdown_toggle('ncmpcpp')),
+
 ]
 layout_theme = {
         "border_width":2,
@@ -159,7 +161,9 @@ layouts = [
 ]
 
 # groups = [Group(i) for i in "123456789"]
-groups = [Group("1"),
+groups = [
+
+        Group("1"),
         Group("2"),
         Group("3"),
         Group("4"),
@@ -189,6 +193,9 @@ for i in groups:
             #     desc="move focused window to group {}".format(i.name)),
         ]
     )
+groups.append(ScratchPad("scratchpad", [
+        DropDown("ncmpcpp", "kitty -e ncmpcpp", height=0.8, opacity=1)]),
+        )
 
 group_box_settings = {
     "padding": 3,
@@ -210,8 +217,10 @@ group_box_settings = {
 }
 
 widget_defaults = dict(
-    font="CaskaydiaCove Nerd Font",
+    # font="CaskaydiaCove Nerd Font",
     # font="Iosevka Nerd Font",
+    font="Iosevka",
+    # font="Iosevka Extended",
     fontsize=14,
     padding=3,
     background=colors[1],
@@ -248,10 +257,11 @@ screens = [
                     background=colors[1],
                 ),
                 widget.TextBox(
-                    text=" ",
+                    text="",
                     ),
                 widget.PulseVolume(
                     update_interval=0.1,
+                    get_volume_command='pamixer --get-volume',
                     ),
                 widget.Sep(
                     linewidth=0,
@@ -323,3 +333,4 @@ auto_minimize = True
 # We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
 # java that happens to be on java's whitelist.
 wmname = "LG3D"
+

@@ -13,12 +13,12 @@ set termguicolors
 set autochdir
 set updatetime=500
 set fileformat=unix
-set autoindent
-set smartindent
-augroup Indentation
-    autocmd!
-    autocmd FileType html set shiftwidth=2 softtabstop=2 expandtab
-augroup END
+" set autoindent
+" set smartindent
+" augroup Indentation
+"     autocmd!
+"     autocmd FileType html set shiftwidth=2 softtabstop=2 expandtab
+" augroup END
 
 call plug#begin('~/.local/share/nvim/plugged')
 " LSP
@@ -67,8 +67,9 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'numToStr/Comment.nvim'
 Plug 'ggandor/lightspeed.nvim'
 Plug 'nvim-neorg/neorg'
-Plug 'Darazaki/indent-o-matic'
+" Plug 'Darazaki/indent-o-matic'
 Plug 'norcalli/nvim-colorizer.lua'
+Plug 'tpope/vim-sleuth'
 
 call plug#end()
 

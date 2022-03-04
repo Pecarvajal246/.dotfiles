@@ -1,0 +1,9 @@
+directory: ~/Music
+import:
+    incremental: yes
+    move: yes
+ignore_hidden: yes
+plugins: lyrics ftintitle
+ftintitle:
+    auto: yes
+    format: (feat. {0})
