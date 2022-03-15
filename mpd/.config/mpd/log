@@ -4761,3 +4761,230 @@ Mar 03 17:59 : config: option 'device' on line 119 was not recognized
 Mar 03 18:34 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/04 Violent Delights.mp3"
 Mar 03 22:30 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/05 How Not to Drown (feat. Robert Smith).mp3"
 Mar 04 09:17 : config: option 'device' on line 119 was not recognized
+Mar 04 17:30 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/05 How Not to Drown (feat. Robert Smith).mp3"
+Mar 04 17:43 : config: option 'device' on line 119 was not recognized
+Mar 04 17:45 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/05 How Not to Drown (feat. Robert Smith).mp3"
+Mar 04 17:50 : config: option 'device' on line 119 was not recognized
+Mar 04 18:02 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/05 How Not to Drown (feat. Robert Smith).mp3"
+Mar 04 18:05 : config: option 'device' on line 119 was not recognized
+Mar 04 18:08 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/05 How Not to Drown (feat. Robert Smith).mp3"
+Mar 04 18:15 : player: played "After The Burial/Evergreen/01 Behold The Crown.mp3"
+Mar 04 18:18 : player: played "After The Burial/Evergreen/02 Exit, Exist.mp3"
+Mar 05 00:27 : player: played "After The Burial/Evergreen/03 11_26.mp3"
+Mar 05 09:03 : config: option 'device' on line 119 was not recognized
+Mar 05 19:49 : player: played "After The Burial/Evergreen/03 11_26.mp3"
+Mar 06 10:24 : config: option 'device' on line 119 was not recognized
+Mar 06 13:01 : config: option 'device' on line 119 was not recognized
+Mar 06 18:54 : config: option 'device' on line 119 was not recognized
+Mar 07 08:43 : config: option 'device' on line 119 was not recognized
+Mar 08 09:19 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Mar 08 10:16 : config: option 'device' on line 119 was not recognized
+Mar 08 14:24 : config: option 'device' on line 119 was not recognized
+Mar 08 14:28 : player: played "Crystal Castles/Amnesty (I)/03 Char.mp3"
+Mar 08 15:08 : player: played "Crystal Castles/Amnesty (I)/03 Char.mp3"
+Mar 08 16:43 : player: played "Khruangbin/Mordechai/02 Time (You and I).mp3"
+Mar 08 22:03 : update: removing Mastodon/Call Of The Mastodon/02 Welcoming War.mp3
+Mar 08 22:03 : update: removing Mastodon/Call Of The Mastodon/04 Hail To Fire.mp3
+Mar 08 22:03 : update: removing Mastodon/Call Of The Mastodon/03 Thank You For This.mp3
+Mar 08 22:03 : update: removing Mastodon/Call Of The Mastodon/06 Battle At The Sea.mp3
+Mar 08 22:03 : update: removing Mastodon/Call Of The Mastodon/04 We Built This Come Death.mp3
+Mar 08 22:03 : update: removing Mastodon/Call Of The Mastodon/08 Sickleg.mp3
+Mar 08 22:03 : update: removing Mastodon/Call Of The Mastodon/07 Deep Sea Creauture.mp3
+Mar 08 22:03 : update: removing Mastodon/Call Of The Mastodon/01 Shadows That Move.mp3
+Mar 08 22:03 : update: removing Mastodon/Call Of The Mastodon/09 Call Of The Mastodon.mp3
+Mar 08 22:03 : update: added Mastodon/Call of the Mastodon/01 Shadows That Move.mp3
+Mar 08 22:03 : update: added Mastodon/Call of the Mastodon/02 Welcoming War.mp3
+Mar 08 22:03 : update: added Mastodon/Call of the Mastodon/03 Thank You for This.mp3
+Mar 08 22:03 : update: added Mastodon/Call of the Mastodon/04 We Built This Come Death.mp3
+Mar 08 22:03 : update: added Mastodon/Call of the Mastodon/05 Hail to Fire.mp3
+Mar 08 22:03 : update: added Mastodon/Call of the Mastodon/06 Battle at Sea.mp3
+Mar 08 22:03 : update: added Mastodon/Call of the Mastodon/07 Deep Sea Creature.mp3
+Mar 08 22:03 : update: added Mastodon/Call of the Mastodon/08 Slickleg.mp3
+Mar 08 22:03 : update: added Mastodon/Call of the Mastodon/09 Call of the Mastodon.mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/05 Stockholm Syndrome.mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/02 Obvious.mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/01 Feeling This.mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/04 Violence.mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/03 I Miss You.mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/07 The Fallen Interlude.mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/06 Down.mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/09 Asthenia.mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/08 Go.mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/11 Easy Target.mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/10 Always.mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/13 Here's Your Letter.mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/12 All of This.mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/15 Anthem Part Two (Live In Chicago) [Bonus Track].mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/14 I'm Lost Without You.mp3
+Mar 08 22:10 : update: removing Blink 182/Blink 182/16 Not Now.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/01 Feeling This.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/02 Obvious.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/03 I Miss You.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/04 Violence.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/05 Stockholm Syndrome.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/06 Down.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/07 The Fallen Interlude.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/08 Go.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/09 Asthenia.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/10 Always.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/11 Easy Target.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/12 All of This.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/13 Here’s Your Letter.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/14 I’m Lost Without You.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/15 Not Now.mp3
+Mar 08 22:10 : update: added blink‐182/blink‐182/16 Anthem, Part Two (live in Chicago).mp3
+Mar 08 22:11 : update: removing Blink 182/Take Off Your Pants and Jacket/01 Anthem, Pt. 2.mp3
+Mar 08 22:11 : update: removing Blink 182/Take Off Your Pants and Jacket/02 Online Songs.mp3
+Mar 08 22:11 : update: removing Blink 182/Take Off Your Pants and Jacket/03 First Date.mp3
+Mar 08 22:11 : update: removing Blink 182/Take Off Your Pants and Jacket/04 Happy Holidays, You Bastard.mp3
+Mar 08 22:11 : update: removing Blink 182/Take Off Your Pants and Jacket/05 Story Of A Lonely Guy.mp3
+Mar 08 22:11 : update: removing Blink 182/Take Off Your Pants and Jacket/06 The Rock Show.mp3
+Mar 08 22:11 : update: removing Blink 182/Take Off Your Pants and Jacket/07 Stay Together For The Kids.mp3
+Mar 08 22:11 : update: removing Blink 182/Take Off Your Pants and Jacket/08 Roller Coaster.mp3
+Mar 08 22:11 : update: removing Blink 182/Take Off Your Pants and Jacket/09 Reckless Abandon.mp3
+Mar 08 22:11 : update: removing Blink 182/Take Off Your Pants and Jacket/10 Everytime I Look For You.mp3
+Mar 08 22:11 : update: removing Blink 182/Take Off Your Pants and Jacket/11 Give Me One Good Reason.mp3
+Mar 08 22:11 : update: removing Blink 182/Take Off Your Pants and Jacket/12 Shut Up.mp3
+Mar 08 22:11 : update: removing Blink 182/Take Off Your Pants and Jacket/13 Please Take Me Home.mp3
+Mar 08 22:11 : update: added blink‐182/Take Off Your Pants and Jacket/01 Anthem, Pt. 2.mp3
+Mar 08 22:11 : update: added blink‐182/Take Off Your Pants and Jacket/02 Online Songs.mp3
+Mar 08 22:11 : update: added blink‐182/Take Off Your Pants and Jacket/03 First Date.mp3
+Mar 08 22:11 : update: added blink‐182/Take Off Your Pants and Jacket/04 Happy Holidays, You Bastard.mp3
+Mar 08 22:11 : update: added blink‐182/Take Off Your Pants and Jacket/05 Story of a Lonely Guy.mp3
+Mar 08 22:11 : update: added blink‐182/Take Off Your Pants and Jacket/06 The Rock Show.mp3
+Mar 08 22:11 : update: added blink‐182/Take Off Your Pants and Jacket/07 Stay Together for the Kids.mp3
+Mar 08 22:11 : update: added blink‐182/Take Off Your Pants and Jacket/08 Roller Coaster.mp3
+Mar 08 22:11 : update: added blink‐182/Take Off Your Pants and Jacket/09 Reckless Abandon.mp3
+Mar 08 22:11 : update: added blink‐182/Take Off Your Pants and Jacket/10 Everytime I Look for You.mp3
+Mar 08 22:11 : update: added blink‐182/Take Off Your Pants and Jacket/11 Give Me One Good Reason.mp3
+Mar 08 22:11 : update: added blink‐182/Take Off Your Pants and Jacket/12 Shut Up.mp3
+Mar 08 22:11 : update: added blink‐182/Take Off Your Pants and Jacket/13 Please Take Me Home.mp3
+Mar 09 08:46 : config: option 'device' on line 119 was not recognized
+Mar 10 08:52 : config: option 'device' on line 119 was not recognized
+Mar 11 08:31 : config: option 'device' on line 119 was not recognized
+Mar 11 17:23 : config: option 'device' on line 119 was not recognized
+Mar 12 08:41 : config: option 'device' on line 119 was not recognized
+Mar 12 10:38 : config: option 'device' on line 119 was not recognized
+Mar 12 10:56 : config: option 'device' on line 119 was not recognized
+Mar 12 10:59 : config: option 'device' on line 119 was not recognized
+Mar 12 11:00 : config: option 'device' on line 119 was not recognized
+Mar 12 11:03 : config: option 'device' on line 119 was not recognized
+Mar 12 11:34 : config: option 'device' on line 119 was not recognized
+Mar 12 11:50 : config: option 'device' on line 119 was not recognized
+Mar 12 12:36 : player: played "DangerDoom/The Mouse & The Mask (Metalface Edition)/01 El Chupa Nibre.mp3"
+Mar 12 14:21 : player: played "Sidewalks And Skeletons/The Void/01 VHS Death.mp3"
+Mar 12 14:22 : player: played "Sidewalks And Skeletons/The Void/02 The Void.mp3"
+Mar 12 18:16 : config: option 'device' on line 119 was not recognized
+Mar 12 18:16 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Mar 12 20:34 : config: option 'device' on line 119 was not recognized
+Mar 12 21:03 : config: option 'device' on line 119 was not recognized
+Mar 12 21:03 : config: option 'device' on line 119 was not recognized
+Mar 12 21:08 : config: option 'device' on line 119 was not recognized
+Mar 12 21:17 : config: option 'device' on line 119 was not recognized
+Mar 12 21:35 : config: option 'device' on line 119 was not recognized
+Mar 12 21:38 : config: option 'device' on line 119 was not recognized
+Mar 12 21:48 : player: played "Sidewalks And Skeletons/The Void/02 The Void.mp3"
+Mar 13 09:46 : config: option 'device' on line 119 was not recognized
+Mar 13 12:53 : config: option 'device' on line 119 was not recognized
+Mar 13 15:27 : player: played "Sidewalks And Skeletons/The Void/02 The Void.mp3"
+Mar 13 15:31 : player: played "Sidewalks And Skeletons/The Void/01 VHS Death.mp3"
+Mar 13 16:02 : config: option 'device' on line 119 was not recognized
+Mar 13 16:06 : player: played "Sidewalks And Skeletons/The Void/03 Black Flowers.mp3"
+Mar 13 16:07 : config: option 'device' on line 119 was not recognized
+Mar 13 18:37 : player: played "Sidewalks And Skeletons/The Void/03 Black Flowers.mp3"
+Mar 13 18:37 : config: option 'device' on line 119 was not recognized
+Mar 13 18:38 : player: played "Sidewalks And Skeletons/The Void/03 Black Flowers.mp3"
+Mar 13 18:38 : config: option 'device' on line 119 was not recognized
+Mar 13 19:06 : player: played "Sidewalks And Skeletons/The Void/03 Black Flowers.mp3"
+Mar 13 19:09 : player: played "Sidewalks And Skeletons/The Void/04 Morphine.mp3"
+Mar 13 19:13 : player: played "Sidewalks And Skeletons/The Void/05 Drowning.mp3"
+Mar 13 19:15 : player: played "Sidewalks And Skeletons/The Void/06 Feel Nothing.mp3"
+Mar 13 19:19 : player: played "Sidewalks And Skeletons/The Void/07 Slip Away.mp3"
+Mar 13 21:24 : player: played "Sidewalks And Skeletons/The Void/08 Entity.mp3"
+Mar 13 21:26 : player: played "Sidewalks And Skeletons/The Void/09 1996.mp3"
+Mar 13 21:31 : player: played "Sidewalks And Skeletons/The Void/10 Forgive.mp3"
+Mar 13 21:34 : player: played "Sidewalks And Skeletons/The Void/11 Morgue.mp3"
+Mar 13 21:38 : player: played "Sidewalks And Skeletons/The Void/12 Glow.mp3"
+Mar 13 21:40 : player: played "Sidewalks And Skeletons/The Void/13 Fading Light.mp3"
+Mar 13 22:04 : player: played "Youryoungbody/eXcess/01 goo.mp3"
+Mar 13 22:08 : player: played "Youryoungbody/eXcess/02 in your dream.mp3"
+Mar 13 22:10 : player: played "Youryoungbody/eXcess/03 so pure.mp3"
+Mar 13 22:12 : player: played "Youryoungbody/eXcess/04 480p.mp3"
+Mar 13 22:15 : player: played "Youryoungbody/eXcess/05 wrapping around your insides.mp3"
+Mar 14 08:42 : config: option 'device' on line 119 was not recognized
+Mar 14 09:26 : config: option 'device' on line 119 was not recognized
+Mar 14 10:53 : player: played "Dorian Electra/My Agenda/03 Gentleman.mp3"
+Mar 14 10:58 : player: played "Alice Glass/PREY__IV/01 PREY.mp3"
+Mar 14 11:00 : player: played "Alice Glass/PREY__IV/02 PINNED BENEATH LIMBS.mp3"
+Mar 14 11:03 : player: played "Alice Glass/PREY__IV/03 LOVE IS VIOLENCE.mp3"
+Mar 14 11:05 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+Mar 14 11:09 : player: played "Alice Glass/PREY__IV/05 EVERYBODY ELSE.mp3"
+Mar 14 11:12 : player: played "Alice Glass/PREY__IV/06 THE HUNTED.mp3"
+Mar 14 11:15 : player: played "Alice Glass/PREY__IV/07 FAIR GAME.mp3"
+Mar 14 11:18 : player: played "Alice Glass/PREY__IV/08 WITCH HUNT.mp3"
+Mar 14 11:21 : player: played "Alice Glass/PREY__IV/09 SUFFER AND SWALLOW.mp3"
+Mar 14 11:23 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+Mar 14 11:25 : player: played "Alice Glass/PREY__IV/11 ANIMOSITY.mp3"
+Mar 14 11:28 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+Mar 14 11:29 : player: played "Alice Glass/PREY__IV/13 SORROW ENDS.mp3"
+Mar 14 13:48 : config: option 'device' on line 119 was not recognized
+Mar 14 13:49 : config: option 'device' on line 119 was not recognized
+Mar 14 14:05 : config: option 'device' on line 119 was not recognized
+Mar 14 14:09 : player: played "Youryoungbody_Sidewalks And Skeletons/Wrapping Around Your Insides/01 Wrapping Around Your Insides (Sidewalks and Skeletons REMIX).mp3"
+Mar 14 14:36 : player: played "Alice Glass/PREY__IV/01 PREY.mp3"
+Mar 14 14:38 : player: played "Alice Glass/PREY__IV/02 PINNED BENEATH LIMBS.mp3"
+Mar 14 14:40 : player: played "Alice Glass/PREY__IV/03 LOVE IS VIOLENCE.mp3"
+Mar 14 14:43 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+Mar 14 14:47 : player: played "Alice Glass/PREY__IV/05 EVERYBODY ELSE.mp3"
+Mar 14 14:49 : player: played "Alice Glass/PREY__IV/06 THE HUNTED.mp3"
+Mar 14 14:52 : player: played "Alice Glass/PREY__IV/07 FAIR GAME.mp3"
+Mar 14 14:55 : player: played "Alice Glass/PREY__IV/08 WITCH HUNT.mp3"
+Mar 14 14:58 : player: played "Alice Glass/PREY__IV/09 SUFFER AND SWALLOW.mp3"
+Mar 14 15:00 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+Mar 14 15:03 : player: played "Alice Glass/PREY__IV/11 ANIMOSITY.mp3"
+Mar 14 15:05 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+Mar 14 15:06 : player: played "Alice Glass/PREY__IV/13 SORROW ENDS.mp3"
+Mar 14 15:29 : player: played "Alice Glass/PREY__IV/03 LOVE IS VIOLENCE.mp3"
+Mar 14 15:29 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+Mar 14 17:13 : player: played "Alice Glass/PREY__IV/03 LOVE IS VIOLENCE.mp3"
+Mar 14 17:16 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+Mar 14 17:19 : player: played "Alice Glass/PREY__IV/05 EVERYBODY ELSE.mp3"
+Mar 14 17:22 : player: played "Alice Glass/PREY__IV/06 THE HUNTED.mp3"
+Mar 14 17:25 : player: played "Alice Glass/PREY__IV/07 FAIR GAME.mp3"
+Mar 14 17:28 : player: played "Alice Glass/PREY__IV/08 WITCH HUNT.mp3"
+Mar 14 17:31 : player: played "Alice Glass/PREY__IV/09 SUFFER AND SWALLOW.mp3"
+Mar 14 22:08 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+Mar 14 22:13 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/01 Asking for a Friend.mp3"
+Mar 14 22:17 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/02 He Said She Said.mp3"
+Mar 14 22:21 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/03 California.mp3"
+Mar 14 22:26 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/04 Violent Delights.mp3"
+Mar 14 22:32 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/05 How Not to Drown (feat. Robert Smith).mp3"
+Mar 14 22:36 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/06 Final Girl.mp3"
+Mar 14 22:39 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/07 Good Girls.mp3"
+Mar 14 22:43 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/08 Lullabies.mp3"
+Mar 14 22:48 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/09 Nightmares.mp3"
+Mar 14 22:51 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/10 Better If You Don’t.mp3"
+Mar 15 01:25 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/11 Killer.mp3"
+Mar 15 09:32 : config: option 'device' on line 119 was not recognized
+Mar 15 15:23 : config: option 'device' on line 119 was not recognized

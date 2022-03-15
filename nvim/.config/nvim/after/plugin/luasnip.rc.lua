@@ -7,6 +7,10 @@ end
 local luasnip = prequire('luasnip')
 local cmp = prequire("cmp")
 
+luasnip.config.set_config{
+    history = true,
+    updateevents = "TextChanged, TextChangedI"
+}
 local t = function(str)
     return vim.api.nvim_replace_termcodes(str, true, true, true)
 end
@@ -51,4 +55,5 @@ vim.api.nvim_set_keymap("i", "<C-E>", "<Plug>luasnip-next-choice", {})
 vim.api.nvim_set_keymap("s", "<C-E>", "<Plug>luasnip-next-choice", {})
 
 -- Snippets from friendly-snippets
-require("luasnip.loaders.from_vscode").lazy_load({include = {"python", "html"}})
+-- require("luasnip.loaders.from_vscode").lazy_load({include = {"python", "html"}})
+require("luasnip.loaders.from_vscode").load()

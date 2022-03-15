@@ -133,9 +133,10 @@ keys = [
     # Programs
     Key([mod], "p", lazy.spawn("rofi -show run"), desc="Spawn rofi run"),
     Key([mod], "e", lazy.spawn("thunar"), desc="Spawn thunar"),
-    Key([mod], "b", lazy.spawn("brave --enable-features=VaapiVideoDecoder"), desc="open brave"),
+    Key([mod], "b", lazy.spawn("brave"), desc="open brave"),
     Key([mod], "y", lazy.spawn('streams.sh')),
     Key([mod, "mod1" ], "m", lazy.group['scratchpad'].dropdown_toggle('ncmpcpp')),
+    Key([mod, "mod1" ], "b", lazy.group['scratchpad'].dropdown_toggle('btop')),
 
 ]
 layout_theme = {
@@ -194,7 +195,8 @@ for i in groups:
         ]
     )
 groups.append(ScratchPad("scratchpad", [
-        DropDown("ncmpcpp", "kitty -e ncmpcpp", height=0.8, opacity=1)]),
+        DropDown("ncmpcpp", "kitty -e ncmpcpp", height=0.8, opacity=1),
+        DropDown("btop", "kitty -e btop", height=0.8, opacity=1)]),
         )
 
 group_box_settings = {
@@ -237,6 +239,7 @@ screens = [
                 # widget.TaskList(highlight_method='block', border=colors[13]),
                 widget.Mpd2(status_format='{play_status} {artist} - {title}'),
                 widget.Spacer(),
+                widget.Systray(),
                 widget.CPU(
                     format=' {load_percent}%'
                 ),
@@ -269,7 +272,6 @@ screens = [
                     size_percent=50,
                     background=colors[1],
                 ),
-                widget.Systray(),
                 widget.TextBox(
                     text="",
                     ),

@@ -21,6 +21,17 @@ set fileformat=unix
 " augroup END
 
 call plug#begin('~/.local/share/nvim/plugged')
+"Misc
+Plug 'lewis6991/impatient.nvim'
+Plug 'nathom/filetype.nvim'
+Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'windwp/nvim-autopairs'
+Plug 'numToStr/Comment.nvim'
+Plug 'ggandor/lightspeed.nvim'
+Plug 'nvim-neorg/neorg'
+Plug 'norcalli/nvim-colorizer.lua'
+Plug 'tpope/vim-sleuth'
+
 " LSP
 Plug 'williamboman/nvim-lsp-installer'
 Plug 'neovim/nvim-lspconfig'
@@ -60,18 +71,17 @@ Plug 'akinsho/bufferline.nvim'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'rafamadriz/friendly-snippets'
 
-"Misc
-Plug 'lukas-reineke/indent-blankline.nvim'
-Plug 'jiangmiao/auto-pairs'
+" Treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'numToStr/Comment.nvim'
-Plug 'ggandor/lightspeed.nvim'
-Plug 'nvim-neorg/neorg'
-" Plug 'Darazaki/indent-o-matic'
-Plug 'norcalli/nvim-colorizer.lua'
-Plug 'tpope/vim-sleuth'
+Plug 'p00f/nvim-ts-rainbow'
+Plug 'windwp/nvim-ts-autotag'
+Plug 'RRethy/nvim-treesitter-endwise'
+
+
 
 call plug#end()
+
+lua require('impatient')
 
 doautocmd User PlugLoaded
 
