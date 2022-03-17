@@ -1,4 +1,8 @@
-require('neorg').setup {
+local neorg_status_ok, neorg = pcall(require, "neorg")
+if not neorg_status_ok then
+  return
+end
+neorg.setup {
         -- Tell Neorg what modules to load
         load = {
             ["core.defaults"] = {}, -- Load all the default modules
@@ -43,6 +47,5 @@ require('neorg').setup {
 		}, { silent = true, noremap = true })
 
 	end)
-		
 	end
     }

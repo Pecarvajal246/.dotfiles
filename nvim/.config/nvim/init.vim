@@ -1,27 +1,23 @@
-"Paste with Ctrl-V and middle click mouse in windows 10
 set mouse=a
-
-" set guifont=CaskaydiaCove\ NF:h14
 set encoding=utf-8
 set number relativenumber
 set scrolloff=7
 set backspace=indent,eol,start
 set nohlsearch
+set ignorecase
 set list
 set listchars=tab:>\ ,trail:-
 set termguicolors
 set autochdir
 set updatetime=500
 set fileformat=unix
-" set autoindent
-" set smartindent
-" augroup Indentation
-"     autocmd!
-"     autocmd FileType html set shiftwidth=2 softtabstop=2 expandtab
-" augroup END
+set undofile
+set cursorline
+set hidden
 
 call plug#begin('~/.local/share/nvim/plugged')
-"Misc
+
+" Misc
 Plug 'lewis6991/impatient.nvim'
 Plug 'nathom/filetype.nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
@@ -31,11 +27,11 @@ Plug 'ggandor/lightspeed.nvim'
 Plug 'nvim-neorg/neorg'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'tpope/vim-sleuth'
+Plug 'folke/which-key.nvim'
 
 " LSP
 Plug 'williamboman/nvim-lsp-installer'
 Plug 'neovim/nvim-lspconfig'
-Plug 'williamboman/nvim-lsp-installer'
 Plug 'jose-elias-alvarez/null-ls.nvim'
 
 " Completion
@@ -76,8 +72,6 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'p00f/nvim-ts-rainbow'
 Plug 'windwp/nvim-ts-autotag'
 Plug 'RRethy/nvim-treesitter-endwise'
-
-
 
 call plug#end()
 

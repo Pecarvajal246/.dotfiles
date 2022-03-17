@@ -1,3 +1,7 @@
+local alpha_status_ok, alpha = pcall(require, "alpha")
+if not alpha_status_ok then
+  return
+end
 local dashboard = require"alpha.themes.dashboard"
 -- math.randomseed(os.time())
 
@@ -61,7 +65,7 @@ dashboard.section.buttons.val = {
 dashboard.section.footer.val = footer()
 dashboard.section.footer.opts.hl = "Identifier"
 
-require"alpha".setup(dashboard.opts)
+alpha.setup(dashboard.opts)
 
 -- hide tabline on startup screen
 vim.cmd [[

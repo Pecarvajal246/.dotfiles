@@ -1,6 +1,8 @@
-local parser_configs = require('nvim-treesitter.parsers').get_parser_configs()
-
-require'nvim-treesitter.configs'.setup {
+local treesitter_status_ok, treesitter = pcall(require, "nvim-treesitter.configs")
+if not treesitter_status_ok then
+  return
+end
+treesitter.setup {
   ensure_installed = {"python", "lua", "vim", "json", "yaml", "toml", "regex","html", "css", "javascript", "bash", "norg"},
   highlight = {
     enable = true,
@@ -24,8 +26,8 @@ require'nvim-treesitter.configs'.setup {
   endwise = {
     enable = true,
   },
-  -- indent = {
-  --   enable = true,
-  --   disable = {"python"}
-  -- }
+  indent = {
+    enable = true,
+    disable = {"python"}
+  }
 }
