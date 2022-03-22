@@ -4,4 +4,9 @@ if not which_key_status_ok then
 end
 
 which_key.setup {
+  plugins = {
+    presets = {
+      operators = true,
+    },
+  },
 }

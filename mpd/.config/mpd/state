@@ -1,7 +1,9 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:toggle_visualizer
-state: stop
+state: pause
+current: 17
+time: 16.709000
 random: 0
 repeat: 0
 single: 0
@@ -10,6 +12,33 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Alice Glass/PREY__IV/05 EVERYBODY ELSE.mp3
-1:Alice Glass/PREY__IV/07 FAIR GAME.mp3
+0:Alice Glass/PREY__IV/01 PREY.mp3
+1:Alice Glass/PREY__IV/02 PINNED BENEATH LIMBS.mp3
+2:Alice Glass/PREY__IV/03 LOVE IS VIOLENCE.mp3
+3:Alice Glass/PREY__IV/04 BABY TEETH.mp3
+4:Alice Glass/PREY__IV/05 EVERYBODY ELSE.mp3
+5:Alice Glass/PREY__IV/06 THE HUNTED.mp3
+6:Alice Glass/PREY__IV/07 FAIR GAME.mp3
+7:Alice Glass/PREY__IV/08 WITCH HUNT.mp3
+8:Alice Glass/PREY__IV/09 SUFFER AND SWALLOW.mp3
+9:Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3
+10:Alice Glass/PREY__IV/11 ANIMOSITY.mp3
+11:Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3
+12:Alice Glass/PREY__IV/13 SORROW ENDS.mp3
+13:Dorian Electra/My Agenda (deluxe)/03 Gentleman.mp3
+14:MF DOOM/MM...FOOD [701]/01 Beef Rap.mp3
+15:MF DOOM/MM...FOOD [701]/02 Hoe Cakes.mp3
+16:MF DOOM/MM...FOOD [701]/03 Potholderz feat. Count Bass D.mp3
+17:MF DOOM/MM...FOOD [701]/04 One Beer.mp3
+18:MF DOOM/MM...FOOD [701]/05 Deep Fried Frenz.mp3
+19:MF DOOM/MM...FOOD [701]/06 Poo-Putt Platter.mp3
+20:MF DOOM/MM...FOOD [701]/07 Fillet-O-Rapper.mp3
+21:MF DOOM/MM...FOOD [701]/08 Gumbo.mp3
+22:MF DOOM/MM...FOOD [701]/09 Fig Leaf Bi-Carbonate.mp3
+23:MF DOOM/MM...FOOD [701]/10 Kon Karne.mp3
+24:MF DOOM/MM...FOOD [701]/11 Guinnesses feat. Angelika & 4ize.mp3
+25:MF DOOM/MM...FOOD [701]/12 Kon Queso.mp3
+26:MF DOOM/MM...FOOD [701]/13 Rapp Snitch Knishes feat. Mr. Fantastik.mp3
+27:MF DOOM/MM...FOOD [701]/14 Vomitspit.mp3
+28:MF DOOM/MM...FOOD [701]/15 Kookies.mp3
 playlist_end

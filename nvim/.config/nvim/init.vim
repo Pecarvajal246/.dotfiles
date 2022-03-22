@@ -1,8 +1,6 @@
 set mouse=a
-set encoding=utf-8
 set number relativenumber
 set scrolloff=7
-set backspace=indent,eol,start
 set nohlsearch
 set ignorecase
 set list
@@ -14,6 +12,8 @@ set fileformat=unix
 set undofile
 set cursorline
 set hidden
+set smartindent
+set tabstop=2 shiftwidth=2 expandtab
 
 call plug#begin('~/.local/share/nvim/plugged')
 
@@ -26,8 +26,9 @@ Plug 'numToStr/Comment.nvim'
 Plug 'ggandor/lightspeed.nvim'
 Plug 'nvim-neorg/neorg'
 Plug 'norcalli/nvim-colorizer.lua'
-Plug 'tpope/vim-sleuth'
 Plug 'folke/which-key.nvim'
+Plug 'nmac427/guess-indent.nvim'
+Plug 'mvllow/modes.nvim'
 
 " LSP
 Plug 'williamboman/nvim-lsp-installer'
@@ -83,3 +84,5 @@ let mapleader = " "
 nmap cp :let @* = expand("%:p:h")<cr>
 " set foldmethod=expr
 " set foldexpr=nvim_treesitter#foldexpr()
+" autocmd FileType javascript setlocal tabstop=2 shiftwidth=2 expandtab
+" autocmd FileType html setlocal tabstop=2 shiftwidth=2 expandtab
