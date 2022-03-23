@@ -12336,3 +12336,43 @@ Mar 21 18:54 : player: played "MF DOOM/MM...FOOD [701]/02 Hoe Cakes.mp3"
 Mar 21 18:58 : player: played "MF DOOM/MM...FOOD [701]/03 Potholderz feat. Count Bass D.mp3"
 Mar 22 00:20 : player: played "MF DOOM/MM...FOOD [701]/04 One Beer.mp3"
 Mar 22 09:24 : config: option 'device' on line 119 was not recognized
+Mar 22 13:19 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Mar 22 13:35 : player: played "MF DOOM/MM...FOOD [701]/04 One Beer.mp3"
+Mar 22 13:37 : config: option 'device' on line 119 was not recognized
+Mar 22 15:10 : player: played "Alice Glass/PREY__IV/03 LOVE IS VIOLENCE.mp3"
+Mar 22 15:13 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+Mar 22 15:19 : player: played "Alice Glass/PREY__IV/05 EVERYBODY ELSE.mp3"
+Mar 22 15:21 : player: played "Alice Glass/PREY__IV/06 THE HUNTED.mp3"
+Mar 22 15:35 : player: played "Alice Glass/PREY__IV/07 FAIR GAME.mp3"
+Mar 22 15:38 : player: played "Alice Glass/PREY__IV/08 WITCH HUNT.mp3"
+Mar 22 15:41 : player: played "Alice Glass/PREY__IV/09 SUFFER AND SWALLOW.mp3"
+Mar 22 15:43 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+Mar 22 15:46 : player: played "Alice Glass/PREY__IV/11 ANIMOSITY.mp3"
+Mar 22 15:48 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+Mar 22 15:49 : player: played "Alice Glass/PREY__IV/13 SORROW ENDS.mp3"
+Mar 22 15:51 : player: played "Dorian Electra/My Agenda (deluxe)/03 Gentleman.mp3"
+Mar 22 15:51 : player: played "MF DOOM/MM...FOOD [701]/01 Beef Rap.mp3"
+Mar 22 15:53 : player: played "Charli XCX/CRASH/01 Crash.flac"
+Mar 22 15:57 : player: played "Charli XCX/CRASH/02 New Shapes (feat. Christine and the Queens and Caroline Polachek).flac"
+Mar 22 15:59 : player: played "Charli XCX/CRASH/03 Good Ones.flac"
+Mar 22 16:02 : player: played "Charli XCX/CRASH/04 Constant Repeat.flac"
+Mar 22 16:38 : player: played "Charli XCX/CRASH/05 Beg for You (feat. Rina Sawayama).flac"
+Mar 22 16:41 : player: played "Charli XCX/CRASH/06 Move Me.flac"
+Mar 22 16:43 : player: played "Charli XCX/CRASH/07 Baby.flac"
+Mar 22 16:47 : player: played "Charli XCX/CRASH/08 Lightning.flac"
+Mar 22 16:50 : player: played "Charli XCX/CRASH/09 Every Rule.flac"
+Mar 22 16:53 : player: played "Charli XCX/CRASH/10 Yuck.flac"
+Mar 22 16:55 : player: played "Charli XCX/CRASH/11 Used to Know Me.flac"
+Mar 22 16:58 : player: played "Charli XCX/CRASH/12 Twice.flac"
+Mar 22 17:00 : config: option 'device' on line 119 was not recognized
+Mar 22 17:01 : player: played "Charli XCX/CRASH/12 Twice.flac"
+Mar 22 17:03 : player: played "Sidewalks and Skeletons/Exorcism/01 Exorcism.flac"
+Mar 22 17:07 : player: played "Sidewalks and Skeletons/Exorcism/02 Shadow (feat. Goo Munday).flac"
+Mar 22 17:11 : player: played "Sidewalks and Skeletons/Exorcism/03 Eternal Rest (feat. CASHFORGOLD).flac"
+Mar 22 17:15 : player: played "Sidewalks and Skeletons/Exorcism/04 Awakening.flac"

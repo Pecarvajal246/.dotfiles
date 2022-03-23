@@ -29,6 +29,8 @@ Plug 'norcalli/nvim-colorizer.lua'
 Plug 'folke/which-key.nvim'
 Plug 'nmac427/guess-indent.nvim'
 Plug 'mvllow/modes.nvim'
+Plug 'akinsho/toggleterm.nvim'
+Plug 'TimUntersberger/neogit'
 
 " LSP
 Plug 'williamboman/nvim-lsp-installer'
