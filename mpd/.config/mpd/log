@@ -12376,3 +12376,37 @@ Mar 22 17:03 : player: played "Sidewalks and Skeletons/Exorcism/01 Exorcism.flac
 Mar 22 17:07 : player: played "Sidewalks and Skeletons/Exorcism/02 Shadow (feat. Goo Munday).flac"
 Mar 22 17:11 : player: played "Sidewalks and Skeletons/Exorcism/03 Eternal Rest (feat. CASHFORGOLD).flac"
 Mar 22 17:15 : player: played "Sidewalks and Skeletons/Exorcism/04 Awakening.flac"
+Mar 22 23:35 : player: played "Sidewalks and Skeletons/Exorcism/05 Cybercrimes.flac"
+Mar 22 23:38 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+Mar 23 09:54 : config: option 'device' on line 119 was not recognized
+Mar 23 16:08 : config: option 'device' on line 119 was not recognized
+Mar 23 17:08 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Mar 23 18:14 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+Mar 23 18:18 : player: played "Sidewalks and Skeletons/Exorcism/06 Euthanasia Daze.flac"
+Mar 23 18:21 : player: played "DangerDoom/The Mouse & The Mask (Metalface Edition) [561]/01 El Chupa Nibre.mp3"
+Mar 23 18:25 : player: played "DangerDoom/The Mouse & The Mask (Metalface Edition) [561]/02 Sofa King.mp3"
+Mar 23 18:35 : player: played "DangerDoom/The Mouse & The Mask (Metalface Edition) [561]/03 The Mask (feat. Ghostface Killah).mp3"
+Mar 23 18:39 : player: played "CZARFACE/Every Hero Needs a Villain [555]/11 Ka-Bang! (feat. MF Doom).mp3"
+Mar 23 18:41 : player: played "Dorian Electra/My Agenda [577]/08 Monk Mode (Interlude) [feat. Gaylord].mp3"
+Mar 23 18:43 : player: played "Dorian Electra/My Agenda [577]/03 Gentleman.mp3"
+Mar 23 18:47 : player: played "Viktor Vaughn/Venomous Villain [826]/01 Viktormizer (intro).mp3"
+Mar 23 18:50 : player: played "Viktor Vaughn/Venomous Villain [826]/02 Back End.mp3"
+Mar 23 18:54 : player: played "Viktor Vaughn/Venomous Villain [826]/03 Fall Back_Titty Fat.mp3"
+Mar 23 18:56 : player: played "Viktor Vaughn/Venomous Villain [826]/04 DOOM on Vik.mp3"
+Mar 23 19:00 : player: played "Viktor Vaughn/Venomous Villain [826]/05 R.A.P. G.A.M.E. (feat. Manchild & Iz-real).mp3"
+Mar 24 00:48 : player: played "Viktor Vaughn/Venomous Villain [826]/06 Dope Skill (feat. Carl Kavorkian).mp3"
+Mar 24 10:10 : config: option 'device' on line 119 was not recognized
+Mar 24 10:36 : player: played "Viktor Vaughn/Venomous Villain [826]/06 Dope Skill (feat. Carl Kavorkian).mp3"
+Mar 24 10:36 : config: option 'device' on line 119 was not recognized
+Mar 24 11:07 : player: played "Viktor Vaughn/Venomous Villain [826]/06 Dope Skill (feat. Carl Kavorkian).mp3"
+Mar 24 11:09 : player: played "Viktor Vaughn/Venomous Villain [826]/07 Doper Skiller (feat. Kool Keith).mp3"
+Mar 24 11:10 : player: played "Viktor Vaughn/Venomous Villain [826]/08 Haberdashery (interlude).mp3"
+Mar 24 11:13 : player: played "Viktor Vaughn/Venomous Villain [826]/09 Ode to Road Rage.mp3"
+Mar 24 11:17 : player: played "Viktor Vaughn/Venomous Villain [826]/10 Bloody Cahin (feat. Poison Pen).mp3"
+Mar 24 11:17 : player: played "Viktor Vaughn/Venomous Villain [826]/11 Strange New Day (interlude).mp3"
+Mar 24 11:21 : player: played "Viktor Vaughn/Venomous Villain [826]/12 Pop Quiz (feat. Iz-real & DOOM) (Bonus Extra Credit Remix).mp3"

@@ -31,11 +31,13 @@ Plug 'nmac427/guess-indent.nvim'
 Plug 'mvllow/modes.nvim'
 Plug 'akinsho/toggleterm.nvim'
 Plug 'TimUntersberger/neogit'
+Plug 'stevearc/dressing.nvim'
 
 " LSP
 Plug 'williamboman/nvim-lsp-installer'
 Plug 'neovim/nvim-lspconfig'
 Plug 'jose-elias-alvarez/null-ls.nvim'
+Plug 'folke/trouble.nvim'
 
 " Completion
 Plug 'hrsh7th/nvim-cmp'

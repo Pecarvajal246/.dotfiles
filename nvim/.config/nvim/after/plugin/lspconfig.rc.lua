@@ -2,6 +2,7 @@ local lsp_installer_status_ok, lsp_installer = pcall(require, "nvim-lsp-installe
 if not lsp_installer_status_ok then
   return
 end
+
 local opts = { noremap=true, silent=true }
 
 local signs = {
@@ -44,11 +45,11 @@ vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.s
   border = "rounded",
 })
 
--- Mappings.
 vim.api.nvim_set_keymap('n', '<space>e', '<cmd>lua vim.diagnostic.open_float()<CR>', opts)
 vim.api.nvim_set_keymap('n', '[d', '<cmd>lua vim.diagnostic.goto_prev()<CR>', opts)
 vim.api.nvim_set_keymap('n', ']d', '<cmd>lua vim.diagnostic.goto_next()<CR>', opts)
 vim.api.nvim_set_keymap('n', '<space>q', '<cmd>lua vim.diagnostic.setloclist()<CR>', opts)
+
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
 local on_attach = function(client, bufnr)
@@ -68,7 +69,8 @@ local on_attach = function(client, bufnr)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', '<space>D', '<cmd>lua vim.lsp.buf.type_definition()<CR>', opts)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', '<space>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', '<space>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
-    vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
+    vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gr', '<cmd>TroubleToggle lsp_references<cr>', opts)
+    -- vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
 
   -- formatting
@@ -107,25 +109,21 @@ lsp_installer.on_server_ready(function(server)
     -- (optional) Customize the options passed to the server
     if server.name == "sumneko_lua" then
       local sumneko_opts = {
-	settings = {
-	  Lua = {
-	    diagnostics = {
-	      globals = {"vim"},
-	    },
-	    workspace = {
-	      library = {
-		[vim.fn.expand("$VIMRUNTIME/lua")] = true,
-		[vim.fn.stdpath("config") .. "/lua"] = true,
-	      },
-	    },
-	  },
-	},
+        settings = {
+          Lua = {
+            diagnostics = {
+              globals = {"vim"},
+            },
+            workspace = {
+              library = {
+                [vim.fn.expand("$VIMRUNTIME/lua")] = true,
+                [vim.fn.stdpath("config") .. "/lua"] = true,
+              },
+            },
+          },
+        },
       }
     lsp_opts = vim.tbl_deep_extend("force", sumneko_opts, lsp_opts)
     end
-
-    -- This setup() function will take the provided server configuration and decorate it with the necessary properties
-    -- before passing it onwards to lspconfig.
-    -- Refer to https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
     server:setup(lsp_opts)
 end)

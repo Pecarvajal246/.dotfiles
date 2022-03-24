@@ -28,6 +28,11 @@ local mappings = {
     c = { "<cmd>Telescope neoclip<cr>", "Open Clipboard"},
     k = { "<cmd>Telescope keymaps<cr>", "Open Keymaps"},
   },
+  p = {
+    name = "Plugins",
+    i = { "<cmd>PlugInstall<cr>", "Install Plugins"},
+    u = { "<cmd>PlugUpdate<cr>", "Update Plugins"},
+  },
   t = {
     name = "Terminal",
     -- n = { "<cmd>lua _NODE_TOGGLE()<cr>", "Node" },
@@ -42,5 +47,6 @@ local mappings = {
   h = {"<cmd>BufferLineCyclePrev<cr>", "Cycle Previous Buffer"},
   bd = {"<cmd>bd<cr>", "Delete Buffer"},
   gb = {"<cmd>BufferLinePick<cr>", "Go To Buffer"},
+  -- gr = {"<cmd>TroubleToggle lsp_references<cr>", "Open References List"},
 }
 which_key.register (mappings, opts)

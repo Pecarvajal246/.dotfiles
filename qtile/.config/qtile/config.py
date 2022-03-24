@@ -118,9 +118,6 @@ keys = [
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
 
     # Audio
-    # Key([], "XF86AudioRaiseVolume",lazy.spawn("amixer set Master 3%+")),
-    # Key([], "XF86AudioLowerVolume",lazy.spawn("amixer set Master 3%-")),
-    # Key([], "XF86AudioMute",lazy.spawn("amixer set Master toggle")),
     Key([], "XF86AudioLowerVolume", lazy.spawn("pamixer --decrease 5")),
     Key([], "XF86AudioRaiseVolume", lazy.spawn("pamixer --increase 5")),
     Key([], "XF86AudioMute", lazy.spawn("pamixer --toggle-mute")),
@@ -185,7 +182,7 @@ for i in groups:
             Key(
                 [mod, "shift"],
                 i.name,
-                lazy.window.togroup(i.name, switch_group=True),
+                lazy.window.togroup(i.name, switch_group=True, toggle=True),
                 desc="Switch to & move focused window to group {}".format(i.name),
             ),
             # Or, use below if you prefer not to switch to that group.
@@ -195,8 +192,8 @@ for i in groups:
         ]
     )
 groups.append(ScratchPad("scratchpad", [
-        DropDown("ncmpcpp", "kitty -e ncmpcpp", height=0.8, opacity=1),
-        DropDown("btop", "kitty -e btop", height=0.8, opacity=1)]),
+        DropDown("ncmpcpp", "kitty -e ncmpcpp", height=0.9, width=0.9, opacity=1, x=0.05, y=0.05),
+        DropDown("btop", "kitty -e btop",height=0.9, width=0.9, opacity=1, x=0.05, y=0.05)]),
         )
 
 group_box_settings = {

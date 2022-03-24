@@ -45,3 +45,10 @@ user_interface = "alternative"
 now_playing_prefix = "$8»$9$2»$9$4»$9$3»$9 "
 now_playing_suffix = " $3«$9$4«$9$2«$9$8«$9"
 display_bitrate = "yes"
+
+# appearance
+colors_enabled        = "yes"
+
+# progress bar
+progressbar_color = "black"
+progressbar_elapsed_color = "yellow"
