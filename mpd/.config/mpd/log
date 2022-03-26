@@ -12470,3 +12470,8 @@ Mar 25 16:44 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
 Mar 25 16:47 : player: played "Alice Glass/PREY__IV/06 THE HUNTED.mp3"
 Mar 25 16:50 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
 Mar 25 16:54 : player: played "Alice Glass/PREY__IV/08 WITCH HUNT.mp3"
+Mar 26 09:29 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged

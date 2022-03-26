@@ -1,5 +1,5 @@
 player=mpv --profile=Streamlink
 twitch-disable-ads
 twitch-low-latency
-default-stream=720p60,720p,480p,best
+default-stream=best,720p60,720p,480p
 title "{title} - {author}"
