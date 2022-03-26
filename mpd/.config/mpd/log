@@ -12475,3 +12475,16 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Mar 26 09:40 : config: option 'device' on line 119 was not recognized
+Mar 26 11:44 : config: option 'device' on line 119 was not recognized
+Mar 26 11:45 : config: option 'device' on line 119 was not recognized
+Mar 26 11:45 : config: option 'device' on line 119 was not recognized
+Mar 26 11:53 : config: option 'device' on line 119 was not recognized
+Mar 26 11:54 : config: option 'device' on line 119 was not recognized
+Mar 26 11:57 : config: option 'device' on line 119 was not recognized
+Mar 26 12:17 : config: option 'device' on line 119 was not recognized
+Mar 26 12:18 : config: option 'device' on line 119 was not recognized
+Mar 26 12:22 : config: option 'device' on line 119 was not recognized
+Mar 26 15:29 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+Mar 26 15:32 : player: played "Alice Glass/PREY__IV/08 WITCH HUNT.mp3"
+Mar 26 15:49 : config: option 'device' on line 119 was not recognized

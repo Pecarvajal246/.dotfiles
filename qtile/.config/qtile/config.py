@@ -1,29 +1,3 @@
-# Copyright (c) 2010 Aldo Cortesi
-# Copyright (c) 2010, 2014 dequis
-# Copyright (c) 2012 Randall Ma
-# Copyright (c) 2012-2014 Tycho Andersen
-# Copyright (c) 2012 Craig Barnes
-# Copyright (c) 2013 horsik
-# Copyright (c) 2013 Tao Sauvage
-#
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to deal
-# in the Software without restriction, including without limitation the rights
-# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-# copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-#
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
-#
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-# SOFTWARE.
-
 from typing import List  # noqa: F401
 
 from libqtile import bar, layout, widget
@@ -40,16 +14,23 @@ def autostart():
     home = os.path.expanduser('~/.config/autostart.sh')
     subprocess.run([home])
 
+
 @hook.subscribe.client_new
-def mpv(c):
-    if "mpv" in c.name:
-        c.togroup("5", switch_group=True)
+def assign_app_group(client):
+    wm_class = client.window.get_wm_class()[0]
+
+    for i in range(len(clientRules)):
+        if wm_class in list(clientRules.values())[i]:
+            group = list(clientRules.keys())[i]
+            client.togroup(group)
+            client.group.cmd_toscreen(toggle=False)
 
 local_bin = os.path.expanduser("~") + "/.local/bin"
 if local_bin not in os.environ["PATH"]:
     os.environ["PATH"] = "{}:{}".format(local_bin, os.environ["PATH"])
 
 mod = "mod4"
+alt = "mod1"
 terminal = "kitty"
 
 colors = [
@@ -88,10 +69,8 @@ keys = [
     Key([mod, "shift"], "k", lazy.layout.shuffle_up(), desc="Move window up"),
     # Grow windows. If current window is on the edge of screen and direction
     # will be to screen edge - window would shrink.
-    Key([mod, "control"], "d", lazy.layout.decrease_ratio(), desc="Grow window to the left"),
-    Key([mod, "control"], "h", lazy.layout.shrink(), desc="Grow window to the left"),
-    Key([mod, "control"], "i", lazy.layout.increase_ratio(), desc="Grow window to the right"),
-    Key([mod, "control"], "l", lazy.layout.grow(), desc="Grow window to the right"),
+    Key([mod, "control"], "h", lazy.layout.shrink(), lazy.layout.decrease_ratio(), desc="Grow window to the left"),
+    Key([mod, "control"], "l", lazy.layout.grow(), lazy.layout.increase_ratio(), desc="Grow window to the right"),
     Key([mod, "control"], "j", lazy.layout.grow_down(), desc="Grow window down"),
     Key([mod, "control"], "k", lazy.layout.grow_up(), desc="Grow window up"),
     Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
@@ -128,12 +107,13 @@ keys = [
     Key([], "XF86AudioNext", lazy.spawn("mpc next"), desc="MPD next song"),
 
     # Programs
-    Key([mod], "p", lazy.spawn("rofi -show run"), desc="Spawn rofi run"),
-    Key([mod], "e", lazy.spawn("thunar"), desc="Spawn thunar"),
-    Key([mod], "b", lazy.spawn("brave"), desc="open brave"),
+    Key([mod], "p", lazy.spawn("rofi -show run"), desc="Launch rofi run"),
+    Key([mod, "control"], "p", lazy.spawn("rofi -show powermenu -modi powermenu:rofi-power-menu"), desc="Launch rofi powermenu"),
+    Key([mod], "e", lazy.spawn("thunar"), desc="Launch thunar"),
+    Key([mod], "b", lazy.spawn("brave"), desc="Launch brave"),
     Key([mod], "y", lazy.spawn('streams.sh')),
-    Key([mod, "mod1" ], "m", lazy.group['scratchpad'].dropdown_toggle('ncmpcpp')),
-    Key([mod, "mod1" ], "b", lazy.group['scratchpad'].dropdown_toggle('btop')),
+    Key([mod, alt], "m", lazy.group['scratchpad'].dropdown_toggle('ncmpcpp')),
+    Key([mod, alt], "b", lazy.group['scratchpad'].dropdown_toggle('btop')),
 
 ]
 layout_theme = {
@@ -145,6 +125,7 @@ layout_theme = {
 layouts = [
     layout.MonadTall(**layout_theme, single_border_width=0, single_margin=0),
     layout.Max(),
+    # layout.Tile(ratio=0.8, master_match=Match(wm_class="mpv"), border_focus=colors[6]),
     # layout.Tile(**layout_theme),
 
     # Try more layouts by unleashing below layouts.
@@ -158,15 +139,25 @@ layouts = [
     # layout.Zoomy(),
 ]
 
-# groups = [Group(i) for i in "123456789"]
-groups = [
+streamlinkLayout = [layout.Tile(ratio=0.8, master_match=Match(wm_class="mpv"), border_focus=colors[6])]
 
-        Group("1"),
-        Group("2"),
-        Group("3"),
-        Group("4"),
-        Group("5", matches = [Match(wm_class=["mpv", "chatterino"])], layouts=[layout.Tile(ratio=0.8, master_match=Match(wm_class="mpv"), border_focus=colors[6])])
-        ]
+group_names = "1 2 3 4 5".split()
+group_labels = ["爵" ,"", "", "", ""]
+# group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall", "tile" ]
+group_layouts = [layouts, layouts, layouts, layouts, streamlinkLayout ]
+
+clientRules={}
+clientRules["1"]= ["brave"]
+clientRules["3"]= ["thunar"]
+clientRules["5"]= ["mpv", "chatterino"]
+
+groups = []
+for i in range(len(group_names)):
+    groups.append(
+        Group(name=group_names[i], label=group_labels[i], layouts=group_layouts[i])
+    )
+#
+
 
 for i in groups:
     keys.extend(
@@ -185,10 +176,6 @@ for i in groups:
                 lazy.window.togroup(i.name, switch_group=True, toggle=True),
                 desc="Switch to & move focused window to group {}".format(i.name),
             ),
-            # Or, use below if you prefer not to switch to that group.
-            # # mod1 + shift + letter of group = move focused window to group
-            # Key([mod, "shift"], i.name, lazy.window.togroup(i.name),
-            #     desc="move focused window to group {}".format(i.name)),
         ]
     )
 groups.append(ScratchPad("scratchpad", [
@@ -230,15 +217,19 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.CurrentLayoutIcon(),
+                # widget.CurrentLayoutIcon(),
                 widget.GroupBox(**group_box_settings),
                 widget.Spacer(),
                 # widget.TaskList(highlight_method='block', border=colors[13]),
                 widget.Mpd2(status_format='{play_status} {artist} - {title}'),
                 widget.Spacer(),
                 widget.Systray(),
+                widget.TextBox(
+                    text="",
+                    fontsize=20,
+                    ),
                 widget.CPU(
-                    format=' {load_percent}%'
+                    format='{load_percent}%'
                 ),
                 widget.Sep(
                     linewidth=0,
@@ -247,7 +238,8 @@ screens = [
                     background=colors[1],
                 ),
                 widget.TextBox(
-                    text="",
+                    text="",
+                    fontsize=15,
                     ),
                 widget.ThermalSensor(threshold=220),
                 widget.Sep(
@@ -271,6 +263,7 @@ screens = [
                 ),
                 widget.TextBox(
                     text="",
+                    fontsize=18,
                     ),
                 widget.Clock(format="%a %d/%m/%y"),
                 widget.Sep(
@@ -281,6 +274,7 @@ screens = [
                 ),
                 widget.TextBox(
                     text="",
+                    fontsize=18,
                     ),
                 widget.Clock(format="%H:%M:%S"),
             ],
