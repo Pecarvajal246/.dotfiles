@@ -31,7 +31,7 @@ mpd_port = 6600
 #
 ## Needed for tag editor and file operations to work.
 ##
-mpd_music_dir = /run/media/pedro/Datos/Users/Usuario/Music
+#mpd_music_dir = /run/media/pedro/Datos/Users/Usuario/Music
 
 #Small visualizer left of the window
 # visualizer_look = "  "
