@@ -52,3 +52,5 @@ colors_enabled        = "yes"
 # progress bar
 progressbar_color = "black"
 progressbar_elapsed_color = "yellow"
+
+execute_on_song_change=~/.config/ncmpcpp/ncmpcpp_notify.sh

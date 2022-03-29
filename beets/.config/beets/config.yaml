@@ -2,8 +2,16 @@ directory: ~/Music
 import:
     incremental: yes
     move: yes
+    write: yes
 ignore_hidden: yes
-plugins: lyrics ftintitle
+plugins: lyrics ftintitle fetchart embedart info fish
 ftintitle:
     auto: yes
     format: (feat. {0})
+lyrics:
+    auto: yes
+fetchart:
+    auto: yes
+embedart:
+    auto: yes
+    ifempty: yes

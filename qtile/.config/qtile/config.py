@@ -114,6 +114,7 @@ keys = [
     Key([mod], "y", lazy.spawn('streams.sh')),
     Key([mod, alt], "m", lazy.group['scratchpad'].dropdown_toggle('ncmpcpp')),
     Key([mod, alt], "b", lazy.group['scratchpad'].dropdown_toggle('btop')),
+    Key([mod, alt], "t", lazy.group['scratchpad'].dropdown_toggle('stig')),
 
 ]
 layout_theme = {
@@ -139,7 +140,7 @@ layouts = [
     # layout.Zoomy(),
 ]
 
-streamlinkLayout = [layout.Tile(ratio=0.8, master_match=Match(wm_class="mpv"), border_focus=colors[6])]
+streamlinkLayout = [layout.Tile(ratio=0.8, master_match=Match(wm_class="mpv"), border_focus=colors[2], border_width=2)]
 
 group_names = "1 2 3 4 5".split()
 group_labels = ["爵" ,"", "", "", ""]
@@ -180,7 +181,8 @@ for i in groups:
     )
 groups.append(ScratchPad("scratchpad", [
         DropDown("ncmpcpp", "kitty -e ncmpcpp", height=0.9, width=0.9, opacity=1, x=0.05, y=0.05),
-        DropDown("btop", "kitty -e btop",height=0.9, width=0.9, opacity=1, x=0.05, y=0.05)]),
+        DropDown("btop", "kitty -e btop",height=0.9, width=0.9, opacity=1, x=0.05, y=0.05),
+        DropDown("stig", "kitty -e stig",height=0.9, width=0.9, opacity=1, x=0.05, y=0.05)]),
         )
 
 group_box_settings = {

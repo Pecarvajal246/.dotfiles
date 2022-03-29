@@ -32,6 +32,7 @@ local mappings = {
     name = "Plugins",
     i = { "<cmd>PlugInstall<cr>", "Install Plugins"},
     u = { "<cmd>PlugUpdate<cr>", "Update Plugins"},
+    U = { "<cmd>PlugUpgrade<cr>", "Update VimPlug"},
   },
   t = {
     name = "Terminal",
