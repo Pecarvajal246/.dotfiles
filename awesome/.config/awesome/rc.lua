@@ -546,11 +546,11 @@ globalkeys = mytable.join(
               {description = "launch streams", group = "Apps"}),
 
     -- rofi
-    awful.key({ modkey }, "p", function ()
-	awful.spawn.with_shell("rofi -show run")
-        end,
-        {description = "show rofi", group = "launcher"}),
+    awful.key({ modkey }, "p", function () awful.spawn.with_shell("rofi -show run") end,
+        {description = "Launch rofi", group = "launcher"}),
 
+    awful.key({ modkey, "Control" }, "p", function () awful.spawn.with_shell("rofi -show powermenu -modi powermenu:~/.local/bin/rofi-power-menu") end,
+        {description = "Launch rofi power menu", group = "launcher"}),
     -- Dropdown applications
      -- Ncmpcpp
     awful.key({ modkey, "Mod1"}, "m",  function () awful.screen.focused().ncmpcpp:toggle() end,
@@ -856,3 +856,10 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- }}}
 
 -- awful.spawn("feh --bg-scale /home/pedro/Images/wallhaven-ymjrzx_1920x1080.png")
+collectgarbage("setpause", 160)
+collectgarbage("setstepmul", 400)
+
+gears.timer.start_new(10, function()
+  collectgarbage("step", 20000)
+  return true
+end)

@@ -13,7 +13,7 @@ set undofile
 set cursorline
 set hidden
 set smartindent
-set tabstop=2 shiftwidth=2 expandtab
+" set tabstop=2 shiftwidth=2 expandtab
 
 call plug#begin('~/.local/share/nvim/plugged')
 
@@ -44,6 +44,7 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'mattn/emmet-vim'
 
 " Telescope
 Plug 'nvim-lua/plenary.nvim'
