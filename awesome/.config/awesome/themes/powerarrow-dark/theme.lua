@@ -190,7 +190,7 @@ function theme.at_screen_connect(s)
 
     -- Tags
     awful.tag(awful.util.tagnames, s, awful.layout.suit.tile)
-    awful.tag.add("5", {
+    awful.tag.add("", {
 	layout = awful.layout.suit.tile,
 	-- master_fill_policy = "master_width_factor",
 	screen = s,

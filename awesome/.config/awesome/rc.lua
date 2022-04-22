@@ -91,7 +91,7 @@ local editor       = os.getenv("EDITOR") or "nvim"
 local browser      = "brave"
 
 awful.util.terminal = terminal
-awful.util.tagnames = { "1", "2", "3", "4"}
+awful.util.tagnames = { "爵" ,"", "", ""}
 awful.layout.layouts = {
     -- awful.layout.suit.floating,
     awful.layout.suit.tile,
@@ -539,7 +539,7 @@ globalkeys = mytable.join(
 
     awful.key({ modkey }, "e", function () awful.spawn("thunar") end,
               {description = "launch thunar", group = "Apps"}),
-    
+
      -- Launch streams
     awful.key({ modkey}, "y",  function () awful.spawn.with_shell("~/.local/bin/streams.sh &") end,
     -- awful.key({ modkey}, "y",  function () awful.spawn.with_shell("streamlink $(xclip -sel c -o) 720p60") end,
