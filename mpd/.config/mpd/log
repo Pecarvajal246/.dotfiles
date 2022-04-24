@@ -20309,3 +20309,15 @@ Apr 22 15:26 : player: played "Youryoungbody/eXcess/03 so pure.mp3"
 Apr 22 15:28 : player: played "Youryoungbody/eXcess/04 480p.mp3"
 Apr 22 15:31 : player: played "Youryoungbody/eXcess/05 wrapping around your insides.mp3"
 Apr 22 18:38 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Apr 22 18:54 : config: option 'device' on line 119 was not recognized
+Apr 23 10:44 : config: option 'device' on line 119 was not recognized
+Apr 23 10:55 : config: option 'device' on line 119 was not recognized
+Apr 23 11:07 : config: option 'device' on line 119 was not recognized
+Apr 23 11:48 : player: played "Alice Glass/PREY__IV/01 PREY.mp3"
+Apr 23 13:05 : config: option 'device' on line 119 was not recognized
+Apr 23 14:51 : config: option 'device' on line 119 was not recognized
+Apr 24 12:26 : config: option 'device' on line 119 was not recognized
