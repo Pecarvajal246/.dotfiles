@@ -1,0 +1,20 @@
+super + ctrl + t
+	wtwitch.sh
+
+super + p
+	rofi -show run -modi 'run,drun,powermenu:~/.local/bin/rofi-power-menu' 
+
+super + y
+	streams.sh
+
+super + e
+	thunar
+
+super + b
+	brave
+
+XF86Audio{Prev,Next}
+	playerctl {prev,next}
+
+XF86AudioPlay
+	playerctl play-pause
