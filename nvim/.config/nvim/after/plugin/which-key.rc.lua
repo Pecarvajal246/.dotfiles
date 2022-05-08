@@ -27,6 +27,7 @@ local mappings = {
     b = { "<cmd>Telescope file_browser<cr>", "Open File Browser"},
     c = { "<cmd>Telescope neoclip<cr>", "Open Clipboard"},
     k = { "<cmd>Telescope keymaps<cr>", "Open Keymaps"},
+    s = { "<cmd>Telescope current_buffer_fuzzy_find<cr>", "Open Keymaps"},
   },
   p = {
     name = "Plugins",
@@ -44,10 +45,14 @@ local mappings = {
     h = { "<cmd>ToggleTerm size=10 direction=horizontal<cr>", "Horizontal" },
     v = { "<cmd>ToggleTerm size=80 direction=vertical<cr>", "Vertical" },
   },
+  g = {
+    name = "Go to",
+    b = {"<cmd>BufferLinePick<cr>", "Go To Buffer"},
+    g = {"<cmd>Neogit<cr>", "Go To Git"},
+  },
   l = {"<cmd>BufferLineCycleNext<cr>", "Cycle Next Buffer"},
   h = {"<cmd>BufferLineCyclePrev<cr>", "Cycle Previous Buffer"},
   bd = {"<cmd>bd<cr>", "Delete Buffer"},
-  gb = {"<cmd>BufferLinePick<cr>", "Go To Buffer"},
   -- gr = {"<cmd>TroubleToggle lsp_references<cr>", "Open References List"},
 }
 which_key.register (mappings, opts)

@@ -31,6 +31,7 @@ local volume_widget = require('awesome-wm-widgets.volume-widget.volume')
 
 -- Check if awesome encountered an error during startup and fell back to
 -- another config (This code will only ever execute for the fallback config)
+naughty.config.defaults['icon_size'] = 100
 if awesome.startup_errors then
     naughty.notify {
         preset = naughty.config.presets.critical,
@@ -485,7 +486,8 @@ globalkeys = mytable.join(
     -- awful.key({ altkey, "Control" }, "Up",
     awful.key({}, "XF86AudioPlay",
         function ()
-            os.execute("mpc toggle")
+            -- os.execute("mpc toggle")
+            os.execute("playerctl play-pause")
             beautiful.mpd.update()
         end,
         {description = "mpc toggle", group = "widgets"}),
@@ -499,14 +501,16 @@ globalkeys = mytable.join(
 
     awful.key({}, "XF86AudioPrev",
         function ()
-            os.execute("mpc prev")
+            -- os.execute("mpc prev")
+            os.execute("playerctl previous")
             beautiful.mpd.update()
         end,
         {description = "mpc prev", group = "widgets"}),
 
     awful.key({}, "XF86AudioNext",
         function ()
-            os.execute("mpc next")
+            -- os.execute("mpc next")
+            os.execute("playerctl next")
             beautiful.mpd.update()
         end,
         {description = "mpc next", group = "widgets"}),
@@ -533,24 +537,25 @@ globalkeys = mytable.join(
     --           {description = "copy gtk to terminal", group = "hotkeys"}),
 
     -- User programs
-    -- Launch Brave browser
-    awful.key({ modkey }, "b", function () awful.spawn(browser) end,
-              {description = "launch browser", group = "Apps"}),
-
-    awful.key({ modkey }, "e", function () awful.spawn("thunar") end,
-              {description = "launch thunar", group = "Apps"}),
-
-     -- Launch streams
-    awful.key({ modkey}, "y",  function () awful.spawn.with_shell("~/.local/bin/streams.sh &") end,
-    -- awful.key({ modkey}, "y",  function () awful.spawn.with_shell("streamlink $(xclip -sel c -o) 720p60") end,
-              {description = "launch streams", group = "Apps"}),
-
-    -- rofi
-    awful.key({ modkey }, "p", function () awful.spawn.with_shell("rofi -show run") end,
-        {description = "Launch rofi", group = "launcher"}),
-
-    awful.key({ modkey, "Control" }, "p", function () awful.spawn.with_shell("rofi -show powermenu -modi powermenu:~/.local/bin/rofi-power-menu") end,
-        {description = "Launch rofi power menu", group = "launcher"}),
+    -- -- Launch Brave browser
+    -- awful.key({ modkey }, "b", function () awful.spawn(browser) end,
+    --           {description = "launch browser", group = "Apps"}),
+    --
+    -- awful.key({ modkey }, "e", function () awful.spawn("thunar") end,
+    --           {description = "launch thunar", group = "Apps"}),
+    --
+    --  -- Launch streams
+    -- awful.key({ modkey}, "y",  function () awful.spawn.with_shell("~/.local/bin/streams.sh &") end,
+    -- -- awful.key({ modkey}, "y",  function () awful.spawn.with_shell("streamlink $(xclip -sel c -o) 720p60") end,
+    --           {description = "launch streams", group = "Apps"}),
+    --
+    -- -- rofi
+    -- awful.key({ modkey }, "p", function () awful.spawn.with_shell("rofi -show run -modi 'run,drun'") end,
+    --     {description = "Launch rofi", group = "launcher"}),
+    --
+    -- awful.key({ modkey, "Control" }, "p", function () awful.spawn.with_shell("rofi -show powermenu -modi powermenu:~/.local/bin/rofi-power-menu") end,
+    --     {description = "Launch rofi power menu", group = "launcher"}),
+    --
     -- Dropdown applications
      -- Ncmpcpp
     awful.key({ modkey, "Mod1"}, "m",  function () awful.screen.focused().ncmpcpp:toggle() end,

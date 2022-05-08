@@ -20321,3 +20321,76 @@ Apr 23 11:48 : player: played "Alice Glass/PREY__IV/01 PREY.mp3"
 Apr 23 13:05 : config: option 'device' on line 119 was not recognized
 Apr 23 14:51 : config: option 'device' on line 119 was not recognized
 Apr 24 12:26 : config: option 'device' on line 119 was not recognized
+Apr 25 09:23 : config: option 'device' on line 119 was not recognized
+Apr 26 10:26 : config: option 'device' on line 119 was not recognized
+Apr 26 13:52 : config: option 'device' on line 119 was not recognized
+Apr 26 14:52 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+Apr 26 14:55 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+Apr 26 14:55 : config: option 'device' on line 119 was not recognized
+Apr 26 14:55 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+Apr 27 09:19 : config: option 'device' on line 119 was not recognized
+Apr 28 15:14 : config: option 'device' on line 119 was not recognized
+Apr 29 08:16 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Apr 29 16:57 : config: option 'device' on line 119 was not recognized
+Apr 29 17:07 : player: played "Sidewalks and Skeletons/Exorcism/14 Into the Dark (feat. Ferngazer).flac"
+Apr 29 17:10 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+Apr 29 17:47 : config: option 'device' on line 119 was not recognized
+Apr 30 09:23 : config: option 'device' on line 119 was not recognized
+May 01 08:26 : config: option 'device' on line 119 was not recognized
+May 01 09:55 : config: option 'device' on line 119 was not recognized
+May 01 14:32 : player: played "JJ DOOM/Key to the Kuffs/13 Retarded Fren.mp3"
+May 02 08:10 : config: option 'device' on line 119 was not recognized
+May 02 11:15 : config: option 'device' on line 119 was not recognized
+May 02 18:01 : player: played "Alice Glass/PREY__IV/01 PREY.mp3"
+May 02 18:03 : player: played "Alice Glass/PREY__IV/02 PINNED BENEATH LIMBS.mp3"
+May 02 18:05 : player: played "Alice Glass/PREY__IV/03 LOVE IS VIOLENCE.mp3"
+May 02 18:08 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+May 02 18:12 : player: played "Alice Glass/PREY__IV/05 EVERYBODY ELSE.mp3"
+May 02 18:17 : config: option 'device' on line 119 was not recognized
+May 02 18:17 : player: played "Alice Glass/PREY__IV/06 THE HUNTED.mp3"
+May 02 18:20 : player: played "Alice Glass/PREY__IV/07 FAIR GAME.mp3"
+May 02 18:23 : player: played "Alice Glass/PREY__IV/08 WITCH HUNT.mp3"
+May 02 18:26 : player: played "Alice Glass/PREY__IV/09 SUFFER AND SWALLOW.mp3"
+May 02 18:28 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+May 02 18:31 : player: played "Alice Glass/PREY__IV/11 ANIMOSITY.mp3"
+May 02 18:33 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+May 02 18:34 : player: played "Alice Glass/PREY__IV/13 SORROW ENDS.mp3"
+May 02 18:34 : player: played "Alice Glass/PREY__IV/01 PREY.mp3"
+May 02 20:59 : exception: Not playing
+May 03 09:25 : config: option 'device' on line 119 was not recognized
+May 03 09:51 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/01 Asking for a Friend.mp3"
+May 03 09:54 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/02 He Said She Said.mp3"
+May 03 09:58 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/03 California.mp3"
+May 03 10:03 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/04 Violent Delights.mp3"
+May 03 17:16 : player: played "Purity Ring/WOMB/01 rubyinsides.mp3"
+May 03 17:17 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+May 03 17:21 : player: played "Purity Ring/WOMB/02 pink lightning.mp3"
+May 03 18:12 : player: played "Purity Ring/WOMB/03 peacefall.mp3"
+May 04 08:08 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+May 04 10:36 : config: option 'device' on line 119 was not recognized
+May 04 16:43 : config: option 'device' on line 119 was not recognized
+May 05 09:13 : config: option 'device' on line 119 was not recognized
+May 06 09:39 : config: option 'device' on line 119 was not recognized
+May 07 09:33 : config: option 'device' on line 119 was not recognized
+May 07 17:07 : player: played "Youryoungbody/Devotion/06 Swordswallower.mp3"
+May 07 17:14 : player: played "Youryoungbody/eXcess/05 wrapping around your insides.mp3"
+May 07 18:35 : player: played "Czarface & Ghostface Killah/CZARFACE Meets Ghostface/05 Powers and Stuff.mp3"
+May 08 10:01 : config: option 'device' on line 119 was not recognized

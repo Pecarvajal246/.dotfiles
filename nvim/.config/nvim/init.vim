@@ -13,7 +13,7 @@ set undofile
 set cursorline
 set hidden
 set smartindent
-" set tabstop=2 shiftwidth=2 expandtab
+set tabstop=2 shiftwidth=2 expandtab
 
 call plug#begin('~/.local/share/nvim/plugged')
 
@@ -30,8 +30,11 @@ Plug 'folke/which-key.nvim'
 Plug 'nmac427/guess-indent.nvim'
 Plug 'mvllow/modes.nvim'
 Plug 'akinsho/toggleterm.nvim'
-Plug 'TimUntersberger/neogit'
 Plug 'stevearc/dressing.nvim'
+
+" git
+Plug 'lewis6991/gitsigns.nvim'
+Plug 'TimUntersberger/neogit'
 
 " LSP
 Plug 'williamboman/nvim-lsp-installer'
