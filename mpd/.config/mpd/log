@@ -20394,3 +20394,28 @@ May 07 17:07 : player: played "Youryoungbody/Devotion/06 Swordswallower.mp3"
 May 07 17:14 : player: played "Youryoungbody/eXcess/05 wrapping around your insides.mp3"
 May 07 18:35 : player: played "Czarface & Ghostface Killah/CZARFACE Meets Ghostface/05 Powers and Stuff.mp3"
 May 08 10:01 : config: option 'device' on line 119 was not recognized
+May 08 10:12 : config: option 'device' on line 119 was not recognized
+May 08 10:18 : player: played "Youryoungbody/Devotion/06 Swordswallower.mp3"
+May 08 10:21 : player: played "Youryoungbody/eXcess/05 wrapping around your insides.mp3"
+May 08 10:21 : player: played "Czarface & Ghostface Killah/CZARFACE Meets Ghostface/05 Powers and Stuff.mp3"
+May 09 09:59 : config: option 'device' on line 119 was not recognized
+May 10 09:27 : config: option 'device' on line 119 was not recognized
+May 10 17:52 : player: played "DANGERDOOM/The Mouse and the Mask/01 El Chupa Nibre.mp3"
+May 11 08:57 : config: option 'device' on line 119 was not recognized
+May 11 14:31 : config: option 'device' on line 119 was not recognized
+May 11 18:35 : player: played "Virtual Self/ANGEL VOICES/01 ANGEL VOICES.mp3"
+May 11 18:51 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+May 11 18:56 : player: played "Alice Glass/PREY__IV/05 EVERYBODY ELSE.mp3"
+May 11 18:59 : player: played "Alice Glass/PREY__IV/06 THE HUNTED.mp3"
+May 11 19:02 : player: played "Alice Glass/PREY__IV/09 SUFFER AND SWALLOW.mp3"
+May 11 19:04 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+'builder->data == ((void *)0) || builder->state.offset < sizeof(struct spa_pod) || builder->state.offset == (sizeof(struct spa_pod) + (((struct spa_pod*)(pod))->size))' failed at ../pipewire/src/modules/module-protocol-native.c:1337 assert_single_pod()
+'builder->data == ((void *)0) || builder->state.offset < sizeof(struct spa_pod) || builder->state.offset == (sizeof(struct spa_pod) + (((struct spa_pod*)(pod))->size))' failed at ../pipewire/src/modules/module-protocol-native.c:1337 assert_single_pod()
+May 11 19:08 : config: option 'device' on line 119 was not recognized
+May 11 22:10 : config: option 'device' on line 119 was not recognized
+May 11 22:10 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+May 12 09:36 : config: option 'device' on line 119 was not recognized
+May 12 15:01 : player: played "Daughter/If You Leave/03 Youth.mp3"
+May 12 15:06 : player: played "Sidewalks and Skeletons/WHITE LIGHT/13 Body.mp3"
+May 12 15:11 : player: played "Sidewalks and Skeletons/Exorcism/14 Into the Dark (feat. Ferngazer).flac"
+May 13 09:53 : config: option 'device' on line 119 was not recognized
