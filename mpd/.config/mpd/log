@@ -20419,3 +20419,41 @@ May 12 15:01 : player: played "Daughter/If You Leave/03 Youth.mp3"
 May 12 15:06 : player: played "Sidewalks and Skeletons/WHITE LIGHT/13 Body.mp3"
 May 12 15:11 : player: played "Sidewalks and Skeletons/Exorcism/14 Into the Dark (feat. Ferngazer).flac"
 May 13 09:53 : config: option 'device' on line 119 was not recognized
+May 13 13:59 : config: option 'device' on line 119 was not recognized
+May 13 14:18 : config: option 'device' on line 119 was not recognized
+May 14 09:08 : config: option 'device' on line 119 was not recognized
+May 14 10:31 : player: played "Porter Robinson/Nurture/05 Musician.mp3"
+May 15 09:05 : config: option 'device' on line 119 was not recognized
+May 15 12:13 : player: played "Sidewalks and Skeletons/ENTITY/09 Elixir.mp3"
+May 15 12:15 : player: played "Alice Glass/PREY__IV/01 PREY.mp3"
+May 15 12:16 : player: played "Alice Glass/PREY__IV/02 PINNED BENEATH LIMBS.mp3"
+May 15 12:20 : player: played "Alice Glass/PREY__IV/02 PINNED BENEATH LIMBS.mp3"
+May 15 12:22 : player: played "Alice Glass/PREY__IV/03 LOVE IS VIOLENCE.mp3"
+May 15 12:25 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+May 15 12:29 : player: played "Alice Glass/PREY__IV/05 EVERYBODY ELSE.mp3"
+May 15 12:32 : player: played "Alice Glass/PREY__IV/06 THE HUNTED.mp3"
+May 15 12:34 : player: played "Alice Glass/PREY__IV/07 FAIR GAME.mp3"
+May 15 12:37 : player: played "Alice Glass/PREY__IV/08 WITCH HUNT.mp3"
+May 15 12:40 : player: played "Alice Glass/PREY__IV/09 SUFFER AND SWALLOW.mp3"
+May 15 12:42 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+May 15 12:45 : player: played "Alice Glass/PREY__IV/11 ANIMOSITY.mp3"
+May 15 12:47 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+May 15 12:48 : player: played "Alice Glass/PREY__IV/13 SORROW ENDS.mp3"
+May 15 14:46 : player: played "Gordian Knot/Emergent/05 Grace (live).mp3"
+May 16 09:07 : config: option 'device' on line 119 was not recognized
+May 16 13:11 : player: played "Of Monsters and Men/My Head Is an Animal/04 Slow and Steady.flac"
+May 16 13:16 : player: played "Of Monsters and Men/My Head Is An Animal (10th Anniversary Edition)/13 Phantom.flac"
+May 16 13:20 : player: played "Of Monsters and Men/My Head Is An Animal (10th Anniversary Edition)/14 Sugar in a Bowl.flac"
+May 16 13:42 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+May 17 09:28 : config: option 'device' on line 119 was not recognized
+May 17 15:55 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+May 17 16:52 : config: option 'device' on line 119 was not recognized
+May 17 18:16 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+May 17 18:18 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+May 18 09:24 : config: option 'device' on line 119 was not recognized

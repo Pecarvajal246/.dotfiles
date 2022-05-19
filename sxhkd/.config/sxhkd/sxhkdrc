@@ -1,5 +1,8 @@
 super + ctrl + t
-	~/.local/bin/twofi/twofi.py
+	twofi
+
+super + ctrl + s
+  flameshot gui
 
 super + p
 	rofi -show run -modi 'run,drun,powermenu:~/.local/bin/rofi-power-menu' 

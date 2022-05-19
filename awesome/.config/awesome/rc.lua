@@ -737,9 +737,28 @@ awful.rules.rules = {
     tag = screen[1].tags[3],
     switch_to_tags = true}
     },
+
     { rule= {class = "Brave-browser"},
 	properties = { 
 	tag = screen[1].tags[1],
+	switch_to_tags = true}
+    },
+
+    { rule= {class = "zoom "},
+	properties = { 
+	tag = screen[1].tags[4],
+	switch_to_tags = false}
+    },
+
+    { rule= {class = "TelegramDesktop"},
+	properties = { 
+	tag = screen[1].tags[3],
+	switch_to_tags = true}
+    },
+
+    { rule= {class = "discord"},
+	properties = { 
+	tag = screen[1].tags[3],
 	switch_to_tags = true}
     },
     -- Floating clients.
