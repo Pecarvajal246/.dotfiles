@@ -1,0 +1,21 @@
+local set = vim.opt
+set.mouse = "a"
+set.number = true
+set.relativenumber = true
+set.scrolloff=7
+set.hlsearch = false
+set.ignorecase = true
+set.list = true
+set.listchars = {eol = '↲', tab = '▸ ', trail = '·'}
+set.termguicolors = true
+set.autochdir = true
+set.updatetime=500
+-- set.fileformat = "unix"
+set.undofile = true
+set.cursorline = true
+set.smartindent = true
+set.tabstop = 2
+set.shiftwidth = 2
+set.expandtab = true
+
+
