@@ -20457,3 +20457,50 @@ May 17 16:52 : config: option 'device' on line 119 was not recognized
 May 17 18:16 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
 May 17 18:18 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
 May 18 09:24 : config: option 'device' on line 119 was not recognized
+May 19 09:14 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+May 19 09:26 : config: option 'device' on line 119 was not recognized
+May 19 15:44 : config: option 'device' on line 119 was not recognized
+May 19 16:53 : player: played "Youryoungbody/Devotion/06 Swordswallower.mp3"
+May 19 17:45 : exception: Not playing
+May 20 08:15 : config: option 'device' on line 119 was not recognized
+May 21 09:15 : config: option 'device' on line 119 was not recognized
+May 21 14:07 : player: played "Little Dragon/Nabuma Rubberband/08 Nabuma Rubberband.mp3"
+May 21 14:26 : player: played "Grimes/Miss Anthropocene/08 You’ll miss me when I’m not around.mp3"
+May 21 14:30 : player: played "Grimes/Miss Anthropocene/08 You’ll miss me when I’m not around.mp3"
+May 21 15:03 : player: played "Grimes/Miss Anthropocene/03 Delete Forever.mp3"
+May 21 15:07 : player: played "IC3PEAK/Сладкая жизнь/02 Грустная сука.mp3"
+May 21 15:12 : player: played "GFOTY/Femmedorm/02 BRAND NEW BRA.flac"
+May 21 16:05 : player: played "DANGERDOOM/The Mouse and the Mask/01 El Chupa Nibre.mp3"
+May 21 16:08 : player: played "Viktor Vaughn/Vaudeville Villain/11 Modern Day Mugging.mp3"
+May 22 09:09 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+May 22 16:07 : config: option 'device' on line 119 was not recognized
+May 22 22:19 : config: option 'device' on line 119 was not recognized
+May 23 09:06 : config: option 'device' on line 119 was not recognized
+May 23 18:47 : player: played "Youryoungbody/eXcess/01 goo.mp3"
+May 23 18:50 : player: played "Youryoungbody/eXcess/02 in your dream.mp3"
+May 23 18:53 : player: played "Youryoungbody/eXcess/03 so pure.mp3"
+May 23 23:27 : player: played "Youryoungbody/eXcess/04 480p.mp3"
+May 24 18:18 : config: option 'device' on line 119 was not recognized
+May 24 21:25 : player: played "Youryoungbody/eXcess/04 480p.mp3"
+May 25 08:57 : config: option 'device' on line 119 was not recognized
+May 26 09:11 : config: option 'device' on line 119 was not recognized
+May 26 16:14 : config: option 'device' on line 119 was not recognized
+May 27 08:00 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+May 27 08:36 : config: option 'device' on line 119 was not recognized
+May 28 08:36 : config: option 'device' on line 119 was not recognized

@@ -31,6 +31,7 @@ Plug 'nmac427/guess-indent.nvim'
 Plug 'mvllow/modes.nvim'
 Plug 'akinsho/toggleterm.nvim'
 Plug 'stevearc/dressing.nvim'
+Plug 'zbirenbaum/copilot.lua'
 
 " git
 Plug 'lewis6991/gitsigns.nvim'
@@ -48,6 +49,7 @@ Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'mattn/emmet-vim'
+Plug 'zbirenbaum/copilot-cmp'
 
 " Telescope
 Plug 'nvim-lua/plenary.nvim'
