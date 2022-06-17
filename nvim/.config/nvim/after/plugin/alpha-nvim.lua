@@ -2,6 +2,7 @@ local alpha_status_ok, alpha = pcall(require, "alpha")
 if not alpha_status_ok then
   return
 end
+
 local dashboard = require"alpha.themes.dashboard"
 -- math.randomseed(os.time())
 
@@ -56,7 +57,7 @@ dashboard.section.buttons.val = {
   button("SPC f h", "  Recently opened files"),
   button("SPC f f", "  Find file"),
   -- button("SPC f a", "  Find word"),
-  button("SPC s l", "  Open session"),
+  button("SPC f s", "  Open session"),
   button("SPC c n", "  New file"),
   -- button("SPC c c", "  Update plugins"),
   button("q", "  Quit", "<Cmd>qa<CR>")

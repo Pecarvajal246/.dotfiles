@@ -3,4 +3,5 @@ twitch-disable-ads
 twitch-low-latency
 default-stream=best
 title "{title} - {author}"
-hls-live-edge=1
+#stream-segment-threads=10
+# hls-live-edge=4

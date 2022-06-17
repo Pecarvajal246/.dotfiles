@@ -20504,3 +20504,235 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
 May 27 08:36 : config: option 'device' on line 119 was not recognized
 May 28 08:36 : config: option 'device' on line 119 was not recognized
+May 29 09:52 : config: option 'device' on line 119 was not recognized
+May 30 09:32 : config: option 'device' on line 119 was not recognized
+May 30 16:50 : config: option 'device' on line 119 was not recognized
+May 31 09:08 : config: option 'device' on line 119 was not recognized
+May 31 15:38 : player: played "Wolf Alice/My Love Is Cool/23 Every Cloud.mp3"
+May 31 15:42 : player: played "Grimes/Miss Anthropocene/08 You’ll miss me when I’m not around.mp3"
+May 31 15:44 : player: played "Alice Glass/PREY__IV/01 PREY.mp3"
+May 31 15:46 : player: played "Alice Glass/PREY__IV/02 PINNED BENEATH LIMBS.mp3"
+May 31 15:49 : player: played "Alice Glass/PREY__IV/03 LOVE IS VIOLENCE.mp3"
+May 31 15:51 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+May 31 15:55 : player: played "Alice Glass/PREY__IV/05 EVERYBODY ELSE.mp3"
+May 31 15:58 : player: played "Alice Glass/PREY__IV/06 THE HUNTED.mp3"
+May 31 16:01 : player: played "Alice Glass/PREY__IV/07 FAIR GAME.mp3"
+May 31 16:04 : player: played "Alice Glass/PREY__IV/08 WITCH HUNT.mp3"
+May 31 16:07 : player: played "Alice Glass/PREY__IV/09 SUFFER AND SWALLOW.mp3"
+May 31 16:08 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+May 31 16:11 : player: played "Alice Glass/PREY__IV/11 ANIMOSITY.mp3"
+May 31 16:14 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+May 31 16:15 : player: played "Alice Glass/PREY__IV/13 SORROW ENDS.mp3"
+May 31 16:39 : player: played "Charli XCX/CRASH/02 New Shapes (feat. Christine and the Queens and Caroline Polachek).flac"
+May 31 16:44 : player: played "CHVRCHES/Screen Violence_ Director’s Cut/01 Asking for a Friend.mp3"
+May 31 17:12 : player: played "Sidewalks and Skeletons/Exorcism/14 Into the Dark (feat. Ferngazer).flac"
+May 31 17:18 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+May 31 17:29 : player: played "Porter Robinson/Worlds/12 Goodbye to a World.mp3"
+May 31 22:09 : player: played "Dorian Electra/My Agenda (deluxe)/15 Iron Fist (Alice Glass remix) (feat. Alice Glass & Faris Badwan).mp3"
+Jun 02 10:45 : config: option 'device' on line 119 was not recognized
+Jun 02 12:59 : player: played "Dorian Electra/My Agenda (deluxe)/15 Iron Fist (Alice Glass remix) (feat. Alice Glass & Faris Badwan).mp3"
+Jun 02 13:01 : config: option 'device' on line 119 was not recognized
+Jun 02 13:06 : player: played "Dorian Electra/My Agenda (deluxe)/15 Iron Fist (Alice Glass remix) (feat. Alice Glass & Faris Badwan).mp3"
+Jun 02 13:08 : config: option 'device' on line 119 was not recognized
+Jun 02 14:24 : player: played "Dorian Electra/My Agenda (deluxe)/15 Iron Fist (Alice Glass remix) (feat. Alice Glass & Faris Badwan).mp3"
+Jun 02 14:26 : config: option 'device' on line 119 was not recognized
+Jun 02 17:26 : player: played "Dorian Electra/My Agenda (deluxe)/15 Iron Fist (Alice Glass remix) (feat. Alice Glass & Faris Badwan).mp3"
+Jun 02 20:45 : config: option 'device' on line 119 was not recognized
+Jun 02 22:09 : player: played "Dorian Electra/My Agenda (deluxe)/15 Iron Fist (Alice Glass remix) (feat. Alice Glass & Faris Badwan).mp3"
+Jun 03 09:07 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Jun 03 11:58 : player: played "Dorian Electra/My Agenda (deluxe)/15 Iron Fist (Alice Glass remix) (feat. Alice Glass & Faris Badwan).mp3"
+Jun 03 12:01 : config: option 'device' on line 119 was not recognized
+Jun 04 00:40 : player: played "Dorian Electra/My Agenda (deluxe)/15 Iron Fist (Alice Glass remix) (feat. Alice Glass & Faris Badwan).mp3"
+Jun 04 09:06 : config: option 'device' on line 119 was not recognized
+Jun 04 13:16 : player: played "Dorian Electra/My Agenda (deluxe)/15 Iron Fist (Alice Glass remix) (feat. Alice Glass & Faris Badwan).mp3"
+Jun 04 13:19 : player: played "Charli XCX/CRASH/06 Move Me.flac"
+Jun 05 13:59 : config: option 'device' on line 119 was not recognized
+Jun 06 09:01 : config: option 'device' on line 119 was not recognized
+Jun 07 08:48 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Jun 07 09:05 : config: option 'device' on line 119 was not recognized
+Jun 08 09:25 : config: option 'device' on line 119 was not recognized
+Jun 08 10:46 : update: added Burial/Untrue/01 [untitled].flac
+Jun 08 10:46 : update: added Burial/Untrue/02 Archangel.flac
+Jun 08 10:46 : update: added Burial/Untrue/03 Near Dark.flac
+Jun 08 10:46 : update: added Burial/Untrue/04 Ghost Hardware.flac
+Jun 08 10:46 : update: added Burial/Untrue/05 Endorphin.flac
+Jun 08 10:46 : update: added Burial/Untrue/06 Etched Headplate.flac
+Jun 08 10:46 : update: added Burial/Untrue/07 In McDonalds.flac
+Jun 08 10:46 : update: added Burial/Untrue/08 Untrue.flac
+Jun 08 10:46 : update: added Burial/Untrue/09 Shell of Light.flac
+Jun 08 10:46 : update: added Burial/Untrue/10 Dog Shelter.flac
+Jun 08 10:46 : update: added Burial/Untrue/11 Homeless.flac
+Jun 08 10:46 : update: added Burial/Untrue/12 UK.flac
+Jun 08 10:46 : update: added Burial/Untrue/13 Raver.flac
+Jun 08 10:46 : update: added Burial/Untrue/14 Shutta.flac
+Jun 08 10:46 : update: added Burial/Untrue/15 Exit Woundz.flac
+Jun 08 10:46 : update: updating Burial/Untrue/06 Etched Headplate.flac
+Jun 08 10:46 : update: updating Burial/Untrue/07 In McDonalds.flac
+Jun 08 10:46 : update: updating Burial/Untrue/08 Untrue.flac
+Jun 08 10:46 : update: updating Burial/Untrue/09 Shell of Light.flac
+Jun 08 10:46 : update: updating Burial/Untrue/10 Dog Shelter.flac
+Jun 08 10:46 : update: updating Burial/Untrue/11 Homeless.flac
+Jun 08 10:46 : update: updating Burial/Untrue/12 UK.flac
+Jun 08 10:46 : update: updating Burial/Untrue/13 Raver.flac
+Jun 08 10:46 : update: updating Burial/Untrue/14 Shutta.flac
+Jun 08 10:46 : update: updating Burial/Untrue/15 Exit Woundz.flac
+Jun 08 10:47 : player: played "After the Burial/Forging a Future Self/01 π (The Mercury God of Infinity).mp3"
+Jun 08 10:47 : player: played "After the Burial/Forging a Future Self/01 π (The Mercury God of Infinity).mp3"
+Jun 08 10:52 : player: played "Burial/Untrue/02 Archangel.flac"
+Jun 08 13:53 : update: removing Charli XCX/CRASH/01 Crash.flac
+Jun 08 13:53 : update: removing Charli XCX/CRASH/12 Twice.flac
+Jun 08 13:53 : update: removing Charli XCX/CRASH/11 Used to Know Me.flac
+Jun 08 13:53 : update: removing Charli XCX/CRASH/10 Yuck.flac
+Jun 08 13:53 : update: removing Charli XCX/CRASH/09 Every Rule.flac
+Jun 08 13:53 : update: removing Charli XCX/CRASH/08 Lightning.flac
+Jun 08 13:53 : update: removing Charli XCX/CRASH/07 Baby.flac
+Jun 08 13:53 : update: removing Charli XCX/CRASH/06 Move Me.flac
+Jun 08 13:53 : update: removing Charli XCX/CRASH/05 Beg for You (feat. Rina Sawayama).flac
+Jun 08 13:53 : update: removing Charli XCX/CRASH/04 Constant Repeat.flac
+Jun 08 13:53 : update: removing Charli XCX/CRASH/03 Good Ones.flac
+Jun 08 13:53 : update: removing Charli XCX/CRASH/02 New Shapes (feat. Christine and the Queens and Caroline Polachek).flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/01 Crash.flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/02 New Shapes (feat. Christine and the Queens and Caroline Polachek).flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/03 Good Ones.flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/04 Constant Repeat.flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/05 Beg for You (feat. Rina Sawayama).flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/06 Move Me.flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/07 Baby.flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/08 Lightning.flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/09 Every Rule.flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/10 Yuck.flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/11 Used to Know Me.flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/12 Twice.flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/13 Selfish Girl.flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/14 How Can I Not Know What I Need Right Now.flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/15 Sorry If I Hurt You.flac
+Jun 08 13:55 : update: added Charli XCX/CRASH/16 What You Think About Me.flac
+Jun 08 13:56 : player: played "Charli XCX/CRASH/14 How Can I Not Know What I Need Right Now.flac"
+Jun 08 16:23 : player: played "Burial/Untrue/02 Archangel.flac"
+Jun 08 16:30 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 16:30 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 16:30 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 16:30 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 16:30 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 16:30 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 16:30 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 16:30 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 16:30 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 16:30 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 16:32 : player: played "Alice Glass/PREY__IV/01 PREY.mp3"
+Jun 08 16:34 : player: played "Alice Glass/PREY__IV/02 PINNED BENEATH LIMBS.mp3"
+Jun 08 16:37 : player: played "Alice Glass/PREY__IV/03 LOVE IS VIOLENCE.mp3"
+Jun 08 16:39 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+Jun 08 16:43 : player: played "Alice Glass/PREY__IV/05 EVERYBODY ELSE.mp3"
+Jun 08 16:46 : player: played "Alice Glass/PREY__IV/06 THE HUNTED.mp3"
+Jun 08 16:49 : player: played "Alice Glass/PREY__IV/07 FAIR GAME.mp3"
+Jun 08 16:52 : player: played "Alice Glass/PREY__IV/08 WITCH HUNT.mp3"
+Jun 08 16:55 : player: played "Alice Glass/PREY__IV/09 SUFFER AND SWALLOW.mp3"
+Jun 08 16:57 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+Jun 08 17:30 : player: played "Burial/Untrue/02 Archangel.flac"
+Jun 08 17:50 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 17:50 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 17:50 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 17:50 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 17:50 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 17:50 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 17:50 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 17:50 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 08 17:51 : player: played "JJ DOOM/Key to the Kuffs/02 Guv’nor.mp3"
+Jun 08 17:54 : player: played "JJ DOOM/Key to the Kuffs/02 Guv’nor.mp3"
+Jun 08 18:22 : player: played "Lorn/RARITIES/26 SEGA SUNSET.mp3"
+Jun 08 18:40 : player: played "Lorn/RARITIES/01 555‒5555.mp3"
+Jun 09 09:17 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Jun 09 12:00 : config: option 'device' on line 119 was not recognized
+Jun 09 13:17 : config: option 'device' on line 119 was not recognized
+Jun 09 14:28 : player: played "Charli XCX/Pop 2/01 Backseat (feat. Carly Rae Jepsen).mp3"
+Jun 09 14:32 : player: played "Charli XCX/Pop 2/02 Out of My Head (feat. Tove Lo and ALMA).mp3"
+Jun 09 14:35 : player: played "Charli XCX/Pop 2/03 Lucky.mp3"
+Jun 09 14:40 : player: played "Charli XCX/Pop 2/04 Tears (feat. Caroline Polachek).mp3"
+Jun 09 14:44 : player: played "Charli XCX/Pop 2/05 I Got It (feat. Brooke Candy, cupcakKe and Pabllo Vittar).mp3"
+Jun 09 14:47 : player: played "Charli XCX/Pop 2/06 Femmebot (feat. Dorian Electra and Mykki Blanco).mp3"
+Jun 09 14:52 : player: played "Charli XCX/Pop 2/07 Delicious (feat. Tommy Cash).mp3"
+Jun 09 14:56 : player: played "Charli XCX/Pop 2/08 Unlock It (feat. Kim Petras and Jay Park).mp3"
+Jun 09 15:01 : player: played "Charli XCX/Pop 2/09 Porsche (feat. MØ).mp3"
+Jun 09 15:06 : player: played "Charli XCX/Pop 2/10 Track 10.mp3"
+Jun 09 15:27 : player: played "Madvillain/Madvillainy/01 The Illest Villains.mp3"
+Jun 09 15:29 : player: played "Madvillain/Madvillainy/02 Accordion.mp3"
+Jun 09 15:31 : player: played "Madvillain/Madvillainy/03 Meat Grinder.mp3"
+Jun 09 15:32 : player: played "Madvillain/Madvillainy/04 Bistro.mp3"
+Jun 09 15:35 : player: played "Madvillain/Madvillainy/05 Raid (feat. MED).mp3"
+Jun 09 15:39 : player: played "Madvillain/Madvillainy/06 America’s Most Blunted (feat. Quasimoto).mp3"
+Jun 09 15:40 : player: played "Madvillain/Madvillainy/07 Sickfit (instrumental).mp3"
+Jun 09 15:43 : player: played "Madvillain/Madvillainy/08 Rainbows.mp3"
+Jun 09 15:45 : player: played "Madvillain/Madvillainy/09 Curls.mp3"
+Jun 09 15:46 : player: played "Madvillain/Madvillainy/10 Do Not Fire! (instrumental).mp3"
+Jun 09 15:49 : player: played "Madvillain/Madvillainy/11 Money Folder.mp3"
+Jun 09 15:51 : player: played "Madvillain/Madvillainy/12 Shadows of Tomorrow (feat. Quasimoto).mp3"
+Jun 09 15:53 : player: played "Madvillain/Madvillainy/13 Operation Lifesaver aka Mint Test.mp3"
+Jun 09 15:55 : player: played "Madvillain/Madvillainy/14 Figaro.mp3"
+Jun 09 15:57 : player: played "Madvillain/Madvillainy/15 Hardcore Hustle (feat. Wildchild).mp3"
+Jun 09 15:58 : player: played "Madvillain/Madvillainy/16 Strange Ways.mp3"
+Jun 09 16:00 : player: played "Madvillain/Madvillainy/17 Fancy Clown (feat. Viktor Vaughn).mp3"
+Jun 09 16:04 : player: played "Madvillain/Madvillainy/18 Eye (feat. Stacy Epps).mp3"
+Jun 09 17:28 : player: played "Madvillain/Madvillainy/19 Supervillain Theme (instrumental).mp3"
+Jun 09 17:31 : config: option 'device' on line 119 was not recognized
+Jun 09 21:17 : player: played "Madvillain/Madvillainy/19 Supervillain Theme (instrumental).mp3"
+Jun 09 21:21 : player: played "Burial/Untrue/02 Archangel.flac"
+Jun 09 21:45 : player: played "Pale Waves/All the Things I Never Said/01 New Year's Eve.mp3"
+Jun 09 21:48 : player: played "Pale Waves/All the Things I Never Said/02 The Tide.mp3"
+Jun 09 21:53 : player: played "Pale Waves/All the Things I Never Said/03 My Obsession.mp3"
+Jun 09 21:56 : player: played "Pale Waves/All the Things I Never Said/04 Heavenly.mp3"
+Jun 09 21:57 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 09 21:57 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 09 21:59 : player: played "Purity Ring/Asido [748]/01 soshy.mp3"
+Jun 09 22:11 : config: option 'device' on line 119 was not recognized
+Jun 09 22:14 : player: played "DANGERDOOM/The Mouse and the Mask/01 El Chupa Nibre.mp3"
+Jun 09 22:17 : player: played "DANGERDOOM/The Mouse and the Mask/02 Sofa King.mp3"
+Jun 09 22:20 : player: played "DANGERDOOM/The Mouse and the Mask/03 The Mask (feat. Ghostface Killah).mp3"
+Jun 09 22:22 : player: played "DANGERDOOM/The Mouse and the Mask/04 Perfect Hair.mp3"
+Jun 09 22:25 : player: played "DANGERDOOM/The Mouse and the Mask/05 Benzie Box (feat. CeeLo Green).mp3"
+Jun 09 22:28 : player: played "DANGERDOOM/The Mouse and the Mask/06 Old School (feat. Talib Kweli).mp3"
+Jun 09 22:31 : player: played "DANGERDOOM/The Mouse and the Mask/07 A.T.H.F_.mp3"
+Jun 09 22:34 : player: played "DANGERDOOM/The Mouse and the Mask/08 Basket Case.mp3"
+Jun 09 22:37 : player: played "DANGERDOOM/The Mouse and the Mask/09 No Names.mp3"
+Jun 09 22:39 : player: played "DANGERDOOM/The Mouse and the Mask/10 Crosshairs.mp3"
+Jun 09 22:42 : player: played "DANGERDOOM/The Mouse and the Mask/11 Mince Meat.mp3"
+Jun 09 22:44 : player: played "DANGERDOOM/The Mouse and the Mask/12 Vats of Urine.mp3"
+Jun 09 22:47 : player: played "DANGERDOOM/The Mouse and the Mask/13 Space Ho’s.mp3"
+Jun 09 22:51 : player: played "DANGERDOOM/The Mouse and the Mask/14 Bada Bing.mp3"
+Jun 09 22:53 : player: played "DANGERDOOM/The Mouse and the Mask/15 Skit 1.mp3"
+Jun 09 22:56 : player: played "DANGERDOOM/The Mouse and the Mask/16 El Chupa Nibre (remix).mp3"
+Jun 09 22:58 : player: played "DANGERDOOM/The Mouse and the Mask/17 Perfect Hair II.mp3"
+Jun 09 23:01 : player: played "DANGERDOOM/The Mouse and the Mask/18 Korn Dogz.mp3"
+Jun 09 23:04 : player: played "DANGERDOOM/The Mouse and the Mask/19 Skit 2.mp3"
+Jun 09 23:07 : player: played "DANGERDOOM/The Mouse and the Mask/20 Sofa King (remix).mp3"
+Jun 09 23:14 : player: played "DANGERDOOM/The Mouse and the Mask/21 Space Ho’s (Madlib remix).mp3"
+Jun 10 08:48 : config: option 'device' on line 119 was not recognized
+Jun 11 09:35 : config: option 'device' on line 119 was not recognized
+Jun 12 14:51 : config: option 'device' on line 119 was not recognized
+Jun 13 08:56 : config: option 'device' on line 119 was not recognized
+Jun 13 09:47 : config: option 'device' on line 119 was not recognized
+Jun 13 14:45 : config: option 'device' on line 119 was not recognized
+Jun 14 08:24 : config: option 'device' on line 119 was not recognized
+Jun 14 17:16 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+Jun 14 17:22 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+Jun 14 17:33 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+Jun 14 17:38 : player: played "Goo Munday/F__k Your Fear (mr.kitty Remix)/01 F__k Your Fear (Mr.Kitty Remix).mp3"
+Jun 15 08:26 : config: option 'device' on line 119 was not recognized
+Jun 15 08:36 : config: option 'device' on line 119 was not recognized
+Jun 16 09:22 : config: option 'device' on line 119 was not recognized

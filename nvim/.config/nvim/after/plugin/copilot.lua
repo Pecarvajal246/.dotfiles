@@ -1,7 +1,11 @@
 local copilot_ok, copilot = pcall(require, "copilot.lua")
 if not copilot_ok then
-  return
+	return
 end
 
-copilot.setup{
-}
+copilot.setup({
+	cmp = {
+		enabled = true,
+		method = "getPanelCompletions",
+	},
+})
