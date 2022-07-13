@@ -61,16 +61,16 @@ return packer.startup(function(use)
 			{ "nvim-treesitter/nvim-treesitter" },
 		},
 	})
-	use({
-		"zbirenbaum/copilot.lua",
-		-- event = { "VimEnter" },
-		after = "lualine.nvim",
-		config = function()
-			vim.defer_fn(function()
-				require("copilot").setup()
-			end, 100)
-		end,
-	})
+	-- use({
+	-- 	"zbirenbaum/copilot.lua",
+	-- 	-- event = { "VimEnter" },
+	-- 	after = "lualine.nvim",
+	-- 	config = function()
+	-- 		vim.defer_fn(function()
+	-- 			require("copilot").setup()
+	-- 		end, 100)
+	-- 	end,
+	-- })
 
 	-- git
 	use("lewis6991/gitsigns.nvim")
@@ -91,10 +91,10 @@ return packer.startup(function(use)
 	use("saadparwaiz1/cmp_luasnip")
 	use("mattn/emmet-vim")
 	use("hrsh7th/cmp-nvim-lsp-signature-help")
-	use({
-		"zbirenbaum/copilot-cmp",
-		after = { "copilot.lua", "nvim-cmp" },
-	})
+	-- use({
+	-- 	"zbirenbaum/copilot-cmp",
+	-- 	after = { "copilot.lua", "nvim-cmp" },
+	-- })
 
 	-- Telescope
 	use("nvim-lua/plenary.nvim")
@@ -112,6 +112,7 @@ return packer.startup(function(use)
 	use("mfussenegger/nvim-dap")
 	use("mfussenegger/nvim-dap-python")
 	use("rcarriga/nvim-dap-ui")
+	use("theHamsta/nvim-dap-virtual-text")
 
 	-- Themes
 	use("folke/tokyonight.nvim")

@@ -20736,3 +20736,335 @@ Jun 14 17:38 : player: played "Goo Munday/F__k Your Fear (mr.kitty Remix)/01 F__
 Jun 15 08:26 : config: option 'device' on line 119 was not recognized
 Jun 15 08:36 : config: option 'device' on line 119 was not recognized
 Jun 16 09:22 : config: option 'device' on line 119 was not recognized
+Jun 17 08:32 : config: option 'device' on line 119 was not recognized
+Jun 17 15:16 : config: option 'device' on line 119 was not recognized
+Jun 17 19:20 : exception: Not playing
+Jun 18 09:18 : config: option 'device' on line 119 was not recognized
+Jun 19 08:26 : config: option 'device' on line 119 was not recognized
+Jun 19 08:35 : player: played "Ravenna Golden/Cry [762]/01 Eyes on Me.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Jun 19 08:46 : config: option 'device' on line 119 was not recognized
+Jun 19 10:46 : player: played "Gesaffelstein/Aleph/11 Hate or Glory.mp3"
+Jun 19 11:11 : player: played "Gesaffelstein/Aleph/02 Pursuit.mp3"
+Jun 19 20:26 : config: option 'device' on line 119 was not recognized
+Jun 20 07:55 : config: option 'device' on line 119 was not recognized
+Jun 21 08:33 : config: option 'device' on line 119 was not recognized
+Jun 21 08:54 : player: played "Gesaffelstein/Aleph/11 Hate or Glory.mp3"
+Jun 21 13:29 : player: played "Gesaffelstein/Novo Sonic System/04 Doom.mp3"
+Jun 21 13:37 : player: played "Daniel Deluxe/Corruptor/01 Broken Seal.mp3"
+Jun 21 13:37 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 21 13:37 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 21 13:41 : player: played "Daniel Deluxe/Corruptor/02 Soul Siphon.mp3"
+Jun 21 13:46 : player: played "Daniel Deluxe/Corruptor/03 The Guardian (feat. Sourc3).mp3"
+Jun 21 13:48 : player: played "Daniel Deluxe/Corruptor/04 Time Limit.mp3"
+Jun 21 17:21 : player: played "Daniel Deluxe/Corruptor/05 Combat Ready.mp3"
+Jun 22 09:04 : config: option 'device' on line 119 was not recognized
+Jun 23 07:57 : config: option 'device' on line 119 was not recognized
+Jun 23 10:02 : config: option 'device' on line 119 was not recognized
+Jun 23 11:22 : player: played "Purity Ring/Asido [748]/01 soshy.mp3"
+Jun 23 11:25 : update: added Purity Ring/Graves/01 graves.flac
+Jun 23 11:25 : update: added Purity Ring/Graves/02 neverend.flac
+Jun 23 11:25 : update: added Purity Ring/Graves/03 nthngsfine.flac
+Jun 23 11:25 : update: added Purity Ring/Graves/04 unlucky.flac
+Jun 23 11:25 : update: added Purity Ring/Graves/05 watersong.flac
+Jun 23 11:25 : update: added Purity Ring/Graves/06 soshy.flac
+Jun 23 11:25 : update: added Purity Ring/Graves/07 xsalt.flac
+Jun 23 11:27 : player: played "Purity Ring/Graves/06 soshy.flac"
+Jun 24 09:04 : config: option 'device' on line 119 was not recognized
+Jun 24 10:29 : player: played "Dorian Electra/My Agenda (deluxe)/15 Iron Fist (Alice Glass remix) (feat. Alice Glass & Faris Badwan).mp3"
+Jun 24 10:46 : update: added Flume/Palaces/01 Highest Building (feat. Oklou).mp3
+Jun 24 10:46 : update: added Flume/Palaces/02 Say Nothing (feat. MAY‐A).mp3
+Jun 24 10:46 : update: added Flume/Palaces/03 DHLC.mp3
+Jun 24 10:46 : update: added Flume/Palaces/04 Escape (feat. QUIET BISON).mp3
+Jun 24 10:46 : update: added Flume/Palaces/05 I Can’t Tell (feat. Laurel).mp3
+Jun 24 10:46 : update: added Flume/Palaces/06 Get U.mp3
+Jun 24 10:46 : update: added Flume/Palaces/07 Jasper’s Song.mp3
+Jun 24 10:46 : update: added Flume/Palaces/08 Only Fans (feat. Virgen María).mp3
+Jun 24 10:46 : update: added Flume/Palaces/09 Hollow (feat. Emma Louise).mp3
+Jun 24 10:46 : update: added Flume/Palaces/10 Love Light.mp3
+Jun 24 10:46 : update: added Flume/Palaces/11 Sirens (feat. Caroline Polachek).mp3
+Jun 24 10:46 : update: added Flume/Palaces/12 Go.mp3
+Jun 24 10:46 : update: added Flume/Palaces/13 Palaces (feat. Damon Albarn).mp3
+Jun 24 10:53 : player: played "Flume/Palaces/11 Sirens (feat. Caroline Polachek).mp3"
+Jun 24 11:07 : player: played "Purity Ring/Graves/01 graves.flac"
+Jun 24 12:28 : player: played "Purity Ring/Graves/02 neverend.flac"
+Jun 24 12:40 : player: played "Purity Ring/Graves/02 neverend.flac"
+Jun 24 12:41 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jun 24 12:44 : player: played "Purity Ring/Graves/04 unlucky.flac"
+Jun 24 15:36 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jun 24 15:39 : player: played "Purity Ring/Graves/04 unlucky.flac"
+Jun 24 15:42 : player: played "Purity Ring/Graves/05 watersong.flac"
+Jun 24 15:45 : player: played "Purity Ring/Graves/06 soshy.flac"
+Jun 24 15:47 : player: played "Purity Ring/Graves/07 xsalt.flac"
+Jun 24 17:36 : player: played "Dorian Electra/My Agenda (deluxe)/15 Iron Fist (Alice Glass remix) (feat. Alice Glass & Faris Badwan).mp3"
+Jun 24 17:58 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 24 18:02 : player: played "Burial/Untrue/02 Archangel.flac"
+Jun 24 18:28 : player: played "Burial/Untrue/02 Archangel.flac"
+Jun 25 08:54 : config: option 'device' on line 119 was not recognized
+Jun 25 09:10 : player: played "Burial/Untrue/02 Archangel.flac"
+Jun 25 09:22 : player: played "Purity Ring/Graves/01 graves.flac"
+Jun 25 09:58 : player: played "Purity Ring/Graves/02 neverend.flac"
+Jun 25 10:00 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jun 25 21:45 : player: played "Purity Ring/Graves/04 unlucky.flac"
+Jun 26 09:24 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Jun 26 09:39 : config: option 'device' on line 119 was not recognized
+Jun 26 09:54 : player: played "Crystal Castles/(III)/02 Kerosene.mp3"
+Jun 26 09:57 : player: played "Alice Glass/PREY__IV/06 THE HUNTED.mp3"
+Jun 26 10:00 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+Jun 26 10:47 : player: played "Burial/Untrue/02 Archangel.flac"
+Jun 26 10:52 : player: played "Khruangbin/Mordechai/01 First Class.mp3"
+Jun 26 10:58 : player: played "Khruangbin/Mordechai/02 Time (You and I).mp3"
+Jun 26 19:00 : config: option 'device' on line 119 was not recognized
+Jun 26 21:24 : player: played "Khruangbin/Mordechai/03 Connaissais de Face.mp3"
+Jun 27 09:13 : config: option 'device' on line 119 was not recognized
+Jun 27 11:35 : player: played "Purity Ring/Graves/01 graves.flac"
+Jun 27 11:40 : player: played "Purity Ring/Graves/02 neverend.flac"
+Jun 27 11:42 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jun 27 11:44 : player: played "Purity Ring/Graves/04 unlucky.flac"
+Jun 27 11:47 : player: played "Purity Ring/Graves/05 watersong.flac"
+Jun 27 11:50 : player: played "Purity Ring/Graves/06 soshy.flac"
+Jun 27 11:52 : player: played "Purity Ring/Graves/07 xsalt.flac"
+Jun 27 13:26 : player: played "The Chemical Brothers/No Geography/09 MAH.mp3"
+Jun 27 13:31 : player: played "Youryoungbody/Devotion/06 Swordswallower.mp3"
+Jun 27 14:35 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jun 27 14:39 : player: played "Burial/Untrue/02 Archangel.flac"
+Jun 27 14:58 : player: played "Charli XCX/CRASH/02 New Shapes (feat. Christine and the Queens and Caroline Polachek).flac"
+Jun 27 15:13 : player: played "Flume/Palaces/11 Sirens (feat. Caroline Polachek).mp3"
+Jun 27 15:26 : player: played "GFOTY/Femmedorm/02 BRAND NEW BRA.flac"
+Jun 27 15:28 : player: played "Dorian Electra/My Agenda (deluxe)/03 Gentleman.mp3"
+Jun 27 17:02 : player: played "Gesaffelstein/Aleph/11 Hate or Glory.mp3"
+Jun 27 17:57 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jun 27 17:59 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jun 27 18:18 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jun 27 20:10 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jun 28 08:17 : config: option 'device' on line 119 was not recognized
+Jun 28 09:39 : player: played "Purity Ring/Graves/01 graves.flac"
+Jun 28 09:43 : player: played "Purity Ring/Graves/02 neverend.flac"
+Jun 28 09:45 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jun 28 09:47 : player: played "Purity Ring/Graves/04 unlucky.flac"
+Jun 28 09:50 : player: played "Purity Ring/Graves/05 watersong.flac"
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:52 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:53 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 09:54 : player: played "Purity Ring/Graves/06 soshy.flac"
+Jun 28 09:56 : player: played "Purity Ring/Graves/07 xsalt.flac"
+Jun 28 10:17 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jun 28 10:17 : player: played "Purity Ring/Graves/04 unlucky.flac"
+Jun 28 10:20 : player: played "Alice Glass/PREY__IV/01 PREY.mp3"
+Jun 28 10:22 : player: played "Alice Glass/PREY__IV/02 PINNED BENEATH LIMBS.mp3"
+Jun 28 10:34 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jun 28 10:34 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+Jun 28 10:37 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+Jun 28 10:41 : player: played "Alice Glass/PREY__IV/05 EVERYBODY ELSE.mp3"
+Jun 28 10:44 : player: played "Alice Glass/PREY__IV/06 THE HUNTED.mp3"
+Jun 28 10:47 : player: played "Alice Glass/PREY__IV/07 FAIR GAME.mp3"
+Jun 28 10:50 : player: played "Alice Glass/PREY__IV/08 WITCH HUNT.mp3"
+Jun 28 10:53 : player: played "Alice Glass/PREY__IV/09 SUFFER AND SWALLOW.mp3"
+Jun 28 10:55 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+Jun 28 10:57 : player: played "Alice Glass/PREY__IV/11 ANIMOSITY.mp3"
+Jun 28 11:05 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+Jun 28 11:10 : player: played "Burial/Untrue/02 Archangel.flac"
+Jun 28 13:26 : player: played "Charli XCX/Pop 2/01 Backseat (feat. Carly Rae Jepsen).mp3"
+Jun 28 13:30 : player: played "Charli XCX/Pop 2/02 Out of My Head (feat. Tove Lo and ALMA).mp3"
+Jun 28 13:33 : player: played "Charli XCX/Pop 2/03 Lucky.mp3"
+Jun 28 13:38 : player: played "Charli XCX/Pop 2/04 Tears (feat. Caroline Polachek).mp3"
+Jun 28 13:42 : player: played "Charli XCX/Pop 2/05 I Got It (feat. Brooke Candy, cupcakKe and Pabllo Vittar).mp3"
+Jun 28 13:45 : player: played "Charli XCX/Pop 2/06 Femmebot (feat. Dorian Electra and Mykki Blanco).mp3"
+Jun 28 13:50 : player: played "Charli XCX/Pop 2/07 Delicious (feat. Tommy Cash).mp3"
+Jun 28 14:03 : player: played "Charli XCX/Pop 2/08 Unlock It (feat. Kim Petras and Jay Park).mp3"
+Jun 28 14:04 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jun 28 16:12 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jun 29 07:55 : config: option 'device' on line 119 was not recognized
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Jun 29 08:17 : config: option 'device' on line 119 was not recognized
+Jun 29 12:54 : exception: Not playing
+Jun 29 14:03 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jun 29 19:42 : config: option 'device' on line 119 was not recognized
+Jun 30 09:35 : config: option 'device' on line 119 was not recognized
+Jun 30 13:41 : exception: Not playing
+Jun 30 19:55 : config: option 'device' on line 119 was not recognized
+Jun 30 21:52 : player: played "Mr.Kitty/Time/09 After Dark.mp3"
+Jun 30 21:55 : player: played "Mr.Kitty/A.I_/02 Undo.mp3"
+Jun 30 22:06 : player: played "Burial/Untrue/02 Archangel.flac"
+Jun 30 22:37 : player: played "Czarface/CZARFACE/06 Savagely Attack (feat. Ghostface Killah).mp3"
+Jun 30 23:15 : player: played "Lorn/RARITIES/26 SEGA SUNSET.mp3"
+Jul 01 08:57 : config: option 'device' on line 119 was not recognized
+Jul 01 09:40 : player: played "Czarface/The Odd Czar Against Us/02 Call Me.mp3"
+Jul 01 09:46 : player: played "Czarface/Every Hero Needs a Villain/11 Ka-Bang! (feat. MF DOOM).mp3"
+Jul 01 09:50 : player: played "clipping_/Visions of Bodies Being Burned/04 ’96 Neve Campbell (feat. Cam & China).mp3"
+Jul 01 10:01 : player: played "Viktor Vaughn/(VV_2) Venomous Villain/02 Back End.mp3"
+Jul 01 10:20 : player: played "Viktor Vaughn/Vaudeville Villain/01 Overture.mp3"
+Jul 01 10:22 : player: played "Viktor Vaughn/Vaudeville Villain/02 Vaudeville Villain.mp3"
+Jul 01 10:25 : player: played "Viktor Vaughn/Vaudeville Villain/03 Lickupon.mp3"
+Jul 01 10:28 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jul 01 10:28 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jul 01 10:28 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jul 01 10:28 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jul 01 10:28 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Jul 01 10:29 : player: played "Viktor Vaughn/Vaudeville Villain/04 The Drop.mp3"
+Jul 01 10:31 : player: played "Viktor Vaughn/Vaudeville Villain/05 Lactose and Lecithin.mp3"
+Jul 01 10:35 : player: played "Viktor Vaughn/Vaudeville Villain/06 A Dead Mouse.mp3"
+Jul 01 10:39 : player: played "Viktor Vaughn/Vaudeville Villain/07 Open Mic Nite, Part 1 (feat. Lord Sear, Brother Sambuca, Rodan & Louis Logic).mp3"
+Jul 01 10:42 : player: played "Viktor Vaughn/Vaudeville Villain/08 Raedawn.mp3"
+Jul 01 10:47 : player: played "Viktor Vaughn/Vaudeville Villain/09 Let Me Watch (feat. Apani B. Fly).mp3"
+Jul 01 10:49 : player: played "Viktor Vaughn/Vaudeville Villain/10 Saliva.mp3"
+Jul 01 10:52 : player: played "Viktor Vaughn/Vaudeville Villain/11 Modern Day Mugging.mp3"
+Jul 01 13:00 : player: played "Viktor Vaughn/Vaudeville Villain/11 Modern Day Mugging.mp3"
+Jul 01 13:03 : player: played "Viktor Vaughn/Vaudeville Villain/12 Open Mic Nite, Part 2 (feat. Lord Sear, AJ Ready Wright & Creature).mp3"
+Jul 01 13:07 : player: played "Viktor Vaughn/Vaudeville Villain/13 Never Dead (feat. M. Sayyid).mp3"
+Jul 01 13:11 : player: played "Viktor Vaughn/Vaudeville Villain/14 Popsnot.mp3"
+Jul 01 13:14 : player: played "Viktor Vaughn/Vaudeville Villain/15 Mr. Clean.mp3"
+Jul 01 13:17 : player: played "Viktor Vaughn/Vaudeville Villain/16 G.M.C_.mp3"
+Jul 01 14:05 : player: played "Gesaffelstein/Aleph/11 Hate or Glory.mp3"
+Jul 01 14:09 : player: played "Gesaffelstein/Aleph/02 Pursuit.mp3"
+Jul 01 14:28 : player: played "Periphery/Periphery IV_ HAIL STAN/03 CHVRCH BVRNER.mp3"
+Jul 01 17:26 : config: option 'device' on line 119 was not recognized
+Jul 02 13:46 : config: option 'device' on line 119 was not recognized
+Jul 02 13:48 : config: option 'device' on line 119 was not recognized
+Jul 02 22:30 : config: option 'device' on line 119 was not recognized
+Jul 03 10:27 : config: option 'device' on line 119 was not recognized
+Jul 03 10:43 : config: option 'device' on line 119 was not recognized
+Jul 03 11:07 : config: option 'device' on line 119 was not recognized
+Jul 03 11:12 : config: option 'device' on line 119 was not recognized
+Jul 03 11:15 : player: played "Gesaffelstein/Aleph/02 Pursuit.mp3"
+Jul 03 11:26 : player: played "Burial/Untrue/01 [untitled].flac"
+Jul 03 11:30 : player: played "Burial/Untrue/02 Archangel.flac"
+Jul 03 11:34 : player: played "Burial/Untrue/03 Near Dark.flac"
+Jul 03 12:08 : player: played "Burial/Untrue/04 Ghost Hardware.flac"
+Jul 03 12:11 : player: played "Burial/Untrue/05 Endorphin.flac"
+Jul 03 12:18 : player: played "Burial/Untrue/06 Etched Headplate.flac"
+Jul 03 12:20 : player: played "Burial/Untrue/07 In McDonalds.flac"
+Jul 03 12:26 : player: played "Burial/Untrue/08 Untrue.flac"
+Jul 03 12:31 : player: played "Burial/Untrue/09 Shell of Light.flac"
+Jul 03 12:34 : player: played "Burial/Untrue/10 Dog Shelter.flac"
+Jul 03 12:39 : player: played "Burial/Untrue/11 Homeless.flac"
+Jul 03 12:41 : player: played "Burial/Untrue/12 UK.flac"
+Jul 03 12:46 : player: played "Burial/Untrue/13 Raver.flac"
+Jul 03 12:53 : player: played "Burial/Untrue/14 Shutta.flac"
+Jul 03 12:58 : player: played "Burial/Untrue/15 Exit Woundz.flac"
+Jul 03 15:41 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jul 03 15:53 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jul 03 15:58 : player: played "Ravenna Golden/Cry [762]/01 Pills _-(.mp3"
+Jul 03 16:34 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Jul 03 16:34 : player: played "Ravenna Golden/Cry [762]/01 Pills _-(.mp3"
+Jul 03 16:37 : player: played "Ravenna Golden/Cry [762]/01 Eyes on Me.mp3"
+Jul 03 16:40 : player: played "Grimes/Miss Anthropocene/08 You’ll miss me when I’m not around.mp3"
+Jul 03 16:45 : player: played "Goo Munday/F__k Your Fear (mr.kitty Remix)/01 F__k Your Fear (Mr.Kitty Remix).mp3"
+Jul 03 16:49 : player: played "Mr.Kitty/A.I_/15 I Hope You Fall Apart.mp3"
+Jul 03 16:53 : player: played "Mr.Kitty/Ephemeral/09 Empty Phases.mp3"
+Jul 03 17:26 : player: played "Mr.Kitty/Ephemeral/14 Puzzle Heart (feat. 初音ミク).mp3"
+Jul 03 17:40 : player: played "Lorn/RARITIES/01 555‒5555.mp3"
+Jul 03 17:59 : player: played "Mr.Kitty/Time/09 After Dark.mp3"
+Jul 04 16:15 : exception: Not playing
+Jul 04 16:15 : exception: Not playing
+Jul 04 16:25 : player: played "Crystal Castles/(III)/04 Affection.mp3"
+Jul 04 16:28 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+Jul 04 17:23 : player: played "Charli XCX/Pop 2/02 Out of My Head (feat. Tove Lo and ALMA).mp3"
+Jul 04 17:28 : player: played "Charli XCX/Pop 2/08 Unlock It (feat. Kim Petras and Jay Park).mp3"
+Jul 05 09:14 : player: played "Czarface/The Odd Czar Against Us/02 Call Me.mp3"
+Jul 05 09:20 : player: played "Khruangbin/Mordechai/01 First Class.mp3"
+Jul 05 09:26 : player: played "Khruangbin/Mordechai/02 Time (You and I).mp3"
+Jul 05 09:31 : player: played "Khruangbin/Mordechai/03 Connaissais de Face.mp3"
+Jul 05 09:34 : player: played "Khruangbin/Mordechai/04 Father Bird, Mother Bird.mp3"
+Jul 05 09:40 : player: played "Khruangbin/Mordechai/05 If There Is No Question.mp3"
+Jul 05 09:43 : player: played "Khruangbin/Mordechai/06 Pelota.mp3"
+Jul 05 09:47 : player: played "Khruangbin/Mordechai/07 One to Remember.mp3"
+Jul 05 09:51 : player: played "Khruangbin/Mordechai/08 Dearest Alfred.mp3"
+Jul 05 10:30 : player: played "Youryoungbody/eXcess/01 goo.mp3"
+Jul 05 10:33 : player: played "Youryoungbody/eXcess/02 in your dream.mp3"
+Jul 05 10:36 : player: played "Youryoungbody/eXcess/03 so pure.mp3"
+Jul 05 10:38 : player: played "Youryoungbody/eXcess/04 480p.mp3"
+Jul 05 10:41 : player: played "Youryoungbody/eXcess/05 wrapping around your insides.mp3"
+Jul 05 11:07 : player: played "After the Burial/Evergreen/01 Behold the Crown.mp3"
+Jul 05 11:11 : player: played "After the Burial/Evergreen/02 Exit, Exist.mp3"
+Jul 05 17:08 : player: played "Sidewalks and Skeletons/Exorcism/14 Into the Dark (feat. Ferngazer).flac"
+Jul 05 17:20 : player: played "Grimes/Miss Anthropocene/08 You’ll miss me when I’m not around.mp3"
+Jul 05 17:56 : player: played "Charli XCX/Pop 2/08 Unlock It (feat. Kim Petras and Jay Park).mp3"
+Jul 06 11:30 : player: played "GFOTY/Femmedorm/02 BRAND NEW BRA.flac"
+Jul 06 11:41 : player: played "clipping_/Visions of Bodies Being Burned/04 ’96 Neve Campbell (feat. Cam & China).mp3"
+Jul 06 11:47 : player: played "Charli XCX/Pop 2/08 Unlock It (feat. Kim Petras and Jay Park).mp3"
+Jul 06 13:26 : player: played "Dorian Electra/My Agenda (deluxe)/15 Iron Fist (Alice Glass remix) (feat. Alice Glass & Faris Badwan).mp3"
+Jul 06 13:34 : player: played "HAIM/Days Are Gone/01 Falling.mp3"
+Jul 06 13:46 : player: played "Charli XCX/how i'm feeling now/07 i finally understand.mp3"
+Jul 06 14:22 : player: played "Charli XCX/how i'm feeling now/08 c2.0.mp3"
+Jul 06 14:45 : player: played "Little Dragon/New Me, Same Us/07 Sadness.mp3"
+Jul 06 14:54 : player: played "Alice Glass/PREY__IV/06 THE HUNTED.mp3"
+Jul 06 14:59 : player: played "Alice Glass/PREY__IV/05 EVERYBODY ELSE.mp3"
+Jul 06 15:23 : player: played "CHVRCHES/Every Open Eye/17 Bury It.mp3"
+Jul 06 15:28 : player: played "CHVRCHES/Every Open Eye/07 Empty Threat.mp3"
+Jul 06 15:33 : player: played "CHVRCHES/Every Open Eye/16 Warning Call (Theme From Mirror’s Edge Catalyst).mp3"
+Jul 07 10:21 : player: played "Anamanaguchi/Endless Fantasy/12 Meow.mp3"

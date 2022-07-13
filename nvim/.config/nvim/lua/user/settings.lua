@@ -17,4 +17,4 @@ set.smartindent = true
 set.tabstop = 2
 set.shiftwidth = 2
 set.expandtab = true
-
+set.guifont = {"Iosevka"}

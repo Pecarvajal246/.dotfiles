@@ -38,11 +38,6 @@ local mappings = {
 		name = "Plugins",
 		u = { "<cmd>PackerUpdate<cr>", "Update Plugins" },
 	},
-	r = {
-		name = "Refactoring",
-		c = { ":lua require('refactoring').debug.cleanup({})<CR>", "Clean prints" },
-		p = { ":lua require('refactoring').debug.printf({below = false})<CR>", "Print function" },
-	},
 	s = {
 		name = "Search",
 		c = { "<cmd>Telescope neoclip<cr>", "Search Clipboard" },
@@ -78,12 +73,8 @@ local v_opts = {
 	noremap = true, -- use `noremap` when creating keymaps
 	nowait = true, -- use `nowait` when creating keymaps
 }
+
 local v_mappings = {
-	r = {
-		name = "Refactoring",
-		r = { "<Esc><cmd>lua require'telescope'.extensions.refactoring.refactors()<cr>", "Refactor" },
-		v = { ":lua require('refactoring').debug.print_var({})<CR>", "Print variable" },
-	},
 }
 which_key.register(mappings, opts)
 which_key.register(v_mappings, v_opts)
