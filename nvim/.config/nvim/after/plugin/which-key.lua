@@ -28,6 +28,7 @@ local mappings = {
 		f = { "<cmd>Telescope find_files<cr>", "Find File" },
 		g = { "<cmd>Telescope git_files<cr>", "Find Git Files" },
 		h = { "<cmd>Telescope oldfiles<cr>", "File History" },
+		n = { "<cmd>lua require('telescope.builtin').find_files{cwd='~/neorg'}<cr>", "Notes" },
 		p = {
 			"<cmd>:lua require'telescope'.extensions.repo.list{search_dirs = {'~/Documents', '~/python_scripts'}}<cr>",
 			"Projects",

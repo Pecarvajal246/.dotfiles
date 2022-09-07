@@ -255,8 +255,8 @@ awful.screen.connect_for_each_screen(function(s)
                             horiz = 'center',
                             argname = '--class %s'})
 
-    s.stig = lain.util.quake({ app = 'kitty',
-                            extra = '-e stig',
+    s.aria2c = lain.util.quake({ app = 'kitty',
+                            extra = '-e aria2c',
                             name = 'stig',
                             height = 0.9,
                             width = 0.9,
@@ -563,9 +563,9 @@ globalkeys = mytable.join(
      -- btop
     awful.key({ modkey, "Mod1"}, "b",  function () awful.screen.focused().btop:toggle() end,
               {description = "launch btop", group = "Apps"}),
-     -- stig
-    awful.key({ modkey, "Mod1"}, "t",  function () awful.screen.focused().stig:toggle() end,
-              {description = "launch stig", group = "Apps"}),
+     -- aria2c
+    awful.key({ modkey, "Mod1"}, "a",  function () awful.screen.focused().aria2c:toggle() end,
+              {description = "launch aria2c", group = "Apps"}),
 
     awful.key({ modkey }, "x",
               function ()

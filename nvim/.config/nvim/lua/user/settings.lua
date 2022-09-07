@@ -1,4 +1,6 @@
 local set = vim.opt
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 set.mouse = "a"
 set.number = true
 set.relativenumber = true
@@ -18,3 +20,4 @@ set.tabstop = 2
 set.shiftwidth = 2
 set.expandtab = true
 set.guifont = {"Iosevka"}
+set.foldenable = false
