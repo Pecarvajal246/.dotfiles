@@ -77,7 +77,9 @@ return packer.startup(function(use)
 	use("TimUntersberger/neogit")
 
 	-- LSP
-	use("williamboman/nvim-lsp-installer")
+	-- use("williamboman/nvim-lsp-installer")
+	use("williamboman/mason.nvim")
+	use("williamboman/mason-lspconfig.nvim")
 	use("neovim/nvim-lspconfig")
 	use("jose-elias-alvarez/null-ls.nvim")
 	use("folke/trouble.nvim")
