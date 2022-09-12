@@ -42,7 +42,6 @@ packer.init({
 return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
 	use("lewis6991/impatient.nvim")
-	use("nathom/filetype.nvim")
 	use("lukas-reineke/indent-blankline.nvim")
 	use("windwp/nvim-autopairs")
 	use("numToStr/Comment.nvim")
@@ -54,49 +53,30 @@ return packer.startup(function(use)
 	use("mvllow/modes.nvim")
 	use("akinsho/toggleterm.nvim")
 	use("stevearc/dressing.nvim")
-	use({
-		"ThePrimeagen/refactoring.nvim",
-		requires = {
-			{ "nvim-lua/plenary.nvim" },
-			{ "nvim-treesitter/nvim-treesitter" },
-		},
-	})
-	-- use({
-	-- 	"zbirenbaum/copilot.lua",
-	-- 	-- event = { "VimEnter" },
-	-- 	after = "lualine.nvim",
-	-- 	config = function()
-	-- 		vim.defer_fn(function()
-	-- 			require("copilot").setup()
-	-- 		end, 100)
-	-- 	end,
-	-- })
 
 	-- git
 	use("lewis6991/gitsigns.nvim")
 	use("TimUntersberger/neogit")
 
 	-- LSP
-	-- use("williamboman/nvim-lsp-installer")
-	use("williamboman/mason.nvim")
-	use("williamboman/mason-lspconfig.nvim")
-	use("neovim/nvim-lspconfig")
+	use({ "williamboman/mason-lspconfig.nvim", requires = {
+		{ "neovim/nvim-lspconfig" },
+		{ "williamboman/mason.nvim" },
+	} })
 	use("jose-elias-alvarez/null-ls.nvim")
 	use("folke/trouble.nvim")
-	-- use("ray-x/lsp_signature.nvim")
+	use("ray-x/lsp_signature.nvim")
 	use("j-hui/fidget.nvim")
 
 	-- Completion
 	use("hrsh7th/nvim-cmp")
 	use("hrsh7th/cmp-nvim-lsp")
 	use("hrsh7th/cmp-buffer")
+	-- use("hrsh7th/cmp-nvim-lsp-signature-help")
+	use("hrsh7th/cmp-nvim-lua")
+	use("hrsh7th/cmp-path")
 	use("saadparwaiz1/cmp_luasnip")
 	use("mattn/emmet-vim")
-	use("hrsh7th/cmp-nvim-lsp-signature-help")
-	-- use({
-	-- 	"zbirenbaum/copilot-cmp",
-	-- 	after = { "copilot.lua", "nvim-cmp" },
-	-- })
 
 	-- Telescope
 	use("nvim-lua/plenary.nvim")
@@ -110,11 +90,19 @@ return packer.startup(function(use)
 		requires = { "nvim-lua/plenary.nvim" },
 	})
 
-	-- Debugging
+	-- Debugging and testing
 	use("mfussenegger/nvim-dap")
 	use("mfussenegger/nvim-dap-python")
 	use("rcarriga/nvim-dap-ui")
 	use("theHamsta/nvim-dap-virtual-text")
+	use("rest-nvim/rest.nvim")
+	use({
+		"ThePrimeagen/refactoring.nvim",
+		requires = {
+			{ "nvim-lua/plenary.nvim" },
+			{ "nvim-treesitter/nvim-treesitter" },
+		},
+	})
 
 	-- Themes
 	use("folke/tokyonight.nvim")
@@ -137,6 +125,7 @@ return packer.startup(function(use)
 		run = ":TSUpdate",
 	})
 	use("p00f/nvim-ts-rainbow")
+	use("RRethy/nvim-treesitter-textsubjects")
 	use("windwp/nvim-ts-autotag")
 	use("RRethy/nvim-treesitter-endwise")
 	use("m-demare/hlargs.nvim")

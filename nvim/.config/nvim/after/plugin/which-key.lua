@@ -75,7 +75,6 @@ local v_opts = {
 	nowait = true, -- use `nowait` when creating keymaps
 }
 
-local v_mappings = {
-}
+local v_mappings = {}
 which_key.register(mappings, opts)
 which_key.register(v_mappings, v_opts)

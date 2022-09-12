@@ -71,29 +71,27 @@ cmp.setup({
 			-- vim_item.kind = string.format("%s", kind_icons[vim_item.kind])
 			vim_item.kind = string.format("%s %s", kind_icons[vim_item.kind], vim_item.kind) -- This concatonates the icons with the name of the item kind
 			vim_item.menu = ({
-				-- copilot = "[Copilot]",
 				nvim_lsp = "[LSP]",
 				luasnip = "[Snippet]",
 				buffer = "[Buffer]",
 				path = "[Path]",
+				nvim_lua = "[Lua]"
 			})[entry.source.name]
 			return vim_item
 		end,
 	},
 	sources = {
-		{ name = "nvim_lsp_signature_help" },
-		-- { name = "copilot" },
+		-- { name = "nvim_lsp_signature_help" },
 		{ name = "nvim_lsp" },
 		{ name = "luasnip" },
 		{ name = "buffer" },
 		{ name = "path" },
+		{ name = "nvim_lua" },
 		{ name = "neorg" },
 	},
 	sorting = {
 		priority_weight = 2,
 		comparators = {
-			-- require("copilot_cmp.comparators").prioritize,
-			-- require("copilot_cmp.comparators").score,
 			-- Below is the default comparitor list and order for nvim-cmp
 			cmp.config.compare.locality,
 			cmp.config.compare.recently_used,

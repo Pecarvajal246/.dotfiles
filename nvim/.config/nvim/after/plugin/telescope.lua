@@ -14,6 +14,7 @@ telescope.setup({
 		mappings = {
 			i = {
 				["<esc>"] = actions.close,
+				["<C-h>"] = "which_key",
 			},
 		},
 	},
