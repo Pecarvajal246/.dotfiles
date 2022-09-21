@@ -1,9 +1,7 @@
-sw_volume: 98
+sw_volume: 96
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:toggle_visualizer
-state: play
-current: 3
-time: 101.478000
+state: stop
 random: 0
 repeat: 0
 single: 0
@@ -12,8 +10,5 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Purity Ring/Graves/03 nthngsfine.flac
-1:Purity Ring/WOMB/04 i like the devil.mp3
-2:Purity Ring/another eternity/03 push pull.mp3
-3:Pale Waves/All the Things I Never Said/01 New Year's Eve.mp3
+0:Oklou/Galore/02 fall.flac
 playlist_end

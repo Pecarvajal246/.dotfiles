@@ -3,4 +3,10 @@ if not rest_status_ok then
   return
 end
 
-rest.setup{}
+rest.setup{
+  result ={
+    formatters = {
+      json = "jq"
+    }
+  }
+}

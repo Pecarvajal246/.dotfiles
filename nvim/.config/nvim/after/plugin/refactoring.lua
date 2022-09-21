@@ -24,7 +24,7 @@ local mappings = {
 		name = "Refactoring",
 		c = { refactoring.debug.cleanup, "Clean prints" },
 		f = { refactoring.debug.printf, "Print function" },
-		v = { refactoring.debug.print_var, "Print variable" },
+		v = { ":lua require('refactoring').debug.print_var({ normal = true })<CR>", "Print variable" },
 	},
 }
 
@@ -43,7 +43,7 @@ local v_opts = {
 local v_mappings = {
 	r = {
 		name = "Refactoring",
-		r = { "<Esc><cmd>lua require'telescope'.extensions.refactoring.refactors()<cr>", "Refactor" },
+		r = { ":lua require'telescope'.extensions.refactoring.refactors()<cr>", "Refactor" },
 		v = { refactoring.debug.print_var, "Print variable" },
 	},
 }

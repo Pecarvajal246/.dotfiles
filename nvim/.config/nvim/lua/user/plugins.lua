@@ -41,7 +41,9 @@ packer.init({
 -- Install your plugins here
 return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
-	use("lewis6991/impatient.nvim")
+	use("lewis6991/impatient.nvim", function()
+		require("impatient").setup()
+	end)
 	use("lukas-reineke/indent-blankline.nvim")
 	use("windwp/nvim-autopairs")
 	use("numToStr/Comment.nvim")
@@ -53,16 +55,26 @@ return packer.startup(function(use)
 	use("mvllow/modes.nvim")
 	use("akinsho/toggleterm.nvim")
 	use("stevearc/dressing.nvim")
+	use({
+		"glacambre/firenvim",
+		run = function()
+			vim.fn["firenvim#install"](0)
+		end,
+	})
 
 	-- git
 	use("lewis6991/gitsigns.nvim")
 	use("TimUntersberger/neogit")
+	use("sindrets/diffview.nvim")
 
 	-- LSP
-	use({ "williamboman/mason-lspconfig.nvim", requires = {
-		{ "neovim/nvim-lspconfig" },
-		{ "williamboman/mason.nvim" },
-	} })
+	use({
+		"williamboman/mason-lspconfig.nvim",
+		requires = {
+			{ "neovim/nvim-lspconfig" },
+			{ "williamboman/mason.nvim" },
+		},
+	})
 	use("jose-elias-alvarez/null-ls.nvim")
 	use("folke/trouble.nvim")
 	use("ray-x/lsp_signature.nvim")
@@ -126,8 +138,6 @@ return packer.startup(function(use)
 	})
 	use("p00f/nvim-ts-rainbow")
 	use("RRethy/nvim-treesitter-textsubjects")
-	use("windwp/nvim-ts-autotag")
-	use("RRethy/nvim-treesitter-endwise")
 	use("m-demare/hlargs.nvim")
 
 	if PACKER_BOOTSTRAP then
