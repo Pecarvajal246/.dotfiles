@@ -17,10 +17,6 @@ vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.s
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
 local on_attach = function(client, bufnr)
-	if client.name ~= "null-ls" then
-		client.server_capabilities.document_formatting = false
-		client.server_capabilities.document_range_formatting = false
-	end
 	-- Mappings.
 
 	local bufopts = { noremap = true, silent = true, buffer = bufnr }
@@ -42,14 +38,6 @@ local on_attach = function(client, bufnr)
 	vim.keymap.set("n", "gr", "<cmd>TroubleToggle lsp_references<cr>", bufopts)
 	vim.keymap.set("n", "<space>F", vim.lsp.buf.formatting, bufopts)
 
-	-- formatting
-	-- if client.resolved_capabilities.document_formatting then
-	--   vim.api.nvim_command [[augroup Format]]
-	--   vim.api.nvim_command [[autocmd! * <buffer>]]
-	--   vim.api.nvim_command [[autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting_seq_sync()]]
-	--   vim.api.nvim_command [[augroup END]]
-	-- end
-
 	-- highlighting
 	if client.server_capabilities.document_highlight then
 		vim.api.nvim_command([[augroup lsp_document_highlight]])
@@ -62,7 +50,7 @@ end
 
 mason.setup({})
 mason_lspconfig.setup({
-	ensure_installed = { "sumneko_lua", "pyright", "tsserver" },
+	ensure_installed = { "sumneko_lua", "jedi_language_server", "tsserver" },
 })
 
 lspconfig.util.default_config = vim.tbl_extend("force", lspconfig.util.default_config, {

@@ -15,3 +15,4 @@ run nm-applet
 run playerctld daemon
 run mpDris2
 run sxhkd
+run twofi_d

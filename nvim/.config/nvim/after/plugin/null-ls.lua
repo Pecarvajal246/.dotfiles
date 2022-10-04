@@ -1,25 +1,33 @@
+local mason_status_ok, mason = pcall(require, "mason")
 local null_ls_status_ok, null_ls = pcall(require, "null-ls")
-if not null_ls_status_ok then
-  return
+local mason_null_ls_status_ok, mason_null_ls = pcall(require, "mason-null-ls")
+if not mason_status_ok or not null_ls_status_ok or not mason_null_ls_status_ok then
+	return
 end
 
--- https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/formatting
+mason_null_ls.setup({
+	ensure_installed = { "stylua", "black", "prettierd", "pylint"},
+	automatic_installation = true,
+})
+
 local formatting = null_ls.builtins.formatting
--- https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/diagnostics
 local diagnostics = null_ls.builtins.diagnostics
 
-null_ls.setup {
-  debug = false,
-  sources = {
-    formatting.prettierd,
-    formatting.black.with { extra_args = { "--fast" } },
-    formatting.stylua,
-    formatting.djlint,
-    diagnostics.djlint,
-    -- diagnostics.flake8,
-  },
-on_attach = function(client, bufnr)
-  vim.api.nvim_buf_set_keymap(bufnr, 'n', '<space>F', '<cmd>lua vim.lsp.buf.formatting()<CR>', {noremap = true, silent = true})
-  end,
-}
-
+null_ls.setup({
+	debug = false,
+	sources = {
+		formatting.prettierd,
+		formatting.black.with({ extra_args = { "--fast" } }),
+		formatting.stylua,
+		diagnostics.pylint,
+	},
+	-- on_attach = function(client, bufnr)
+	-- 	vim.api.nvim_buf_set_keymap(
+	-- 		bufnr,
+	-- 		"n",
+	-- 		"<space>F",
+	-- 		"<cmd>lua vim.lsp.buf.format()<CR>",
+	-- 		{ noremap = true, silent = true }
+	-- 	)
+	-- end,
+})

@@ -21,29 +21,9 @@ local opts = {
 }
 
 local mappings = {
-	f = {
-		name = "files",
-		b = { "<cmd>Telescope file_browser<cr>", "File Browser" },
-		c = { "<cmd>lua require('telescope.builtin').find_files{cwd='~/.config/nvim'}<cr>", "Config files" },
-		f = { "<cmd>Telescope find_files<cr>", "Find File" },
-		g = { "<cmd>Telescope git_files<cr>", "Find Git Files" },
-		h = { "<cmd>Telescope oldfiles<cr>", "File History" },
-		n = { "<cmd>lua require('telescope.builtin').find_files{cwd='~/neorg'}<cr>", "Notes" },
-		p = {
-			"<cmd>:lua require'telescope'.extensions.repo.list{search_dirs = {'~/Documents', '~/python_scripts'}}<cr>",
-			"Projects",
-		},
-		s = { "<cmd>:Telescope possession list<cr>", "Sessions" },
-	},
 	p = {
 		name = "Plugins",
 		u = { "<cmd>PackerUpdate<cr>", "Update Plugins" },
-	},
-	s = {
-		name = "Search",
-		c = { "<cmd>Telescope neoclip<cr>", "Search Clipboard" },
-		f = { "<cmd>Telescope current_buffer_fuzzy_find<cr>", "Search current buffer" },
-		k = { "<cmd>Telescope keymaps<cr>", "Search Keymaps" },
 	},
 	t = {
 		name = "Terminal",

@@ -95,7 +95,7 @@ export PATH=$PATH:/home/pedro/Applications
 export PATH=$PATH:/home/pedro/.cargo/bin
 export VISUAL=nvim
 export EDITOR=nvim
-export BROWSER=brave
+export BROWSER=firefox
 export MAILCAPS=/home/pedro/.config/tuir/mailcaps
 export TUIR_BROWSER=/home/pedro/.config/tuir/link_handler
 # export FZF_DEFAULT_OPTS= '--cycle --follow --layout=reverse --border --height=90% --preview-window=wrap --marker="*"'

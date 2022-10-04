@@ -76,6 +76,7 @@ return packer.startup(function(use)
 		},
 	})
 	use("jose-elias-alvarez/null-ls.nvim")
+	use("jayp0521/mason-null-ls.nvim")
 	use("folke/trouble.nvim")
 	use("ray-x/lsp_signature.nvim")
 	use("j-hui/fidget.nvim")
@@ -97,10 +98,6 @@ return packer.startup(function(use)
 	use("AckslD/nvim-neoclip.lua")
 	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" })
 	use("cljoly/telescope-repo.nvim")
-	use({
-		"jedrzejboczar/possession.nvim",
-		requires = { "nvim-lua/plenary.nvim" },
-	})
 
 	-- Debugging and testing
 	use("mfussenegger/nvim-dap")

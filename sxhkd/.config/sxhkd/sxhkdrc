@@ -14,10 +14,13 @@ super + e
 	thunar
 
 super + b
-	brave
+	firefox
 
 XF86Audio{Prev,Next}
 	playerctl {prev,next}
 
 XF86AudioPlay
 	playerctl play-pause
+
+ctrl + space
+  dunstctl close-all

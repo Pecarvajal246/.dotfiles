@@ -1,10 +1,6 @@
 local refactoring_status_ok, refactoring = pcall(require, "refactoring")
-if not refactoring_status_ok then
-	return
-end
-
 local which_key_status_ok, which_key = pcall(require, "which-key")
-if not which_key_status_ok then
+if not refactoring_status_ok or not which_key_status_ok then
 	return
 end
 

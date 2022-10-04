@@ -1,5 +1,4 @@
 from typing import List  # noqa: F401
-
 from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen, ScratchPad, DropDown
 from libqtile.lazy import lazy
@@ -9,21 +8,22 @@ import subprocess
 
 from libqtile import hook
 
+
 @hook.subscribe.startup_once
 def autostart():
-    home = os.path.expanduser('~/.config/autostart.sh')
+    home = os.path.expanduser("~/.config/autostart.sh")
     subprocess.run([home])
 
 
 @hook.subscribe.client_new
 def assign_app_group(client):
-    wm_class = client.window.get_wm_class()[0]
-
-    for i in range(len(clientRules)):
-        if wm_class in list(clientRules.values())[i]:
-            group = list(clientRules.keys())[i]
+    wm_class = client.window.get_wm_class()
+    for k, v in clientRules.items():
+        if any(x in wm_class for x in v):
+            group = k
             client.togroup(group)
             client.group.cmd_toscreen(toggle=False)
+
 
 local_bin = os.path.expanduser("~") + "/.local/bin"
 if local_bin not in os.environ["PATH"]:
@@ -31,7 +31,8 @@ if local_bin not in os.environ["PATH"]:
 
 mod = "mod4"
 alt = "mod1"
-terminal = "kitty"
+# terminal = "kitty"
+terminal = guess_terminal("kitty")
 
 colors = [
     ["#D9E0EE", "#D9E0EE"],  # foreground
@@ -51,7 +52,6 @@ colors = [
     ["#242831", "#242831"],  # super dark background
 ]
 
-
 keys = [
     # A list of available commands that can be bound to keys can be found
     # at https://docs.qtile.org/en/latest/manual/config/lazy.html
@@ -60,25 +60,63 @@ keys = [
     Key([mod], "l", lazy.layout.right(), desc="Move focus to right"),
     Key([mod], "j", lazy.layout.down(), desc="Move focus down"),
     Key([mod], "k", lazy.layout.up(), desc="Move focus up"),
-    Key([mod], "Tab", lazy.layout.next(), desc="Move window focus to other window"),
+    Key([mod],
+        "Tab",
+        lazy.layout.next(),
+        desc="Move window focus to other window"),
     # Move windows between left/right columns or move up/down in current stack.
     # Moving out of range in Columns layout will create new column.
-    Key([mod, "shift"], "h", lazy.layout.shuffle_left(), desc="Move window to the left"),
-    Key([mod, "shift"], "l", lazy.layout.shuffle_right(), desc="Move window to the right"),
-    Key([mod, "shift"], "j", lazy.layout.shuffle_down(), desc="Move window down"),
+    Key([mod, "shift"],
+        "h",
+        lazy.layout.shuffle_left(),
+        desc="Move window to the left"),
+    Key(
+        [mod, "shift"],
+        "l",
+        lazy.layout.shuffle_right(),
+        desc="Move window to the right",
+    ),
+    Key([mod, "shift"],
+        "j",
+        lazy.layout.shuffle_down(),
+        desc="Move window down"),
     Key([mod, "shift"], "k", lazy.layout.shuffle_up(), desc="Move window up"),
     # Grow windows. If current window is on the edge of screen and direction
     # will be to screen edge - window would shrink.
-    Key([mod, "control"], "h", lazy.layout.shrink(), lazy.layout.decrease_ratio(), desc="Grow window to the left"),
-    Key([mod, "control"], "l", lazy.layout.grow(), lazy.layout.increase_ratio(), desc="Grow window to the right"),
-    Key([mod, "control"], "j", lazy.layout.grow_down(), desc="Grow window down"),
+    Key(
+        [mod, "control"],
+        "h",
+        lazy.layout.shrink(),
+        lazy.layout.decrease_ratio(),
+        desc="Grow window to the left",
+    ),
+    Key(
+        [mod, "control"],
+        "l",
+        lazy.layout.grow(),
+        lazy.layout.increase_ratio(),
+        desc="Grow window to the right",
+    ),
+    Key([mod, "control"],
+        "j",
+        lazy.layout.grow_down(),
+        desc="Grow window down"),
     Key([mod, "control"], "k", lazy.layout.grow_up(), desc="Grow window up"),
     Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
     Key([mod], "f", lazy.window.toggle_fullscreen(), desc="Fullscreen window"),
     Key([mod], "m", lazy.window.toggle_maximize(), desc="Maximize window"),
-    Key([mod, "control"], "n", lazy.window.toggle_minimize(), desc="Reset all window sizes"),
-    Key([mod, "control"], "space", lazy.window.toggle_floating(), desc="Toggle floating window"),
-
+    Key(
+        [mod, "control"],
+        "n",
+        lazy.window.toggle_minimize(),
+        desc="Reset all window sizes",
+    ),
+    Key(
+        [mod, "control"],
+        "space",
+        lazy.window.toggle_floating(),
+        desc="Toggle floating window",
+    ),
     # Toggle between split and unsplit sides of stack.
     # Split = all windows displayed
     # Unsplit = 1 window displayed, like Max layout, but still with
@@ -95,40 +133,37 @@ keys = [
     Key([mod], "q", lazy.window.kill(), desc="Kill focused window"),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
-
     # Audio
     Key([], "XF86AudioLowerVolume", lazy.spawn("pamixer --decrease 5")),
     Key([], "XF86AudioRaiseVolume", lazy.spawn("pamixer --increase 5")),
     Key([], "XF86AudioMute", lazy.spawn("pamixer --toggle-mute")),
-
-    # MPD
-    Key([], "XF86AudioPlay", lazy.spawn("mpc toggle"), desc="Play/Pause MPD"),
-    Key([], "XF86AudioPrev", lazy.spawn("mpc prev"), desc="MPD previous song"),
-    Key([], "XF86AudioNext", lazy.spawn("mpc next"), desc="MPD next song"),
-
-    # Programs
-    Key([mod], "p", lazy.spawn("rofi -show run"), desc="Launch rofi run"),
-    Key([mod, "control"], "p", lazy.spawn("rofi -show powermenu -modi powermenu:rofi-power-menu"), desc="Launch rofi powermenu"),
-    Key([mod], "e", lazy.spawn("thunar"), desc="Launch thunar"),
-    Key([mod], "b", lazy.spawn("brave"), desc="Launch brave"),
-    Key([mod], "y", lazy.spawn('streams.sh')),
-    Key([mod, alt], "m", lazy.group['scratchpad'].dropdown_toggle('ncmpcpp')),
-    Key([mod, alt], "b", lazy.group['scratchpad'].dropdown_toggle('btop')),
-    Key([mod, alt], "t", lazy.group['scratchpad'].dropdown_toggle('stig')),
-
+    # # MPD
+    # Key([], "XF86AudioPlay", lazy.spawn("mpc toggle"), desc="Play/Pause MPD"),
+    # Key([], "XF86AudioPrev", lazy.spawn("mpc prev"), desc="MPD previous song"),
+    # Key([], "XF86AudioNext", lazy.spawn("mpc next"), desc="MPD next song"),
+    #
+    # # Programs
+    # Key([mod], "p", lazy.spawn("rofi -show run"), desc="Launch rofi run"),
+    # Key([mod, "control"], "p", lazy.spawn("rofi -show powermenu -modi powermenu:rofi-power-menu"), desc="Launch rofi powermenu"),
+    # Key([mod], "e", lazy.spawn("thunar"), desc="Launch thunar"),
+    # Key([mod], "b", lazy.spawn("brave"), desc="Launch brave"),
+    # Key([mod], "y", lazy.spawn('streams.sh')),
+    Key([mod, alt], "m", lazy.group["scratchpad"].dropdown_toggle("ncmpcpp")),
+    Key([mod, alt], "b", lazy.group["scratchpad"].dropdown_toggle("btop")),
+    Key([mod, alt], "a", lazy.group["scratchpad"].dropdown_toggle("aria2")),
+    Key([mod, alt], "s", lazy.group["scratchpad"].dropdown_toggle("spotify")),
 ]
 layout_theme = {
-        "border_width":2,
-        "margin":4,
-        "border_focus":colors[6],
-        "border_normal":colors[2]
-        }
+    "border_width": 2,
+    "margin": 4,
+    "border_focus": colors[6],
+    "border_normal": colors[2],
+}
 layouts = [
     layout.MonadTall(**layout_theme, single_border_width=0, single_margin=0),
     layout.Max(),
     # layout.Tile(ratio=0.8, master_match=Match(wm_class="mpv"), border_focus=colors[6]),
     # layout.Tile(**layout_theme),
-
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
     # layout.Bsp(),
@@ -140,50 +175,93 @@ layouts = [
     # layout.Zoomy(),
 ]
 
-streamlinkLayout = [layout.Tile(ratio=0.8, master_match=Match(wm_class="mpv"), border_focus=colors[2], border_width=2)]
+streamlinkLayout = [
+    layout.Tile(
+        ratio=0.8,
+        master_match=Match(wm_class="mpv"),
+        border_focus=colors[2],
+        border_width=2,
+    )
+]
 
 group_names = "1 2 3 4 5".split()
-group_labels = ["爵" ,"", "", "", ""]
+group_labels = ["爵", "", "", "", ""]
 # group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall", "tile" ]
-group_layouts = [layouts, layouts, layouts, layouts, streamlinkLayout ]
+group_layouts = [layouts, layouts, layouts, layouts, streamlinkLayout]
 
-clientRules={}
-clientRules["1"]= ["brave"]
-clientRules["3"]= ["thunar"]
-clientRules["5"]= ["mpv", "chatterino"]
+clientRules = {}
+clientRules["1"] = ["Navigator"]
+clientRules["3"] = ["Thunar", "telegram-desktop", "slack", "discord"]
+clientRules["5"] = ["mpv", "chatterino"]
 
 groups = []
 for i in range(len(group_names)):
     groups.append(
-        Group(name=group_names[i], label=group_labels[i], layouts=group_layouts[i])
-    )
+        Group(name=group_names[i],
+              label=group_labels[i],
+              layouts=group_layouts[i]))
 #
 
-
 for i in groups:
-    keys.extend(
+    keys.extend([
+        # mod1 + letter of group = switch to group
+        Key(
+            [mod],
+            i.name,
+            lazy.group[i.name].toscreen(),
+            desc="Switch to group {}".format(i.name),
+        ),
+        # mod1 + shift + letter of group = switch to & move focused window to group
+        Key(
+            [mod, "shift"],
+            i.name,
+            lazy.window.togroup(i.name, switch_group=True, toggle=True),
+            desc="Switch to & move focused window to group {}".format(i.name),
+        ),
+    ])
+
+groups.append(
+    ScratchPad(
+        "scratchpad",
         [
-            # mod1 + letter of group = switch to group
-            Key(
-                [mod],
-                i.name,
-                lazy.group[i.name].toscreen(),
-                desc="Switch to group {}".format(i.name),
+            DropDown(
+                "ncmpcpp",
+                f"{terminal} -e ncmpcpp",
+                height=0.9,
+                width=0.9,
+                opacity=1,
+                x=0.05,
+                y=0.05,
             ),
-            # mod1 + shift + letter of group = switch to & move focused window to group
-            Key(
-                [mod, "shift"],
-                i.name,
-                lazy.window.togroup(i.name, switch_group=True, toggle=True),
-                desc="Switch to & move focused window to group {}".format(i.name),
+            DropDown(
+                "btop",
+                f"{terminal} -e btop",
+                height=0.9,
+                width=0.9,
+                opacity=1,
+                x=0.05,
+                y=0.05,
             ),
-        ]
-    )
-groups.append(ScratchPad("scratchpad", [
-        DropDown("ncmpcpp", "kitty -e ncmpcpp", height=0.9, width=0.9, opacity=1, x=0.05, y=0.05),
-        DropDown("btop", "kitty -e btop",height=0.9, width=0.9, opacity=1, x=0.05, y=0.05),
-        DropDown("stig", "kitty -e stig",height=0.9, width=0.9, opacity=1, x=0.05, y=0.05)]),
-        )
+            DropDown(
+                "aria2",
+                f"{terminal} -e aria2c",
+                height=0.9,
+                width=0.9,
+                opacity=1,
+                x=0.05,
+                y=0.05,
+            ),
+            DropDown(
+                "spotify",
+                "spotify",
+                height=0.9,
+                width=0.9,
+                opacity=1,
+                x=0.05,
+                y=0.05,
+            ),
+        ],
+    ), )
 
 group_box_settings = {
     "padding": 3,
@@ -202,6 +280,7 @@ group_box_settings = {
     "foreground": colors[0],
     "background": colors[1],
     "urgent_border": colors[3],
+    "fontsize": 20,
 }
 
 widget_defaults = dict(
@@ -221,18 +300,20 @@ screens = [
             [
                 # widget.CurrentLayoutIcon(),
                 widget.GroupBox(**group_box_settings),
-                widget.Spacer(),
-                # widget.TaskList(highlight_method='block', border=colors[13]),
-                widget.Mpd2(status_format='{play_status} {artist} - {title}'),
+                # widget.Spacer(),
+                widget.TaskList(
+                    highlight_method="block",
+                    border=colors[13],
+                    parse_text=lambda text: "",
+                ),
+                widget.Mpris2(),
                 widget.Spacer(),
                 widget.Systray(),
                 widget.TextBox(
                     text="",
                     fontsize=20,
-                    ),
-                widget.CPU(
-                    format='{load_percent}%'
                 ),
+                widget.CPU(format="{load_percent}%"),
                 widget.Sep(
                     linewidth=0,
                     padding=10,
@@ -240,23 +321,19 @@ screens = [
                     background=colors[1],
                 ),
                 widget.TextBox(
-                    text="",
-                    fontsize=15,
-                    ),
-                widget.ThermalSensor(threshold=220),
+                    text="\uf538", fontsize=15, font="Font Awesome 6 Free"),
+                widget.Memory(format="{MemPercent: .0f}%"),
                 widget.Sep(
                     linewidth=0,
                     padding=10,
                     size_percent=50,
                     background=colors[1],
                 ),
-                widget.TextBox(
-                    text="",
-                    ),
+                widget.TextBox(text="", ),
                 widget.PulseVolume(
                     update_interval=0.1,
-                    get_volume_command='pamixer --get-volume',
-                    ),
+                    get_volume_command="pamixer --get-volume",
+                ),
                 widget.Sep(
                     linewidth=0,
                     padding=10,
@@ -266,7 +343,7 @@ screens = [
                 widget.TextBox(
                     text="",
                     fontsize=18,
-                    ),
+                ),
                 widget.Clock(format="%a %d/%m/%y"),
                 widget.Sep(
                     linewidth=0,
@@ -277,20 +354,27 @@ screens = [
                 widget.TextBox(
                     text="",
                     fontsize=18,
-                    ),
+                ),
                 widget.Clock(format="%H:%M:%S"),
             ],
             24,
             # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
             # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
-        ),
-    ),
+        ), ),
 ]
 
 # Drag floating layouts.
 mouse = [
-    Drag([mod], "Button1", lazy.window.set_position_floating(), start=lazy.window.get_position()),
-    Drag([mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()),
+    Drag(
+        [mod],
+        "Button1",
+        lazy.window.set_position_floating(),
+        start=lazy.window.get_position(),
+    ),
+    Drag([mod],
+         "Button3",
+         lazy.window.set_size_floating(),
+         start=lazy.window.get_size()),
     Click([mod], "Button2", lazy.window.bring_to_front()),
 ]
 
@@ -309,7 +393,8 @@ floating_layout = layout.Floating(
         Match(wm_class="ssh-askpass"),  # ssh-askpass
         Match(title="branchdialog"),  # gitk
         Match(title="pinentry"),  # GPG key password entry
-    ]
+    ],
+    **layout_theme,
 )
 auto_fullscreen = True
 focus_on_window_activation = "smart"
@@ -328,4 +413,3 @@ auto_minimize = True
 # We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
 # java that happens to be on java's whitelist.
 wmname = "LG3D"
-
