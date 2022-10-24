@@ -21645,3 +21645,314 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Oct 04 15:29 : player: played "Namasenda/Unlimited Ammo/05 ☆ (feat. Oklou).flac"
+Oct 06 14:26 : player: played "Namasenda/Unlimited Ammo/05 ☆ (feat. Oklou).flac"
+Oct 06 14:43 : player: played "Namasenda/Unlimited Ammo/08 Finish Him (feat. Joey LaBeija).flac"
+Oct 06 15:10 : player: played "Youryoungbody_Sidewalks And Skeletons/Wrapping Around Your Insides [835]/01 Wrapping Around Your Insides (Sidewalks and Skeletons REMIX).mp3"
+Oct 07 12:50 : update: added The Pom-Poms/The Pom-Poms/01 Full Circle.flac
+Oct 07 12:50 : update: added The Pom-Poms/The Pom-Poms/02 I Got That Boom.flac
+Oct 07 12:50 : update: added The Pom-Poms/The Pom-Poms/03 Mary Poppins.flac
+Oct 07 12:50 : update: added The Pom-Poms/The Pom-Poms/04 Watch Me.flac
+Oct 07 12:50 : update: added The Pom-Poms/The Pom-Poms/05 Pass Her the Aux.flac
+Oct 07 12:51 : update: added The Pom-Poms/I Was on the News/01 I Was on the News.flac
+Oct 07 12:51 : update: added The Pom-Poms/I Was on the News/02 200 Grams.flac
+Oct 07 12:51 : update: added The Pom-Poms/I Was on the News/03 Sunshine.flac
+Oct 07 12:51 : update: added The Pom-Poms/I Was on the News/04 Kinetic Energy.flac
+Oct 07 12:51 : update: added The Pom-Poms/I Was on the News/05 300 Grams.flac
+Oct 07 12:51 : update: added The Pom-Poms/I Was on the News/06 Big Yellow Truck (Vip).flac
+Oct 07 12:51 : update: added The Pom-Poms/I Was on the News/07 Yum Yumm.flac
+Oct 07 12:53 : update: added IC3PEAK/Kiss of Death/01 Kiss of Death.flac
+Oct 07 12:53 : update: added IC3PEAK/Kiss of Death/02 VAMPIR (feat. Oliver Sykes).flac
+Oct 07 12:53 : update: added IC3PEAK/Kiss of Death/03 Last Day _ Новый день (feat. Grimes).flac
+Oct 07 12:53 : update: added IC3PEAK/Kiss of Death/04 Bad Night.flac
+Oct 07 12:53 : update: added IC3PEAK/Kiss of Death/05 Червь _ Worm (feat. Kim Dracula).flac
+Oct 07 12:53 : update: added IC3PEAK/Kiss of Death/06 Let’s die together, я не шучу.flac
+Oct 07 12:53 : update: added IC3PEAK/Kiss of Death/07 Are you scared_ I am not.flac
+Oct 07 12:53 : update: added IC3PEAK/Kiss of Death/08 Мне хотелось умереть, а теперь не хочется.flac
+Oct 07 12:53 : update: added IC3PEAK/Kiss of Death/09 Dead but Pretty.flac
+Oct 07 12:53 : update: added IC3PEAK/Kiss of Death/10 I’m not evil, I’m sad.flac
+Oct 07 12:53 : update: added IC3PEAK/Kiss of Death/11 Любовь как яд.flac
+Oct 07 12:53 : update: added IC3PEAK/Kiss of Death/12 Let It Go.flac
+Oct 07 12:58 : player: played "The Pom-Poms/I Was on the News/01 I Was on the News.flac"
+Oct 07 13:01 : player: played "IC3PEAK/Kiss of Death/03 Last Day _ Новый день (feat. Grimes).flac"
+Oct 07 17:19 : player: played "Flume/Palaces/01 Highest Building (feat. Oklou).mp3"
+Oct 07 19:01 : player: played "The Pom-Poms/The Pom-Poms/04 Watch Me.flac"
+Oct 07 20:11 : player: played "The Pom-Poms/The Pom-Poms/04 Watch Me.flac"
+Oct 07 20:15 : player: played "The Pom-Poms/The Pom-Poms/03 Mary Poppins.flac"
+Oct 07 20:26 : player: played "The Pom-Poms/I Was on the News/02 200 Grams.flac"
+Oct 07 20:36 : player: played "Kero Kero Bonito/Time ’n’ Place/06 Make Believe.mp3"
+Oct 07 20:57 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+Oct 08 19:14 : player: played "The Pom-Poms/I Was on the News/02 200 Grams.flac"
+Oct 08 19:17 : player: played "Kero Kero Bonito/Time ’n’ Place/06 Make Believe.mp3"
+Oct 08 19:19 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+Oct 08 21:48 : player: played "The Pom-Poms/I Was on the News/02 200 Grams.flac"
+Oct 08 21:52 : player: played "The Pom-Poms/I Was on the News/05 300 Grams.flac"
+Oct 09 09:42 : player: played "The Pom-Poms/I Was on the News/02 200 Grams.flac"
+Oct 09 09:45 : player: played "The Pom-Poms/I Was on the News/02 200 Grams.flac"
+Oct 09 09:45 : exception: Not playing
+Oct 09 09:48 : player: played "The Pom-Poms/I Was on the News/02 200 Grams.flac"
+Oct 09 09:54 : player: played "The Pom-Poms/I Was on the News/02 200 Grams.flac"
+Oct 10 11:47 : player: played "The Pom-Poms/I Was on the News/02 200 Grams.flac"
+Oct 10 12:02 : player: played "The Pom-Poms/The Pom-Poms/03 Mary Poppins.flac"
+Oct 10 13:51 : player: played "Oklou/Galore/04 god’s chariots.flac"
+Oct 10 14:22 : player: played "Namasenda/Unlimited Ammo/05 ☆ (feat. Oklou).flac"
+Oct 11 14:56 : player: played "The Pom-Poms/I Was on the News/02 200 Grams.flac"
+Oct 11 15:00 : player: played "Purity Ring/WOMB/01 rubyinsides.mp3"
+Oct 11 15:04 : player: played "Purity Ring/WOMB/02 pink lightning.mp3"
+Oct 11 15:10 : player: played "Purity Ring/WOMB/03 peacefall.mp3"
+Oct 11 15:13 : player: played "Purity Ring/WOMB/04 i like the devil.mp3"
+Oct 11 15:16 : player: played "Purity Ring/WOMB/05 femia.mp3"
+Oct 11 15:23 : player: played "Purity Ring/WOMB/06 sinew.mp3"
+Oct 11 15:26 : player: played "Purity Ring/WOMB/07 vehemence.mp3"
+Oct 11 15:30 : player: played "Purity Ring/WOMB/08 silkspun.mp3"
+Oct 11 15:33 : player: played "Purity Ring/WOMB/09 almanac.mp3"
+Oct 11 15:37 : player: played "Purity Ring/WOMB/10 stardew.mp3"
+Oct 12 09:16 : player: played "MF DOOM/MM..Food/01 Beef Rapp.mp3"
+Oct 12 09:20 : player: played "MF DOOM/MM..Food/02 Hoe Cakes.mp3"
+Oct 12 09:23 : player: played "MF DOOM/MM..Food/03 Potholderz (feat. Count Bass D).mp3"
+Oct 12 09:28 : player: played "MF DOOM/MM..Food/04 One Beer.mp3"
+Oct 12 09:33 : player: played "MF DOOM/MM..Food/05 Deep Fried Frenz.mp3"
+Oct 12 09:34 : player: played "MF DOOM/MM..Food/06 Poo-Putt Platter.mp3"
+Oct 12 09:35 : player: played "MF DOOM/MM..Food/07 Fillet-O-Rapper.mp3"
+Oct 12 09:36 : player: played "MF DOOM/MM..Food/08 Gumbo.mp3"
+Oct 12 09:39 : player: played "MF DOOM/MM..Food/09 Fig Leaf Bi-Carbonate.mp3"
+Oct 12 09:42 : player: played "MF DOOM/MM..Food/10 Kon Karne.mp3"
+Oct 12 09:47 : player: played "MF DOOM/MM..Food/12 Kon Queso.mp3"
+Oct 12 09:50 : player: played "MF DOOM/MM..Food/13 Rapp Snitch Knishes (feat. Mr. Fantastik).mp3"
+Oct 12 09:52 : player: played "MF DOOM/MM..Food/14 Vomitspit.mp3"
+Oct 12 10:29 : player: played "Namasenda/Unlimited Ammo/05 ☆ (feat. Oklou).flac"
+Oct 12 10:35 : player: played "Namasenda/Unlimited Ammo/06 Steel (feat. Hannah Diamond).flac"
+Oct 12 10:46 : player: played "Dorian Electra/My Agenda (deluxe)/15 Iron Fist (Alice Glass remix) (feat. Alice Glass & Faris Badwan).mp3"
+Oct 12 10:58 : player: played "Animals as Leaders/The Madness of Many/01 Arithmophobia.mp3"
+Oct 12 11:03 : player: played "After the Burial/Evergreen/01 Behold the Crown.mp3"
+Oct 12 11:08 : player: played "After the Burial/Dig Deep/02 Lost in the Static.mp3"
+Oct 12 11:25 : player: played "Khruangbin/Mordechai/01 First Class.mp3"
+Oct 12 11:30 : player: played "Khruangbin/Mordechai/02 Time (You and I).mp3"
+Oct 12 11:35 : player: played "Khruangbin/Mordechai/03 Connaissais de Face.mp3"
+Oct 12 11:38 : player: played "Khruangbin/Mordechai/04 Father Bird, Mother Bird.mp3"
+Oct 12 11:44 : player: played "Khruangbin/Mordechai/05 If There Is No Question.mp3"
+Oct 12 11:47 : player: played "Khruangbin/Mordechai/06 Pelota.mp3"
+Oct 12 11:51 : player: played "Khruangbin/Mordechai/07 One to Remember.mp3"
+Oct 12 12:16 : player: played "Gordian Knot/Gordian Knot/02 Code_Anticode.mp3"
+Oct 12 12:43 : update: removing Gordian Knot/Gordian Knot/01 Galois.mp3
+Oct 12 12:43 : update: removing Gordian Knot/Gordian Knot/11 Unquity Road.mp3
+Oct 12 12:43 : update: removing Gordian Knot/Gordian Knot/10 Grace.mp3
+Oct 12 12:43 : update: removing Gordian Knot/Gordian Knot/09 Srikara Tal.mp3
+Oct 12 12:43 : update: removing Gordian Knot/Gordian Knot/08 Rivers Dancing.mp3
+Oct 12 12:43 : update: removing Gordian Knot/Gordian Knot/07 Komm Süsser Tod, Komm Sel'ge.mp3
+Oct 12 12:43 : update: removing Gordian Knot/Gordian Knot/06 Redemption's Way.mp3
+Oct 12 12:43 : update: removing Gordian Knot/Gordian Knot/05 Singularity.mp3
+Oct 12 12:43 : update: removing Gordian Knot/Gordian Knot/04 Megrez.mp3
+Oct 12 12:43 : update: removing Gordian Knot/Gordian Knot/03 Reflections.mp3
+Oct 12 12:43 : update: removing Gordian Knot/Gordian Knot/02 Code_Anticode.mp3
+Oct 12 12:43 : update: added Gordian Knot/Gordian Knot/01 Galois.flac
+Oct 12 12:43 : update: added Gordian Knot/Gordian Knot/02 Code_Anticode.flac
+Oct 12 12:43 : update: added Gordian Knot/Gordian Knot/03 Reflections.flac
+Oct 12 12:43 : update: added Gordian Knot/Gordian Knot/04 Megrez.flac
+Oct 12 12:43 : update: added Gordian Knot/Gordian Knot/05 Singularity.flac
+Oct 12 12:43 : update: added Gordian Knot/Gordian Knot/06 Redemption's Way.flac
+Oct 12 12:43 : update: added Gordian Knot/Gordian Knot/07 Komm Süsser Tod, Komm Sel'ge.flac
+Oct 12 12:43 : update: added Gordian Knot/Gordian Knot/08 Rivers Dancing.flac
+Oct 12 12:43 : update: added Gordian Knot/Gordian Knot/09 Srikara Tal.flac
+Oct 12 12:43 : update: added Gordian Knot/Gordian Knot/10 Grace.flac
+Oct 12 12:43 : update: added Gordian Knot/Gordian Knot/11 Unquity Road.flac
+Oct 12 12:46 : update: added Gordian Knot/Emergent/01 Arsis.flac
+Oct 12 12:46 : update: removing Gordian Knot/Emergent/09 Surround Me.mp3
+Oct 12 12:46 : update: removing Gordian Knot/Emergent/08 Singing Deep Mountain.mp3
+Oct 12 12:46 : update: removing Gordian Knot/Emergent/07 The Brook the Ocean.mp3
+Oct 12 12:46 : update: removing Gordian Knot/Emergent/06 Some Brighter Thing.mp3
+Oct 12 12:46 : update: removing Gordian Knot/Emergent/05 Grace (live).mp3
+Oct 12 12:46 : update: removing Gordian Knot/Emergent/04 Fischer’s Gambit.mp3
+Oct 12 12:46 : update: removing Gordian Knot/Emergent/03 A Shaman’s Whisper.mp3
+Oct 12 12:46 : update: removing Gordian Knot/Emergent/02 Muttersprache.mp3
+Oct 12 12:46 : update: removing Gordian Knot/Emergent/01 Arsis.mp3
+Oct 12 12:46 : update: added Gordian Knot/Emergent/02 Muttersprache.flac
+Oct 12 12:46 : update: added Gordian Knot/Emergent/03 A Shaman’s Whisper.flac
+Oct 12 12:46 : update: added Gordian Knot/Emergent/04 Fischer’s Gambit.flac
+Oct 12 12:46 : update: added Gordian Knot/Emergent/05 Grace (live).flac
+Oct 12 12:46 : update: added Gordian Knot/Emergent/06 Some Brighter Thing.flac
+Oct 12 12:46 : update: added Gordian Knot/Emergent/07 The Brook the Ocean.flac
+Oct 12 12:46 : update: added Gordian Knot/Emergent/08 Singing Deep Mountain.flac
+Oct 12 12:46 : update: added Gordian Knot/Emergent/09 Surround Me.flac
+Oct 12 12:55 : player: played "Gordian Knot/Emergent/05 Grace (live).flac"
+Oct 14 09:19 : player: played "The Pom-Poms/I Was on the News/02 200 Grams.flac"
+Oct 14 09:23 : player: played "The Pom-Poms/I Was on the News/04 Kinetic Energy.flac"
+Oct 14 09:30 : player: played "The Pom-Poms/I Was on the News/06 Big Yellow Truck (Vip).flac"
+Oct 14 09:33 : player: played "The Pom-Poms/The Pom-Poms/04 Watch Me.flac"
+Oct 14 09:53 : player: played "The Pom-Poms/The Pom-Poms/02 I Got That Boom.flac"
+Oct 14 10:17 : player: played "Animals as Leaders/The Madness of Many/01 Arithmophobia.mp3"
+Oct 14 11:13 : player: played "Czarface & MF DOOM/Super What_/06 Break in the Action.mp3"
+Oct 14 11:30 : player: played "Czarface/Every Hero Needs a Villain/11 Ka-Bang! (feat. MF DOOM).mp3"
+Oct 14 11:34 : player: played "Charli XCX/CRASH/02 New Shapes (feat. Christine and the Queens and Caroline Polachek).flac"
+Oct 14 11:38 : player: played "Charli XCX/Pop 2/08 Unlock It (feat. Kim Petras and Jay Park).mp3"
+Oct 14 15:53 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: Unknown cover type: 0x0.
+Oct 14 15:58 : player: played "Meshuggah/Chaosphere [Reloaded 2008] [688]/01 Concatenation.m4a"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Oct 16 10:08 : player: played "The Pom-Poms/I Was on the News/02 200 Grams.flac"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Oct 16 10:20 : player: played "The Pom-Poms/The Pom-Poms/04 Watch Me.flac"
+Oct 16 11:19 : player: played "MF DOOM/MM..Food/02 Hoe Cakes.mp3"
+Oct 16 11:26 : player: played "MF DOOM/MM..Food/12 Kon Queso.mp3"
+Oct 16 11:29 : player: played "MF DOOM/MM..Food/13 Rapp Snitch Knishes (feat. Mr. Fantastik).mp3"
+Oct 16 11:41 : player: played "MF DOOM/Born Like This (redux)/05 Absolutely (feat. Madlib).mp3"
+Oct 16 11:43 : player: played "MF DOOM/Born Like This (redux)/07 Lightworks.mp3"
+Oct 16 11:49 : player: played "clipping_/Visions of Bodies Being Burned/04 ’96 Neve Campbell (feat. Cam & China).mp3"
+Oct 16 12:06 : player: played "DANGERDOOM/The Mouse and the Mask/01 El Chupa Nibre.mp3"
+Oct 16 12:19 : player: played "Charli XCX/how i'm feeling now/09 party 4 u.mp3"
+Oct 16 12:22 : player: played "Oklou/Galore/05 galore.flac"
+Oct 16 12:26 : player: played "Oklou/Galore/04 god’s chariots.flac"
+Oct 16 12:31 : player: played "Oklou/Entertnmnt/01 Entertnmnt.flac"
+Oct 16 12:34 : player: played "Namasenda/Unlimited Ammo/05 ☆ (feat. Oklou).flac"
+Oct 16 12:37 : player: played "Namasenda/Unlimited Ammo/06 Steel (feat. Hannah Diamond).flac"
+Oct 17 08:56 : player: played "DANGERDOOM/The Mouse and the Mask/01 El Chupa Nibre.mp3"
+Oct 17 10:37 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Oct 17 10:41 : player: played "Purity Ring/Asido [748]/01 Better Off Alone.mp3"
+Oct 17 10:48 : player: played "The Pom-Poms/The Pom-Poms/04 Watch Me.flac"
+Oct 17 16:33 : player: played "Gordian Knot/Emergent/05 Grace (live).flac"
+Oct 18 08:56 : player: played "Alice Glass/PREY__IV/01 PREY.mp3"
+Oct 18 08:58 : player: played "Alice Glass/PREY__IV/02 PINNED BENEATH LIMBS.mp3"
+Oct 18 09:01 : player: played "Alice Glass/PREY__IV/03 LOVE IS VIOLENCE.mp3"
+Oct 18 09:03 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+Oct 18 09:07 : player: played "Alice Glass/PREY__IV/05 EVERYBODY ELSE.mp3"
+Oct 18 09:10 : player: played "Alice Glass/PREY__IV/06 THE HUNTED.mp3"
+Oct 18 09:12 : player: played "Alice Glass/PREY__IV/07 FAIR GAME.mp3"
+Oct 18 10:14 : player: played "Alice Glass/PREY__IV/08 WITCH HUNT.mp3"
+Oct 18 10:17 : player: played "Alice Glass/PREY__IV/09 SUFFER AND SWALLOW.mp3"
+Oct 18 10:19 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+Oct 18 10:22 : player: played "Alice Glass/PREY__IV/11 ANIMOSITY.mp3"
+Oct 18 10:24 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+Oct 18 10:25 : player: played "Alice Glass/PREY__IV/13 SORROW ENDS.mp3"
+Oct 18 13:50 : player: played "The Pom-Poms/I Was on the News/02 200 Grams.flac"
+Oct 18 14:06 : player: played "Oklou/Galore/02 fall.flac"
+Oct 18 14:09 : player: played "Oklou/Entertnmnt/01 Entertnmnt.flac"
+Oct 19 14:06 : player: played "Oklou/Entertnmnt/01 Entertnmnt.flac"
+Oct 19 14:09 : player: played "Oklou/Entertnmnt/01 Entertnmnt.flac"
+Oct 19 14:11 : player: played "Oklou/Galore/02 fall.flac"
+Oct 19 14:31 : player: played "Of Monsters and Men/My Head Is an Animal/04 Slow and Steady.flac"
+Oct 19 14:38 : player: played "Of Monsters and Men/FEVER DREAM/04 Waiting for the Snow.mp3"
+Oct 19 14:55 : player: played "Porter Robinson/Worlds/05 Fresh Static Snow.mp3"
+Oct 19 15:44 : player: played "A Day to Remember/Homesick/06 Have Faith in Me.mp3"
+Oct 20 09:49 : player: played "Purity Ring/Graves/03 nthngsfine.flac"
+Oct 20 10:23 : player: played "A Day to Remember/For Those Who Have Heart/04 The Plot to Bomb the Panhandle.mp3"
+Oct 20 10:32 : player: played "A Day to Remember/For Those Who Have Heart/05 Monument.mp3"
+Oct 20 10:57 : player: played "A Day to Remember/For Those Who Have Heart/01 Fast Forward to 2012.mp3"
+Oct 20 13:13 : player: played "Tool/Lateralus/05 Schism.flac"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Oct 20 20:13 : player: played "Oklou/Galore/02 fall.flac"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Oct 20 20:17 : player: played "Oklou/Entertnmnt/01 Entertnmnt.flac"
+Oct 20 22:22 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Oct 20 22:24 : player: played "Oklou/Galore/02 fall.flac"
+Oct 21 12:49 : player: played "Oklou/Galore/02 fall.flac"
+Oct 21 14:11 : player: played "A Day to Remember/For Those Who Have Heart/04 The Plot to Bomb the Panhandle.mp3"
+Oct 21 14:15 : player: played "A Day to Remember/For Those Who Have Heart/05 Monument.mp3"
+Oct 21 14:24 : player: played "A Day to Remember/For Those Who Have Heart/06 The Price We Pay.mp3"
+Oct 21 14:31 : player: played "A Day to Remember/Homesick/06 Have Faith in Me.mp3"
+Oct 22 08:54 : player: played "Grimes/Visions/03 Oblivion.mp3"
+Oct 22 09:15 : player: played "A Day to Remember/For Those Who Have Heart/04 The Plot to Bomb the Panhandle.mp3"
+Oct 22 09:19 : player: played "A Day to Remember/For Those Who Have Heart/05 Monument.mp3"
+Oct 22 09:19 : player: played "A Day to Remember/For Those Who Have Heart/03 The Danger in Starting a Fire.mp3"
+Oct 22 09:19 : player: played "A Day to Remember/For Those Who Have Heart/01 Fast Forward to 2012.mp3"
+Oct 22 09:21 : player: played "A Day to Remember/For Those Who Have Heart/01 Fast Forward to 2012.mp3"
+Oct 22 09:24 : player: played "A Day to Remember/For Those Who Have Heart/02 Speak of the Devil.mp3"
+Oct 22 09:27 : player: played "A Day to Remember/For Those Who Have Heart/03 The Danger in Starting a Fire.mp3"
+Oct 22 09:35 : player: played "A Day to Remember/For Those Who Have Heart/04 The Plot to Bomb the Panhandle.mp3"
+Oct 22 09:39 : player: played "A Day to Remember/For Those Who Have Heart/05 Monument.mp3"
+Oct 22 09:42 : player: played "A Day to Remember/For Those Who Have Heart/06 The Price We Pay.mp3"
+Oct 22 09:46 : player: played "A Day to Remember/For Those Who Have Heart/07 Colder Than My Heart, If You Can Imagine.mp3"
+Oct 22 09:49 : player: played "A Day to Remember/For Those Who Have Heart/08 Show ’em the Ropes.mp3"
+Oct 22 09:53 : player: played "A Day to Remember/For Those Who Have Heart/09 A Shot in the Dark.mp3"
+Oct 22 09:57 : player: played "A Day to Remember/For Those Who Have Heart/10 Here’s to the Past.mp3"
+Oct 22 10:01 : player: played "A Day to Remember/For Those Who Have Heart/11 I Heard It’s the Softest Thing Ever.mp3"
+Oct 22 10:06 : player: played "A Day to Remember/For Those Who Have Heart/12 Start the Shooting.mp3"
+Oct 22 10:09 : player: played "A Day to Remember/For Those Who Have Heart/13 Heartless.mp3"
+Oct 22 10:13 : player: played "A Day to Remember/For Those Who Have Heart/14 You Should’ve Killed Me When You Had the Chance.mp3"
+Oct 22 10:40 : player: played "A Day to Remember/For Those Who Have Heart/16 Why Walk on Water When We’ve Got Boats.mp3"
+Oct 22 10:40 : player: played "After the Burial/Evergreen/01 Behold the Crown.mp3"
+Oct 22 10:44 : player: played "After the Burial/Evergreen/01 Behold the Crown.mp3"
+Oct 22 10:48 : player: played "After the Burial/Evergreen/02 Exit, Exist.mp3"
+Oct 22 10:53 : player: played "After the Burial/Evergreen/03 11_26.mp3"
+Oct 22 11:00 : player: played "After the Burial/Evergreen/04 In Flux.mp3"
+Oct 22 11:04 : player: played "After the Burial/Evergreen/05 Respire.mp3"
+Oct 22 11:08 : player: played "After the Burial/Evergreen/06 Quicksand.mp3"
+Oct 22 11:12 : player: played "After the Burial/Evergreen/07 The Great Repeat.mp3"
+Oct 22 11:16 : player: played "After the Burial/Evergreen/08 To Challenge Existence.mp3"
+Oct 22 11:20 : player: played "After the Burial/Evergreen/09 A Pulse Exchange.mp3"
+Oct 22 15:06 : player: played "Flume/Palaces/11 Sirens (feat. Caroline Polachek).mp3"
+Oct 22 16:51 : player: played "Kero Kero Bonito/Time ’n’ Place/08 Visiting Hours.mp3"
+Oct 22 16:59 : player: played "Namasenda/Unlimited Ammo/05 ☆ (feat. Oklou).flac"
+Oct 22 17:03 : player: played "Viktor Vaughn/(VV_2) Venomous Villain/02 Back End.mp3"
+Oct 22 18:39 : player: played "Of Monsters and Men/FEVER DREAM/04 Waiting for the Snow.mp3"
+Oct 23 08:57 : player: played "Of Monsters and Men/My Head Is an Animal/04 Slow and Steady.flac"
+Oct 23 09:02 : player: played "Liquid Tension Experiment/Liquid Tension Experiment 2/08 Hourglass.mp3"
+Oct 23 10:24 : player: played "Alice Glass/PREY__IV/03 LOVE IS VIOLENCE.mp3"
+Oct 23 10:27 : player: played "Alice Glass/PREY__IV/04 BABY TEETH.mp3"
+Oct 23 10:30 : player: played "Alice Glass/PREY__IV/05 EVERYBODY ELSE.mp3"
+Oct 23 10:33 : player: played "Alice Glass/PREY__IV/06 THE HUNTED.mp3"
+Oct 23 10:36 : player: played "Alice Glass/PREY__IV/07 FAIR GAME.mp3"
+Oct 23 10:39 : player: played "Alice Glass/PREY__IV/08 WITCH HUNT.mp3"
+Oct 23 10:42 : player: played "Alice Glass/PREY__IV/09 SUFFER AND SWALLOW.mp3"
+Oct 23 10:44 : player: played "Alice Glass/PREY__IV/10 SUFFER IN PEACE.mp3"
+Oct 23 10:46 : player: played "Alice Glass/PREY__IV/11 ANIMOSITY.mp3"
+Oct 23 10:49 : player: played "Alice Glass/PREY__IV/12 I TRUSTED YOU.mp3"
+Oct 23 10:50 : player: played "Alice Glass/PREY__IV/13 SORROW ENDS.mp3"
+Oct 23 11:00 : player: played "Dorian Electra/My Agenda (deluxe)/07 Sorry Bro (I Love You).mp3"
+Oct 23 11:05 : player: played "Dorian Electra/My Agenda (deluxe)/15 Iron Fist (Alice Glass remix) (feat. Alice Glass & Faris Badwan).mp3"
+Oct 23 11:14 : player: played "GFOTY/Femmedorm/02 BRAND NEW BRA.flac"
+Oct 23 11:22 : player: played "Youryoungbody/eXcess/01 goo.mp3"
+Oct 23 11:23 : player: played "Youryoungbody/eXcess/02 in your dream.mp3"
+Oct 23 11:26 : player: played "Youryoungbody/eXcess/02 in your dream.mp3"
+Oct 23 14:14 : player: played "Youryoungbody/eXcess/03 so pure.mp3"
+Oct 23 14:15 : player: played "Viktor Vaughn/Vaudeville Villain/01 Overture.mp3"
+Oct 23 14:18 : player: played "Viktor Vaughn/Vaudeville Villain/02 Vaudeville Villain.mp3"
+Oct 23 14:18 : player: played "Viktor Vaughn/Vaudeville Villain/03 Lickupon.mp3"
+Oct 23 14:22 : player: played "Viktor Vaughn/Vaudeville Villain/03 Lickupon.mp3"
+Oct 23 14:25 : player: played "Viktor Vaughn/Vaudeville Villain/04 The Drop.mp3"
+Oct 23 14:28 : player: played "Viktor Vaughn/Vaudeville Villain/05 Lactose and Lecithin.mp3"
+Oct 23 14:32 : player: played "Viktor Vaughn/Vaudeville Villain/06 A Dead Mouse.mp3"
+Oct 23 14:36 : player: played "Viktor Vaughn/Vaudeville Villain/07 Open Mic Nite, Part 1 (feat. Lord Sear, Brother Sambuca, Rodan & Louis Logic).mp3"
+Oct 23 14:39 : player: played "Viktor Vaughn/Vaudeville Villain/08 Raedawn.mp3"
+Oct 23 14:42 : player: played "Viktor Vaughn/Vaudeville Villain/10 Saliva.mp3"
+Oct 23 14:45 : player: played "Viktor Vaughn/Vaudeville Villain/11 Modern Day Mugging.mp3"
+Oct 23 14:48 : player: played "Viktor Vaughn/Vaudeville Villain/12 Open Mic Nite, Part 2 (feat. Lord Sear, AJ Ready Wright & Creature).mp3"
+Oct 23 14:52 : player: played "Viktor Vaughn/Vaudeville Villain/13 Never Dead (feat. M. Sayyid).mp3"
+Oct 23 14:56 : player: played "Viktor Vaughn/Vaudeville Villain/14 Popsnot.mp3"
+Oct 23 14:59 : player: played "Viktor Vaughn/Vaudeville Villain/15 Mr. Clean.mp3"
+Oct 23 15:02 : player: played "Viktor Vaughn/Vaudeville Villain/16 G.M.C_.mp3"
+Oct 23 15:08 : player: played "Daniel Deluxe/Corruptor/01 Broken Seal.mp3"
+Oct 23 15:12 : player: played "Daniel Deluxe/Corruptor/02 Soul Siphon.mp3"
+Oct 23 15:17 : player: played "Daniel Deluxe/Corruptor/03 The Guardian (feat. Sourc3).mp3"
+Oct 23 15:19 : player: played "Daniel Deluxe/Corruptor/04 Time Limit.mp3"
+Oct 23 15:23 : player: played "Daniel Deluxe/Corruptor/05 Combat Ready.mp3"
+Oct 23 15:28 : player: played "Daniel Deluxe/Corruptor/06 Corruptor.mp3"
+Oct 23 15:33 : player: played "Daniel Deluxe/Corruptor/07 Aero.mp3"
+Oct 23 15:39 : player: played "Daniel Deluxe/Corruptor/08 Black Metropolis.mp3"
+Oct 23 15:43 : player: played "Daniel Deluxe/Corruptor/09 Cerberus.mp3"
+Oct 23 15:46 : player: played "Daniel Deluxe/Corruptor/10 Blood Magic.mp3"
+Oct 23 15:47 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Oct 23 15:47 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Oct 23 15:49 : player: played "Daniel Deluxe/Corruptor/11 For Our Heroes.mp3"
+Oct 23 15:52 : player: played "Daniel Deluxe/Corruptor/12 Burning Skylines.mp3"
+Oct 23 15:55 : player: played "Daniel Deluxe/Instruments of Retribution/01 Firewall.mp3"
+Oct 23 15:59 : player: played "Daniel Deluxe/Instruments of Retribution/02 Cypher.mp3"
+Oct 23 16:03 : player: played "Daniel Deluxe/Instruments of Retribution/03 Price of Progress.mp3"
+Oct 23 16:06 : player: played "Daniel Deluxe/Instruments of Retribution/04 Silent Kings.mp3"
+Oct 23 16:10 : player: played "Daniel Deluxe/Instruments of Retribution/05 Renegades.mp3"
+Oct 23 16:13 : player: played "Daniel Deluxe/Instruments of Retribution/06 Instruments of Retribution.mp3"
+Oct 23 16:17 : player: played "Daniel Deluxe/Instruments of Retribution/07 Phantoms.mp3"
+Oct 23 16:20 : player: played "Daniel Deluxe/Instruments of Retribution/08 Almaz.mp3"
+Oct 23 16:24 : player: played "Daniel Deluxe/Instruments of Retribution/09 Vanguard.mp3"
+Oct 23 16:34 : player: played "Daniel Deluxe/Instruments of Retribution/10 Prime.mp3"
+Oct 23 16:37 : player: played "Daniel Deluxe/Instruments of Retribution/11 The Portal.mp3"

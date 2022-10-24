@@ -6,7 +6,7 @@ if not mason_status_ok or not null_ls_status_ok or not mason_null_ls_status_ok t
 end
 
 mason_null_ls.setup({
-	ensure_installed = { "stylua", "black", "prettierd", "pylint"},
+	ensure_installed = { "stylua", "black", "prettierd"},
 	automatic_installation = true,
 })
 
@@ -19,7 +19,6 @@ null_ls.setup({
 		formatting.prettierd,
 		formatting.black.with({ extra_args = { "--fast" } }),
 		formatting.stylua,
-		diagnostics.pylint,
 	},
 	-- on_attach = function(client, bufnr)
 	-- 	vim.api.nvim_buf_set_keymap(

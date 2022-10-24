@@ -7,7 +7,7 @@ function run {
   fi
 }
 
-run nitrogen --restore
+# run nitrogen --restore
 run picom
 run dunst
 # run picom --experimental-backends
@@ -16,3 +16,4 @@ run playerctld daemon
 run mpDris2
 run sxhkd
 run twofi_d
+run feh --bg-scale /home/pedro/Images/wallpapers/wallhaven-ymjrzx_1920x1080.png

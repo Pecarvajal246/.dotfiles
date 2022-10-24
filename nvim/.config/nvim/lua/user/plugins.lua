@@ -98,6 +98,7 @@ return packer.startup(function(use)
 	use("AckslD/nvim-neoclip.lua")
 	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" })
 	use("cljoly/telescope-repo.nvim")
+	use("ghassan0/telescope-glyph.nvim")
 
 	-- Debugging and testing
 	use("mfussenegger/nvim-dap")

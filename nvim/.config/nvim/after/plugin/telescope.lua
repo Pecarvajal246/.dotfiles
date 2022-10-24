@@ -30,6 +30,14 @@ telescope.setup({
 			case_mode = "ignore_case", -- or "ignore_case" or "respect_case"
 			-- the default case_mode is "smart_case"
 		},
+		repo = {
+			list = {
+				search_dirs = { "~/Documents", "~/python_scripts", "~/Work" },
+			},
+			cached_list = {
+				file_ignore_patterns = { "/%.cache/", "/%.cargo/", "/%.dotfiles", "/%.local/" },
+			},
+		},
 	},
 })
 
@@ -38,13 +46,14 @@ telescope.load_extension("file_browser")
 telescope.load_extension("fzf")
 telescope.load_extension("repo")
 telescope.load_extension("refactoring")
+telescope.load_extension("glyph")
 
 function SearchDotfiles()
 	builtin.find_files({
 		prompt_title = "Dotfiles",
 		theme = themes.get_dropdown(),
 		cwd = "~/.config",
-		search_dirs = { "mpv", "mpd", "qtile", "streamlink" },
+		search_dirs = { "mpv", "mpd", "qtile", "streamlink", "twofi", "sxhkd", "rofi", "kitty" },
 	})
 end
 
@@ -53,7 +62,7 @@ function SearchConfigfiles()
 		prompt_title = "Config files",
 		theme = themes.get_dropdown(),
 		cwd = "~/.config",
-		search_dirs = {"nvim"},
+		search_dirs = { "nvim" },
 	})
 end
 
@@ -64,7 +73,6 @@ function SearchNotes()
 		cwd = "~/neorg",
 	})
 end
-
 
 local opts = {
 	mode = "n", -- NORMAL mode
@@ -86,7 +94,7 @@ local mappings = {
 		h = { builtin.oldfiles, "File History" },
 		n = { SearchNotes, "Notes" },
 		p = {
-			"<cmd>:lua require'telescope'.extensions.repo.list{search_dirs = {'~/Documents', '~/python_scripts'}}<cr>",
+			"<cmd>Telescope repo cached_list<cr>",
 			"Projects",
 		},
 	},

@@ -14,6 +14,16 @@ vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.s
 	border = "rounded",
 })
 
+local lsp_formatting = function(bufnr)
+	vim.lsp.buf.format({
+		filter = function(client)
+			-- apply whatever logic you want (in this example, we'll only use null-ls)
+			return client.name == "null-ls"
+		end,
+		bufnr = bufnr,
+	})
+end
+
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
 local on_attach = function(client, bufnr)
@@ -36,7 +46,7 @@ local on_attach = function(client, bufnr)
 	vim.keymap.set("n", "<space>ca", vim.lsp.buf.code_action, bufopts)
 	-- vim.keymap.set('n', 'gr', vim.lsp.buf.references, bufopts)
 	vim.keymap.set("n", "gr", "<cmd>TroubleToggle lsp_references<cr>", bufopts)
-	vim.keymap.set("n", "<space>F", vim.lsp.buf.formatting, bufopts)
+	vim.keymap.set("n", "<space>F", lsp_formatting, bufopts)
 
 	-- highlighting
 	if client.server_capabilities.document_highlight then
@@ -50,11 +60,11 @@ end
 
 mason.setup({})
 mason_lspconfig.setup({
-	ensure_installed = { "sumneko_lua", "jedi_language_server", "tsserver" },
+	ensure_installed = { "sumneko_lua", "tsserver", "pylsp" },
 })
 
 lspconfig.util.default_config = vim.tbl_extend("force", lspconfig.util.default_config, {
-	capabilities = require("cmp_nvim_lsp").update_capabilities(vim.lsp.protocol.make_client_capabilities()),
+	capabilities = require("cmp_nvim_lsp").default_capabilities(vim.lsp.protocol.make_client_capabilities()),
 	on_attach = on_attach,
 })
 

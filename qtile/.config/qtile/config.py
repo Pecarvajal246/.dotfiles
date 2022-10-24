@@ -31,8 +31,8 @@ if local_bin not in os.environ["PATH"]:
 
 mod = "mod4"
 alt = "mod1"
-# terminal = "kitty"
-terminal = guess_terminal("kitty")
+# terminal = "kitty --single-instance"
+terminal = guess_terminal("alacritty")
 
 colors = [
     ["#D9E0EE", "#D9E0EE"],  # foreground
@@ -149,6 +149,7 @@ keys = [
     # Key([mod], "b", lazy.spawn("brave"), desc="Launch brave"),
     # Key([mod], "y", lazy.spawn('streams.sh')),
     Key([mod, alt], "m", lazy.group["scratchpad"].dropdown_toggle("ncmpcpp")),
+    Key([mod, alt], "t", lazy.group["scratchpad"].dropdown_toggle("twofi")),
     Key([mod, alt], "b", lazy.group["scratchpad"].dropdown_toggle("btop")),
     Key([mod, alt], "a", lazy.group["scratchpad"].dropdown_toggle("aria2")),
     Key([mod, alt], "s", lazy.group["scratchpad"].dropdown_toggle("spotify")),
@@ -245,6 +246,15 @@ groups.append(
             DropDown(
                 "aria2",
                 f"{terminal} -e aria2c",
+                height=0.9,
+                width=0.9,
+                opacity=1,
+                x=0.05,
+                y=0.05,
+            ),
+            DropDown(
+                "twofi",
+                f"{terminal} -e twofi -f",
                 height=0.9,
                 width=0.9,
                 opacity=1,
