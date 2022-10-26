@@ -21956,3 +21956,19 @@ Oct 23 16:20 : player: played "Daniel Deluxe/Instruments of Retribution/08 Almaz
 Oct 23 16:24 : player: played "Daniel Deluxe/Instruments of Retribution/09 Vanguard.mp3"
 Oct 23 16:34 : player: played "Daniel Deluxe/Instruments of Retribution/10 Prime.mp3"
 Oct 23 16:37 : player: played "Daniel Deluxe/Instruments of Retribution/11 The Portal.mp3"
+Oct 24 10:05 : player: played "Namasenda/Unlimited Ammo/05 ☆ (feat. Oklou).flac"
+Oct 24 14:58 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Oct 24 14:58 : pipewire_output: Decoder is too slow; playing silence to avoid xrun
+Oct 24 15:01 : player: played "A Day to Remember/For Those Who Have Heart/04 The Plot to Bomb the Panhandle.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Oct 24 20:04 : player: played "A Day to Remember/For Those Who Have Heart/04 The Plot to Bomb the Panhandle.mp3"
+Oct 24 20:07 : player: played "A Day to Remember/For Those Who Have Heart/04 The Plot to Bomb the Panhandle.mp3"
+Oct 24 20:54 : player: played "A Day to Remember/For Those Who Have Heart/03 The Danger in Starting a Fire.mp3"
+Oct 24 21:03 : player: played "100 gecs/1000 gecs/01 745 sticky.mp3"
+Oct 25 10:49 : player: played "A Day to Remember/For Those Who Have Heart/05 Monument.mp3"
+Oct 25 10:56 : player: played "The Pom-Poms/The Pom-Poms/04 Watch Me.flac"
+Oct 25 11:56 : player: played "Namasenda/Unlimited Ammo/06 Steel (feat. Hannah Diamond).flac"
+Oct 25 13:33 : player: played "Crystal Castles/Crystal Castles/07 Courtship Dating.mp3"
+Oct 25 14:50 : player: played "Burial/Untrue/05 Endorphin.flac"
+Oct 25 14:57 : player: played "Youryoungbody/Devotion/06 Swordswallower.mp3"

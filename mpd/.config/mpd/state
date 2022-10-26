@@ -1,4 +1,4 @@
-sw_volume: 86
+sw_volume: 98
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:toggle_visualizer
 state: stop
@@ -10,27 +10,8 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Daniel Deluxe/Corruptor/01 Broken Seal.mp3
-1:Daniel Deluxe/Corruptor/02 Soul Siphon.mp3
-2:Daniel Deluxe/Corruptor/03 The Guardian (feat. Sourc3).mp3
-3:Daniel Deluxe/Corruptor/04 Time Limit.mp3
-4:Daniel Deluxe/Corruptor/05 Combat Ready.mp3
-5:Daniel Deluxe/Corruptor/06 Corruptor.mp3
-6:Daniel Deluxe/Corruptor/07 Aero.mp3
-7:Daniel Deluxe/Corruptor/08 Black Metropolis.mp3
-8:Daniel Deluxe/Corruptor/09 Cerberus.mp3
-9:Daniel Deluxe/Corruptor/10 Blood Magic.mp3
-10:Daniel Deluxe/Corruptor/11 For Our Heroes.mp3
-11:Daniel Deluxe/Corruptor/12 Burning Skylines.mp3
-12:Daniel Deluxe/Instruments of Retribution/01 Firewall.mp3
-13:Daniel Deluxe/Instruments of Retribution/02 Cypher.mp3
-14:Daniel Deluxe/Instruments of Retribution/03 Price of Progress.mp3
-15:Daniel Deluxe/Instruments of Retribution/04 Silent Kings.mp3
-16:Daniel Deluxe/Instruments of Retribution/05 Renegades.mp3
-17:Daniel Deluxe/Instruments of Retribution/06 Instruments of Retribution.mp3
-18:Daniel Deluxe/Instruments of Retribution/07 Phantoms.mp3
-19:Daniel Deluxe/Instruments of Retribution/08 Almaz.mp3
-20:Daniel Deluxe/Instruments of Retribution/09 Vanguard.mp3
-21:Daniel Deluxe/Instruments of Retribution/10 Prime.mp3
-22:Daniel Deluxe/Instruments of Retribution/11 The Portal.mp3
+0:Crystal Castles/Crystal Castles/03 Crimewave (Crystal Castles vs. HEALTH).mp3
+1:Crystal Castles/Crystal Castles/07 Courtship Dating.mp3
+2:Burial/Untrue/05 Endorphin.flac
+3:Youryoungbody/Devotion/06 Swordswallower.mp3
 playlist_end
