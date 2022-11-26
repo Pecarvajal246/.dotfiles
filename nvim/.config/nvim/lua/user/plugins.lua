@@ -55,12 +55,6 @@ return packer.startup(function(use)
 	use("mvllow/modes.nvim")
 	use("akinsho/toggleterm.nvim")
 	use("stevearc/dressing.nvim")
-	use({
-		"glacambre/firenvim",
-		run = function()
-			vim.fn["firenvim#install"](0)
-		end,
-	})
 
 	-- git
 	use("lewis6991/gitsigns.nvim")

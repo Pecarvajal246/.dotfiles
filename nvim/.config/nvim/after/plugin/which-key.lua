@@ -21,6 +21,11 @@ local opts = {
 }
 
 local mappings = {
+	b = {
+		name = "buffers",
+		d = { "<cmd>bd<cr>", "Delete Buffer" },
+		l = { "<cmd>Telescope buffers<cr>", "List all buffers" },
+	},
 	p = {
 		name = "Plugins",
 		u = { "<cmd>PackerUpdate<cr>", "Update Plugins" },
@@ -42,7 +47,6 @@ local mappings = {
 	},
 	l = { "<cmd>BufferLineCycleNext<cr>", "Cycle Next Buffer" },
 	h = { "<cmd>BufferLineCyclePrev<cr>", "Cycle Previous Buffer" },
-	bd = { "<cmd>bd<cr>", "Delete Buffer" },
 	-- gr = {"<cmd>TroubleToggle lsp_references<cr>", "Open References List"},
 }
 

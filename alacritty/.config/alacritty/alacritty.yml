@@ -132,3 +132,5 @@ schemes:
       white:   '0xacb0d0'
 
 colors: *tokyo-night
+env:
+  TERM: xterm-256color

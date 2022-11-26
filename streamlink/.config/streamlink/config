@@ -1,5 +1,5 @@
 player=mpv --profile=streamlink
-twitch-disable-ads
+#twitch-disable-ads
 twitch-low-latency
 default-stream=best
 title "{title} - {author}"
