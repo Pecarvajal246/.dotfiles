@@ -51,7 +51,7 @@ telescope.load_extension("glyph")
 function SearchDotfiles()
 	builtin.find_files({
 		prompt_title = "Dotfiles",
-		theme = themes.get_dropdown(),
+		hidden = true,
 		cwd = "~/.config",
 		search_dirs = { "mpv", "mpd", "qtile", "streamlink", "twofi", "sxhkd", "rofi", "kitty" },
 	})
@@ -60,7 +60,7 @@ end
 function SearchConfigfiles()
 	builtin.find_files({
 		prompt_title = "Config files",
-		theme = themes.get_dropdown(),
+		hidden = true,
 		cwd = "~/.config",
 		search_dirs = { "nvim" },
 	})
