@@ -102,7 +102,9 @@ local mappings = {
 		name = "Search",
 		c = { "<cmd>Telescope neoclip<cr>", "Search Clipboard" },
 		f = { "<cmd>Telescope current_buffer_fuzzy_find<cr>", "Search current buffer" },
+		g = { "<cmd>Telescope live_grep<cr>", "Grep search" },
 		k = { "<cmd>Telescope keymaps<cr>", "Search Keymaps" },
+		w = { "<cmd>Telescope grep_string<cr>", "Search word under cursor" },
 	},
 }
 
