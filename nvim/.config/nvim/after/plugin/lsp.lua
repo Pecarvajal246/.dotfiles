@@ -60,7 +60,7 @@ end
 
 mason.setup({})
 mason_lspconfig.setup({
-	ensure_installed = { "sumneko_lua", "tsserver", "pylsp" },
+	ensure_installed = { "lua_ls", "tsserver", "pylsp" },
 })
 
 lspconfig.util.default_config = vim.tbl_extend("force", lspconfig.util.default_config, {
@@ -73,7 +73,7 @@ for _, server in ipairs(mason_lspconfig.get_installed_servers()) do
 	lspconfig[server].setup({})
 end
 
-lspconfig.sumneko_lua.setup({
+lspconfig.lua_ls.setup({
 	settings = {
 		Lua = {
 			diagnostics = {

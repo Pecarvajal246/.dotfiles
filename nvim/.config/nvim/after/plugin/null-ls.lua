@@ -19,6 +19,7 @@ null_ls.setup({
 		formatting.prettierd,
 		formatting.black.with({ extra_args = { "--fast" } }),
 		formatting.stylua,
+		formatting.jq,
 	},
 	-- on_attach = function(client, bufnr)
 	-- 	vim.api.nvim_buf_set_keymap(
