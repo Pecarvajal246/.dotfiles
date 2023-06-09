@@ -47,6 +47,7 @@ local on_attach = function(client, bufnr)
 	-- vim.keymap.set('n', 'gr', vim.lsp.buf.references, bufopts)
 	vim.keymap.set("n", "gr", "<cmd>TroubleToggle lsp_references<cr>", bufopts)
 	vim.keymap.set("n", "<space>F", lsp_formatting, bufopts)
+	vim.keymap.set("v", "<space>F", lsp_formatting, bufopts)
 
 	-- highlighting
 	if client.server_capabilities.document_highlight then

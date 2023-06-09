@@ -12,13 +12,13 @@ neorg.setup({
 		-- 		neorg_leader = " ",
 		-- 	},
 		-- },
-		["core.norg.concealer"] = {}, -- Allows for use of icons
-		["core.norg.completion"] = {
+		["core.concealer"] = {}, -- Allows for use of icons
+		["core.completion"] = {
 			config = {
 				engine = "nvim-cmp", -- We current support nvim-compe and nvim-cmp only
 			},
 		},
-		["core.norg.dirman"] = { -- Manage your directories with Neorg
+		["core.dirman"] = { -- Manage your directories with Neorg
 			config = {
 				workspaces = {
 					my_workspace = "~/neorg",

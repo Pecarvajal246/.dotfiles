@@ -55,16 +55,32 @@ return packer.startup(function(use)
 	use("mvllow/modes.nvim")
 	use("akinsho/toggleterm.nvim")
 	use("stevearc/dressing.nvim")
-	use {
-  'Exafunction/codeium.vim',
-  config = function ()
-    -- Change '<C-g>' here to any keycode you like.
-    vim.keymap.set('i', '<C-CR>', function () return vim.fn['codeium#Accept']() end, { expr = true })
-    vim.keymap.set('i', '<c-]>', function() return vim.fn['codeium#CycleCompletions'](1) end, { expr = true })
-    vim.keymap.set('i', '<c-[>', function() return vim.fn['codeium#CycleCompletions'](-1) end, { expr = true })
-    vim.keymap.set('i', '<c-x>', function() return vim.fn['codeium#Clear']() end, { expr = true })
-  end
-}
+	use({
+		"zbirenbaum/copilot.lua",
+		-- cmd = "Copilot",
+		-- event = "InsertEnter",
+		-- config = function()
+		-- 	require("copilot").setup({
+		-- 		suggestion = {
+		-- 			enabled = true,
+		-- 			auto_trigger = true,
+		-- 			debounce = 75,
+		-- 			keymap = {
+		-- 				accept = "<C-CR>",
+		-- 				accept_word = false,
+		-- 				accept_line = false,
+		-- 				next = "<M-]>",
+		-- 				prev = "<M-[>",
+		-- 				dismiss = "<C-]>",
+		-- 			},
+		-- 		},
+		-- 		-- cmp = {
+		-- 		-- 	enabled = true,
+		-- 		-- 	method = "getPanelCompletions",
+		-- 		-- },
+		-- 	})
+		-- end,
+	})
 
 	-- git
 	use("lewis6991/gitsigns.nvim")

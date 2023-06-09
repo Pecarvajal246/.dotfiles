@@ -74,7 +74,7 @@ cmp.setup({
 				fallback()
 			end
 		end, { "i", "s" }),
-	},
+		},
 	formatting = {
 		fields = { "abbr", "kind", "menu" },
 		format = function(entry, vim_item)
@@ -118,6 +118,7 @@ cmp.setup({
 })
 
 cmp.setup.cmdline(":", {
+	-- mapping = cmp.mapping.preset.cmdline(),
 	sources = cmp.config.sources({
 		{ name = "path" },
 	}, {
@@ -126,12 +127,14 @@ cmp.setup.cmdline(":", {
 })
 
 cmp.setup.cmdline("/", {
+	mapping = cmp.mapping.preset.cmdline(),
 	sources = {
 		{ name = "buffer" },
 	},
 })
 
 cmp.setup.cmdline("'<,'>s/", {
+	mapping = cmp.mapping.preset.cmdline(),
 	sources = {
 		{ name = "buffer" },
 	},

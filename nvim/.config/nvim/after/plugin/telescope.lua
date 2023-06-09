@@ -53,7 +53,7 @@ function SearchDotfiles()
 		prompt_title = "Dotfiles",
 		hidden = true,
 		cwd = "~/.config",
-		search_dirs = { "mpv", "mpd", "qtile", "streamlink", "twofi", "sxhkd", "rofi", "kitty" },
+		search_dirs = { "mpv", "mpd", "qtile", "streamlink", "twofi", "sxhkd", "rofi", "kitty", "beets" },
 	})
 end
 
@@ -97,14 +97,6 @@ local mappings = {
 			"<cmd>Telescope repo cached_list<cr>",
 			"Projects",
 		},
-	},
-	s = {
-		name = "Search",
-		c = { "<cmd>Telescope neoclip<cr>", "Search Clipboard" },
-		f = { "<cmd>Telescope current_buffer_fuzzy_find<cr>", "Search current buffer" },
-		g = { "<cmd>Telescope live_grep<cr>", "Grep search" },
-		k = { "<cmd>Telescope keymaps<cr>", "Search Keymaps" },
-		w = { "<cmd>Telescope grep_string<cr>", "Search word under cursor" },
 	},
 }
 

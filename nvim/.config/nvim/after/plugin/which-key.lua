@@ -26,16 +26,8 @@ local mappings = {
 		d = { "<cmd>bd<cr>", "Delete Buffer" },
 		l = { "<cmd>Telescope buffers<cr>", "List all buffers" },
 	},
-	p = {
-		name = "Plugins",
-		u = { "<cmd>PackerUpdate<cr>", "Update Plugins" },
-	},
 	t = {
 		name = "Terminal",
-		-- n = { "<cmd>lua _NODE_TOGGLE()<cr>", "Node" },
-		-- u = { "<cmd>lua _NCDU_TOGGLE()<cr>", "NCDU" },
-		-- t = { "<cmd>lua _HTOP_TOGGLE()<cr>", "Htop" },
-		-- p = { "<cmd>lua _PYTHON_TOGGLE()<cr>", "Python" },
 		f = { "<cmd>ToggleTerm direction=float<cr>", "Float" },
 		h = { "<cmd>ToggleTerm size=10 direction=horizontal<cr>", "Horizontal" },
 		v = { "<cmd>ToggleTerm size=80 direction=vertical<cr>", "Vertical" },
@@ -48,6 +40,19 @@ local mappings = {
 	l = { "<cmd>BufferLineCycleNext<cr>", "Cycle Next Buffer" },
 	h = { "<cmd>BufferLineCyclePrev<cr>", "Cycle Previous Buffer" },
 	-- gr = {"<cmd>TroubleToggle lsp_references<cr>", "Open References List"},
+	p = {
+		name = "Plugins",
+		u = { "<cmd>PackerUpdate<cr>", "Update Plugins" },
+	},
+	s = {
+		name = "Search",
+		c = { "<cmd>Telescope neoclip<cr>", "Search Clipboard" },
+		f = { "<cmd>Telescope current_buffer_fuzzy_find<cr>", "Search current buffer" },
+		g = { "<cmd>Telescope live_grep<cr>", "Grep search" },
+		k = { "<cmd>Telescope keymaps<cr>", "Search Keymaps" },
+		s = { ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>", "Search and replace word under cursor" },
+		w = { "<cmd>Telescope grep_string<cr>", "Search word under cursor" },
+	},
 }
 
 local v_opts = {
