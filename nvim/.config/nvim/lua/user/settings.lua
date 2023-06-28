@@ -24,3 +24,4 @@ set.guifont = {"Iosevka"}
 set.foldmethod = "expr"
 set.foldexpr = "nvim_treesitter#foldexpr()"
 set.foldlevel = 99
+set.conceallevel = 3

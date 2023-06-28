@@ -20,10 +20,12 @@ neorg.setup({
 		},
 		["core.dirman"] = { -- Manage your directories with Neorg
 			config = {
+				default_workspace = "neorg",
 				workspaces = {
-					my_workspace = "~/neorg",
+					neorg = "~/neorg",
 				},
 			},
 		},
+		["core.summary"] = {},
 	},
 })
