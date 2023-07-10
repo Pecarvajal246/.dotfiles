@@ -1,6 +1,5 @@
 local telescope_status_ok, telescope = pcall(require, "telescope")
-local which_key_status_ok, which_key = pcall(require, "which-key")
-if not telescope_status_ok or not which_key_status_ok then
+if not telescope_status_ok then
 	return
 end
 
@@ -74,30 +73,20 @@ function SearchNotes()
 	})
 end
 
-local opts = {
-	mode = "n", -- NORMAL mode
-	prefix = "<leader>",
-	buffer = nil, -- Global mappings. Specify a buffer number for buffer local mappings
-	silent = true, -- use `silent` when creating keymaps
-	noremap = true, -- use `noremap` when creating keymaps
-	nowait = true, -- use `nowait` when creating keymaps
-}
 
-local mappings = {
-	f = {
-		name = "files",
-		b = { "<cmd>Telescope file_browser<cr>", "File Browser" },
-		c = { SearchConfigfiles, "Config Files" },
-		d = { SearchDotfiles, "Dot Files" },
-		f = { builtin.find_files, "Find File" },
-		g = { builtin.git_files, "Find Git Files" },
-		h = { builtin.oldfiles, "File History" },
-		n = { SearchNotes, "Notes" },
-		p = {
-			"<cmd>Telescope repo cached_list<cr>",
-			"Projects",
-		},
-	},
-}
+vim.keymap.set("n","<leader>fb","<cmd>Telescope file_browser<cr>",{ noremap = true, silent = true, desc = "File Browser" })
+vim.keymap.set("n","<leader>fc",SearchConfigfiles,{ noremap = true, silent = true, desc = "Config Files" })
+vim.keymap.set("n","<leader>fd",SearchDotfiles,{ noremap = true, silent = true, desc = "Dot Files" })
+vim.keymap.set("n","<leader>ff",builtin.find_files,{ noremap = true, silent = true, desc = "Find Files" })
+vim.keymap.set("n","<leader>fg",builtin.git_files,{ noremap = true, silent = true, desc = "Find Git Files" })
+vim.keymap.set("n","<leader>fh",builtin.oldfiles,{ noremap = true, silent = true, desc = "File History" })
+vim.keymap.set("n","<leader>fn",SearchNotes,{ noremap = true, silent = true, desc = "Notes" })
+vim.keymap.set("n","<leader>fp","<cmd>Telescope repo cached_list<cr>",{ noremap = true, silent = true, desc = "Projects" })
 
-which_key.register(mappings, opts)
+vim.keymap.set("n","<leader>sc","<cmd>Telescope neoclip<cr>",{ noremap = true, silent = true, desc = "Search Clipboard" })
+vim.keymap.set("n","<leader>sb","<cmd>Telescope current_buffer_fuzzy_find<cr>",{ noremap = true, silent = true, desc = "Search Current Buffer" })
+vim.keymap.set("n","<leader>sg","<cmd>Telescope live_grep<cr>",{ noremap = true, silent = true, desc = "Grep Search" })
+vim.keymap.set("n","<leader>sk","<cmd>Telescope keymaps<cr>",{ noremap = true, silent = true, desc = "Search Keymaps" })
+vim.keymap.set("n","<leader>sw","<cmd>Telescope grep_string<cr>",{ noremap = true, silent = true, desc = "Search Word Under Cursor" })
+
+vim.keymap.set("n","<leader>bl","<cmd>Telescope buffers<cr>",{ noremap = true, silent = true, desc = "List Buffers" })

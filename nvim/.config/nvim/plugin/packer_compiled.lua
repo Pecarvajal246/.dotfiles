@@ -204,11 +204,6 @@ _G.packer_plugins = {
     path = "/home/pedro/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["modes.nvim"] = {
-    loaded = true,
-    path = "/home/pedro/.local/share/nvim/site/pack/packer/start/modes.nvim",
-    url = "https://github.com/mvllow/modes.nvim"
-  },
   neogit = {
     loaded = true,
     path = "/home/pedro/.local/share/nvim/site/pack/packer/start/neogit",
@@ -233,11 +228,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/pedro/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
-  },
-  ["nvim-colorizer.lua"] = {
-    loaded = true,
-    path = "/home/pedro/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
-    url = "https://github.com/norcalli/nvim-colorizer.lua"
   },
   ["nvim-dap"] = {
     loaded = true,

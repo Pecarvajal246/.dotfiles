@@ -24,18 +24,16 @@ local mappings = {
 	b = {
 		name = "buffers",
 		d = { "<cmd>bd<cr>", "Delete Buffer" },
-		l = { "<cmd>Telescope buffers<cr>", "List all buffers" },
 	},
-	t = {
-		name = "Terminal",
-		f = { "<cmd>ToggleTerm direction=float<cr>", "Float" },
-		h = { "<cmd>ToggleTerm size=10 direction=horizontal<cr>", "Horizontal" },
-		v = { "<cmd>ToggleTerm size=80 direction=vertical<cr>", "Vertical" },
+	f = {
+		name = "Files",
 	},
 	g = {
 		name = "Go to",
 		b = { "<cmd>BufferLinePick<cr>", "Go To Buffer" },
-		g = { "<cmd>Neogit<cr>", "Go To Git" },
+	},
+	t = {
+		name = "Terminal",
 	},
 	l = { "<cmd>BufferLineCycleNext<cr>", "Cycle Next Buffer" },
 	h = { "<cmd>BufferLineCyclePrev<cr>", "Cycle Previous Buffer" },
@@ -44,14 +42,12 @@ local mappings = {
 		name = "Plugins",
 		u = { "<cmd>PackerUpdate<cr>", "Update Plugins" },
 	},
+	r = {
+		name = "Refactoring",
+	},
 	s = {
 		name = "Search",
-		c = { "<cmd>Telescope neoclip<cr>", "Search Clipboard" },
-		f = { "<cmd>Telescope current_buffer_fuzzy_find<cr>", "Search current buffer" },
-		g = { "<cmd>Telescope live_grep<cr>", "Grep search" },
-		k = { "<cmd>Telescope keymaps<cr>", "Search Keymaps" },
 		s = { ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>", "Search and replace word under cursor" },
-		w = { "<cmd>Telescope grep_string<cr>", "Search word under cursor" },
 	},
 }
 

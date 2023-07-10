@@ -49,10 +49,8 @@ return packer.startup(function(use)
 	use("numToStr/Comment.nvim")
 	use("ggandor/lightspeed.nvim")
 	use("nvim-neorg/neorg")
-	use("norcalli/nvim-colorizer.lua")
 	use("folke/which-key.nvim")
 	use("nmac427/guess-indent.nvim")
-	use("mvllow/modes.nvim")
 	use("akinsho/toggleterm.nvim")
 	use("stevearc/dressing.nvim")
 	use({
@@ -121,11 +119,6 @@ return packer.startup(function(use)
 	use("ghassan0/telescope-glyph.nvim")
 
 	-- Debugging and testing
-	use("mfussenegger/nvim-dap")
-	use("mfussenegger/nvim-dap-python")
-	use("rcarriga/nvim-dap-ui")
-	use("theHamsta/nvim-dap-virtual-text")
-	use("rest-nvim/rest.nvim")
 	use({
 		"ThePrimeagen/refactoring.nvim",
 		requires = {
