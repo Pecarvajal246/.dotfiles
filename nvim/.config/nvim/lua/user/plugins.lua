@@ -41,9 +41,6 @@ packer.init({
 -- Install your plugins here
 return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
-	use("lewis6991/impatient.nvim", function()
-		require("impatient").setup()
-	end)
 	use("lukas-reineke/indent-blankline.nvim")
 	use("windwp/nvim-autopairs")
 	use("numToStr/Comment.nvim")
@@ -107,7 +104,6 @@ return packer.startup(function(use)
 	use("hrsh7th/cmp-nvim-lua")
 	use("hrsh7th/cmp-path")
 	use("saadparwaiz1/cmp_luasnip")
-	use("mattn/emmet-vim")
 
 	-- Telescope
 	use("nvim-lua/plenary.nvim")
@@ -147,9 +143,8 @@ return packer.startup(function(use)
 		"nvim-treesitter/nvim-treesitter",
 		run = ":TSUpdate",
 	})
-	use("p00f/nvim-ts-rainbow")
-	use("RRethy/nvim-treesitter-textsubjects")
 	use("m-demare/hlargs.nvim")
+	use("HiPhish/rainbow-delimiters.nvim")
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
