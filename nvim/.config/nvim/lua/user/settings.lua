@@ -1,3 +1,7 @@
+-- disable netrw at the very start of your init.lua
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 vim.o.completeopt = 'menuone,noselect'
@@ -10,6 +14,7 @@ vim.o.hlsearch = false
 vim.o.undofile = true
 vim.o.cursorline = true
 vim.o.smartindent = true
+vim.o.autoindent = true
 vim.o.tabstop = 2
 vim.o.shiftwidth = 2
 vim.o.expandtab = true

@@ -18,13 +18,14 @@ treesitter.setup({
 		"norg",
 		"http",
 		"sql",
+		"ruby",
 	},
 	highlight = {
 		enable = true,
 		additional_vim_regex_highlighting = false,
 	},
-	-- indent = {
-	--   enable = true,
-	--   disable = {"python"}
-	-- }
+	indent = {
+	  enable = true,
+	  disable = {"python"}
+	}
 })

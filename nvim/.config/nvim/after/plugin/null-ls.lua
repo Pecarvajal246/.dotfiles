@@ -6,7 +6,7 @@ if not mason_status_ok or not null_ls_status_ok or not mason_null_ls_status_ok t
 end
 
 mason_null_ls.setup({
-	ensure_installed = { "stylua", "black", "prettierd"},
+	ensure_installed = { "stylua", "black", "prettierd" },
 	automatic_installation = true,
 })
 

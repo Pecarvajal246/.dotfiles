@@ -47,7 +47,7 @@ return packer.startup(function(use)
 	use("ggandor/lightspeed.nvim")
 	use("nvim-neorg/neorg")
 	use("folke/which-key.nvim")
-	use("nmac427/guess-indent.nvim")
+	-- use("nmac427/guess-indent.nvim")
 	use("akinsho/toggleterm.nvim")
 	use("stevearc/dressing.nvim")
 	use({
@@ -90,6 +90,10 @@ return packer.startup(function(use)
 			{ "williamboman/mason.nvim" },
 		},
 	})
+  use {
+  "pmizio/typescript-tools.nvim",
+  requires = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
+}
 	use("jose-elias-alvarez/null-ls.nvim")
 	use("jayp0521/mason-null-ls.nvim")
 	use("folke/trouble.nvim")
@@ -114,6 +118,14 @@ return packer.startup(function(use)
 	use("cljoly/telescope-repo.nvim")
 	use("ghassan0/telescope-glyph.nvim")
 
+  -- File explorer
+  use {
+  'antosha417/nvim-lsp-file-operations',
+  requires = {
+    "nvim-lua/plenary.nvim",
+    "nvim-tree/nvim-tree.lua",
+  }
+}
 	-- Debugging and testing
 	use({
 		"ThePrimeagen/refactoring.nvim",

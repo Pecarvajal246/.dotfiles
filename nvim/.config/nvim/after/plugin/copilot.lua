@@ -16,7 +16,10 @@ copilot.setup({
       prev = "<M-[>",
       dismiss = "<C-]>",
     },
-  }
+  },
+  filetypes = {
+    yaml = true
+  },
 	-- cmp = {
 	-- 	enabled = true,
 	-- 	method = "getPanelCompletions",
