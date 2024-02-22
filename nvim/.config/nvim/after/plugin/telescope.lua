@@ -18,8 +18,13 @@ telescope.setup({
 			i = {
 				["<esc>"] = actions.close,
 				["<A-h>"] = "which_key",
+        ["<C-Down>"] = actions.cycle_history_next,
+        ["<C-Up>"] = actions.cycle_history_prev
 			},
 		},
+    cache_picker = {
+      num_pickers= 3
+    }
 	},
 	extensions = {
 		fzf = {
@@ -85,9 +90,11 @@ vim.keymap.set("n", "<leader>ff", builtin.find_files, { noremap = true, silent =
 vim.keymap.set("n", "<leader>fg", builtin.git_files, { noremap = true, silent = true, desc = "Find Git Files" })
 vim.keymap.set("n", "<leader>fh", builtin.oldfiles, { noremap = true, silent = true, desc = "File History" })
 vim.keymap.set("n", "<leader>fn", SearchNotes, { noremap = true, silent = true, desc = "Notes" })
+vim.keymap.set("n", "<leader>fr", builtin.resume, { noremap = true, silent = true, desc = "Resume Search" })
+vim.keymap.set("n", "<leader>fp", builtin.pickers, { noremap = true, silent = true, desc = "Pickers" })
 vim.keymap.set(
 	"n",
-	"<leader>fp",
+	"<leader>fP",
 	"<cmd>Telescope repo cached_list<cr>",
 	{ noremap = true, silent = true, desc = "Projects" }
 )

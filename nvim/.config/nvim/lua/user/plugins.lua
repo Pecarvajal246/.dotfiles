@@ -44,7 +44,6 @@ return packer.startup(function(use)
 	use("lukas-reineke/indent-blankline.nvim")
 	use("windwp/nvim-autopairs")
 	use("numToStr/Comment.nvim")
-	use("ggandor/lightspeed.nvim")
 	use("nvim-neorg/neorg")
 	use("folke/which-key.nvim")
 	-- use("nmac427/guess-indent.nvim")
@@ -90,15 +89,18 @@ return packer.startup(function(use)
 			{ "williamboman/mason.nvim" },
 		},
 	})
-  use {
-  "pmizio/typescript-tools.nvim",
-  requires = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
-}
-	use("jose-elias-alvarez/null-ls.nvim")
-	use("jayp0521/mason-null-ls.nvim")
+	use("WhoIsSethDaniel/mason-tool-installer.nvim")
+	use({
+		"pmizio/typescript-tools.nvim",
+		requires = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
+	})
 	use("folke/trouble.nvim")
 	use("ray-x/lsp_signature.nvim")
 	use("j-hui/fidget.nvim")
+
+	-- Formatting & linting
+	use("stevearc/conform.nvim")
+	use("mfussenegger/nvim-lint")
 
 	-- Completion
 	use("hrsh7th/nvim-cmp")
@@ -117,15 +119,16 @@ return packer.startup(function(use)
 	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" })
 	use("cljoly/telescope-repo.nvim")
 	use("ghassan0/telescope-glyph.nvim")
+  use {'kevinhwang91/nvim-bqf', ft = 'qf'}
 
-  -- File explorer
-  use {
-  'antosha417/nvim-lsp-file-operations',
-  requires = {
-    "nvim-lua/plenary.nvim",
-    "nvim-tree/nvim-tree.lua",
-  }
-}
+	-- File explorer
+	use({
+		"antosha417/nvim-lsp-file-operations",
+		requires = {
+			"nvim-lua/plenary.nvim",
+			"nvim-tree/nvim-tree.lua",
+		},
+	})
 	-- Debugging and testing
 	use({
 		"ThePrimeagen/refactoring.nvim",
@@ -157,6 +160,7 @@ return packer.startup(function(use)
 	})
 	use("m-demare/hlargs.nvim")
 	use("HiPhish/rainbow-delimiters.nvim")
+  use("nvim-treesitter/nvim-treesitter-context")
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()

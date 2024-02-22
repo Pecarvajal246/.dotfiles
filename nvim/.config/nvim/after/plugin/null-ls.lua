@@ -1,33 +1,33 @@
-local mason_status_ok, mason = pcall(require, "mason")
-local null_ls_status_ok, null_ls = pcall(require, "null-ls")
-local mason_null_ls_status_ok, mason_null_ls = pcall(require, "mason-null-ls")
-if not mason_status_ok or not null_ls_status_ok or not mason_null_ls_status_ok then
-	return
-end
-
-mason_null_ls.setup({
-	ensure_installed = { "stylua", "black", "prettierd" },
-	automatic_installation = true,
-})
-
-local formatting = null_ls.builtins.formatting
-local diagnostics = null_ls.builtins.diagnostics
-
-null_ls.setup({
-	debug = false,
-	sources = {
-		formatting.prettierd,
-		formatting.black.with({ extra_args = { "--fast" } }),
-		formatting.stylua,
-		formatting.jq,
-	},
-	-- on_attach = function(client, bufnr)
-	-- 	vim.api.nvim_buf_set_keymap(
-	-- 		bufnr,
-	-- 		"n",
-	-- 		"<space>F",
-	-- 		"<cmd>lua vim.lsp.buf.format()<CR>",
-	-- 		{ noremap = true, silent = true }
-	-- 	)
-	-- end,
-})
+-- local mason_status_ok, mason = pcall(require, "mason")
+-- local null_ls_status_ok, null_ls = pcall(require, "null-ls")
+-- local mason_null_ls_status_ok, mason_null_ls = pcall(require, "mason-null-ls")
+-- if not mason_status_ok or not null_ls_status_ok or not mason_null_ls_status_ok then
+-- 	return
+-- end
+--
+-- mason_null_ls.setup({
+-- 	ensure_installed = { "stylua", "black", "prettierd" },
+-- 	automatic_installation = true,
+-- })
+--
+-- local formatting = null_ls.builtins.formatting
+-- local diagnostics = null_ls.builtins.diagnostics
+--
+-- null_ls.setup({
+-- 	debug = false,
+-- 	sources = {
+-- 		formatting.prettierd,
+-- 		formatting.black.with({ extra_args = { "--fast" } }),
+-- 		formatting.stylua,
+-- 		formatting.jq,
+-- 	},
+-- 	-- on_attach = function(client, bufnr)
+-- 	-- 	vim.api.nvim_buf_set_keymap(
+-- 	-- 		bufnr,
+-- 	-- 		"n",
+-- 	-- 		"<space>F",
+-- 	-- 		"<cmd>lua vim.lsp.buf.format()<CR>",
+-- 	-- 		{ noremap = true, silent = true }
+-- 	-- 	)
+-- 	-- end,
+-- })

@@ -42,6 +42,9 @@ local mappings = {
 		name = "Plugins",
 		u = { "<cmd>PackerUpdate<cr>", "Update Plugins" },
 	},
+  x = {
+    name = "Trouble",
+  },
 	r = {
 		name = "Refactoring",
 	},

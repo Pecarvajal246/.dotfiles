@@ -1,10 +1,14 @@
 local mason_status_ok, mason = pcall(require, "mason")
 local mason_lspconfig_status_ok, mason_lspconfig = pcall(require, "mason-lspconfig")
 local lspconfig_status_ok, lspconfig = pcall(require, "lspconfig")
+local conform_status_ok, conform = pcall(require, "conform")
+if not conform_status_ok then
+	return
+end
 
 local typescript_tools_status_ok, typescript_tools = pcall(require, "typescript-tools")
 if not typescript_tools_status_ok then
-  return
+	return
 end
 
 if not mason_status_ok or not mason_lspconfig_status_ok or not lspconfig_status_ok then
@@ -20,12 +24,10 @@ vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.s
 })
 
 local lsp_formatting = function(bufnr)
-	vim.lsp.buf.format({
-		filter = function(client)
-			-- apply whatever logic you want (in this example, we'll only use null-ls)
-			return client.name == "null-ls"
-		end,
-		bufnr = bufnr,
+	conform.format({
+    async = true,
+    bufnr = bufnr,
+    lsp_fallback = true,
 	})
 end
 
@@ -76,11 +78,11 @@ lspconfig.util.default_config = vim.tbl_extend("force", lspconfig.util.default_c
 
 -- Loop through all of the installed servers and set it up via lspconfig
 for _, server in ipairs(mason_lspconfig.get_installed_servers()) do
-  if server == "lua_ls" or server == "tsserver" then
-    goto continue
-  end
+	if server == "lua_ls" or server == "tsserver" then
+		goto continue
+	end
 	lspconfig[server].setup({})
-    ::continue::
+	::continue::
 end
 
 lspconfig.lua_ls.setup({
@@ -101,5 +103,5 @@ lspconfig.lua_ls.setup({
 
 typescript_tools.setup({
 	capabilities = require("cmp_nvim_lsp").default_capabilities(vim.lsp.protocol.make_client_capabilities()),
-  on_attach = on_attach,
+	on_attach = on_attach,
 })
