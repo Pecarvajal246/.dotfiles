@@ -40,11 +40,11 @@ local mappings = {
 	-- gr = {"<cmd>TroubleToggle lsp_references<cr>", "Open References List"},
 	p = {
 		name = "Plugins",
-		u = { "<cmd>PackerUpdate<cr>", "Update Plugins" },
+		{ "<cmd>Lazy<cr>", "Plugins" },
 	},
-  x = {
-    name = "Trouble",
-  },
+	x = {
+		name = "Trouble",
+	},
 	r = {
 		name = "Refactoring",
 	},
