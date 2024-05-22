@@ -11,7 +11,8 @@ end
 config.color_scheme = 'tokyonight_night'
 -- config.font = wezterm.font 'Iosevka'
 config.font = wezterm.font 'CaskaydiaCove Nerd Font'
-config.window_decorations = "RESIZE"
+config.window_decorations = "NONE"
+-- config.window_decorations = "RESIZE"
 config.window_padding = { left = 0, right = 0, top = 0, bottom = 0 }
 config.use_fancy_tab_bar = false
 config.tab_bar_at_bottom = true
@@ -28,6 +29,5 @@ wezterm.on('gui-startup', function(cmd)
   local tab, pane, window = mux.spawn_window(cmd or {})
   window:gui_window():maximize()
 end)
--- and finally, return the configuration to wezterm
 return config
 
