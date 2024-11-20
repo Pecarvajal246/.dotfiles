@@ -11,12 +11,6 @@ return {
 			-- Tell Neorg what modules to load
 			load = {
 				["core.defaults"] = {}, -- Load all the default modules
-				-- ["core.keybindings"] = {
-				-- 	config = {
-				-- 		default_keybindings = true,
-				-- 		neorg_leader = " ",
-				-- 	},
-				-- },
 				["core.concealer"] = {}, -- Allows for use of icons
 				["core.completion"] = {
 					config = {

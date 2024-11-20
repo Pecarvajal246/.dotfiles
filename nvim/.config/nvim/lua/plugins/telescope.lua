@@ -149,11 +149,11 @@ return {
 			{ noremap = true, silent = true, desc = "Search Word Under Cursor" }
 		)
 
-		vim.keymap.set(
-			"n",
-			"<leader>bl",
-			"<cmd>Telescope buffers<cr>",
-			{ noremap = true, silent = true, desc = "List Buffers" }
-		)
+			vim.keymap.set(
+				"n",
+				"<leader>bl",
+				"<cmd>Telescope buffers<cr>",
+				{ noremap = true, silent = true, desc = "List Buffers" }
+			)
 	end,
 }

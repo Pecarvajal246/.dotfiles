@@ -100,6 +100,7 @@ export MAILCAPS=/home/pedro/.config/tuir/mailcaps
 export TUIR_BROWSER=/home/pedro/.config/tuir/link_handler
 export PATH="/usr/bin/flutter/bin:$PATH"
 export PATH="/usr/local/android-studio/bin:$PATH"
+export PATH="$PATH:/opt/nvim/"
 # export FZF_DEFAULT_OPTS= '--cycle --follow --layout=reverse --border --height=90% --preview-window=wrap --marker="*"'
 
 if [[ $(ps --no-header --pid=$PPID --format=cmd) != "fish" && -z ${BASH_EXECUTION_STRING} ]]
