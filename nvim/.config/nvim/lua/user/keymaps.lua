@@ -34,8 +34,7 @@ vim.keymap.set(
 	{ noremap = true, silent = true, desc = "Search and Replace word under cursor" }
 )
 
-vim.keymap.set("n", "<Space>l", "<cmd>bnext<cr>", { noremap = true, silent = true })
-vim.keymap.set("n", "<Space>h", "<cmd>bprev<cr>", { noremap = true, silent = true })
+vim.keymap.set("n", "<Space>j", "<cmd>bnext<cr>", { noremap = true, silent = true })
+vim.keymap.set("n", "<Space>k", "<cmd>bprev<cr>", { noremap = true, silent = true })
 
 vim.keymap.set("n", "<Space>bd", "<cmd>bdelete<cr>", { noremap = true, silent = true, desc = "Delete buffer" })
-

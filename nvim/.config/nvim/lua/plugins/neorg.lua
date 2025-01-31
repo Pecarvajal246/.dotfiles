@@ -27,6 +27,7 @@ return {
 					},
 				},
 				["core.summary"] = {},
+        ["core.export"] = {},
 			},
 		},
 	},

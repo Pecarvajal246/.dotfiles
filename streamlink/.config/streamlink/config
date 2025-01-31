@@ -1,9 +1,5 @@
 player=mpv --profile=streamlink
-#twitch-disable-ads
 twitch-low-latency
 default-stream=best
 title "{title} - {author}"
 twitch-proxy-playlist=http://localhost:9595
-# stream-segment-threads=4
-# hls-live-edge=4
-# player-passthrough=hls

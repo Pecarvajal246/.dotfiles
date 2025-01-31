@@ -23,7 +23,7 @@ vim.o.conceallevel = 3
 vim.o.list = true
 vim.opt.listchars = {tab = '▸ ', trail = '·'}
 vim.o.termguicolors = true
-vim.o.autochdir = true
+-- vim.o.autochdir = true
 vim.o.clipboard = 'unnamedplus'
 
 -- Case-insensitive searching UNLESS \C or capital in search

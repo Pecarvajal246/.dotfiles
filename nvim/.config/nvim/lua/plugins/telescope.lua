@@ -76,6 +76,7 @@ return {
 					"kitty",
 					"beets",
 					"wezterm",
+					"fish"
 				},
 			})
 		end
@@ -103,6 +104,7 @@ return {
 			"<cmd>Telescope file_browser<cr>",
 			{ noremap = true, silent = true, desc = "File Browser" }
 		)
+		vim.keymap.set("n", "<leader>fB", "<cmd>Telescope file_browser path=%:p:h<CR>", { noremap = true, silent = true, desc = "File Browser file path" })
 		vim.keymap.set("n", "<leader>fc", SearchConfigfiles, { noremap = true, silent = true, desc = "Config Files" })
 		vim.keymap.set("n", "<leader>fd", SearchDotfiles, { noremap = true, silent = true, desc = "Dot Files" })
 		vim.keymap.set("n", "<leader>ff", builtin.find_files, { noremap = true, silent = true, desc = "Find Files" })
