@@ -20,6 +20,8 @@ return {
 				"sql",
 				"ruby",
 				"dart",
+				"markdown",
+				"markdown_inline"
 			},
 			highlight = {
 				enable = true,
