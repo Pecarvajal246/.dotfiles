@@ -93,7 +93,7 @@ return {
 		function SearchNotes()
 			builtin.find_files(themes.get_dropdown({
 				prompt_title = "Notes",
-				cwd = "~/neorg",
+				cwd = "~/Notes",
 				previewer = false,
 			}))
 		end
