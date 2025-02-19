@@ -71,8 +71,13 @@ return {
 		local capabilities = vim.lsp.protocol.make_client_capabilities()
 		capabilities = vim.tbl_deep_extend("force", capabilities, require("cmp_nvim_lsp").default_capabilities())
 		require("mason").setup()
-		require("mason-tool-installer").setup({ ensure_installed = { "stylua", "black", "prettierd", "yamllint" } })
+		require("mason-tool-installer").setup({
+			ensure_installed = { "stylua", "black", "prettierd", "yamllint", "pylsp", "lua-language-server" },
+		})
 
+		require("typescript-tools").setup({
+			capabilities = capabilities,
+		})
 		require("mason-lspconfig").setup({
 			handlers = {
 				function(server_name)
@@ -98,11 +103,11 @@ return {
 						},
 					})
 				end,
-				["tsserver"] = function()
-					require("typescript-tools").setup({
-						capabilities = capabilities,
-					})
-				end,
+				-- ["ts_ls"] = function()
+				-- 	require("typescript-tools").setup({
+				-- 		capabilities = capabilities,
+				-- 	})
+				-- end,
 			},
 		})
 	end,
