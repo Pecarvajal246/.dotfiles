@@ -14,7 +14,7 @@ return {
 			{ noremap = true, silent = true, desc = "Clean Prints" }
 		)
 		vim.keymap.set(
-			"n",
+			{"n", "x"},
 			"<leader>rv",
 			refactoring.debug.print_var,
 			{ noremap = true, silent = true, desc = "Print Variable" }
@@ -22,18 +22,10 @@ return {
 		vim.keymap.set(
 			{ "n", "x" },
 			"<leader>rr",
-			-- "<cmd>lua require'telescope'.extensions.refactoring.refactors()<cr>",
 			function()
-				require("refactoring").select_refactor()
+				refactoring.select_refactor({prefer_ex_cmd = true})
 			end,
 			{ noremap = true, silent = true, desc = "Refactor" }
-		)
-
-		vim.keymap.set(
-			"v",
-			"<leader>rv",
-			refactoring.debug.print_var,
-			{ noremap = true, silent = true, desc = "Print Variable" }
 		)
 	end,
 }

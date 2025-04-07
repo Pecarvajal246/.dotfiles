@@ -21,7 +21,8 @@ return {
 				"ruby",
 				"dart",
 				"markdown",
-				"markdown_inline"
+				"markdown_inline",
+				"solidity",
 			},
 			highlight = {
 				enable = true,

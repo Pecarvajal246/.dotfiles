@@ -123,6 +123,9 @@ return {
 					{ name = "nvim_lua" },
 					{ name = "neorg" },
 				},
+				performance = {
+					fetching_timeout = 2000,
+				},
 			})
 
 			cmp.setup.cmdline(":", {

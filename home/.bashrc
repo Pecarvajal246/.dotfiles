@@ -103,11 +103,14 @@ export PATH="/usr/local/android-studio/bin:$PATH"
 export PATH="$PATH:/opt/nvim/"
 # export FZF_DEFAULT_OPTS= '--cycle --follow --layout=reverse --border --height=90% --preview-window=wrap --marker="*"'
 
+# fnm
+export PATH=/home/pedro/.fnm:$PATH
+eval "`fnm env`"
+
+export PATH="$PATH:/home/pedro/.foundry/bin"
+
 if [[ $(ps --no-header --pid=$PPID --format=cmd) != "fish" && -z ${BASH_EXECUTION_STRING} ]]
 then
 	exec fish
 fi
 
-# fnm
-export PATH=/home/pedro/.fnm:$PATH
-eval "`fnm env`"
