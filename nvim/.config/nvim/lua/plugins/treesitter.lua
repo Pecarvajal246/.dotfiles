@@ -2,6 +2,7 @@ return {
 	{
 		"nvim-treesitter/nvim-treesitter",
 		build = ":TSUpdate",
+		dependencies = { "OXY2DEV/markview.nvim" },
 		opts = {
 			ensure_installed = {
 				"python",
@@ -15,7 +16,6 @@ return {
 				"css",
 				"javascript",
 				"bash",
-				"norg",
 				"http",
 				"sql",
 				"ruby",
