@@ -42,6 +42,12 @@ return {
 					case_mode = "ignore_case", -- or "ignore_case" or "respect_case"
 					-- the default case_mode is "smart_case"
 				},
+				file_browser = {
+					hidden = {
+						file_browser = true,
+						folder_browser = true,
+					}
+				},
 				repo = {
 					list = {
 						search_dirs = { "~/Documents", "~/python_scripts", "~/Work" },

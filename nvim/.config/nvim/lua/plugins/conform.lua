@@ -12,12 +12,13 @@ return {
 		},
 	},
 	opts = {
-		notify_on_error = false,
+		notify_on_error = true,
 		formatters_by_ft = {
 			lua = { "stylua" },
 			python = { "black" },
 			javascript = {  "prettierd", "prettier", stop_after_first = true },
 			markdown = {  "prettierd", "prettier", stop_after_first = true },
+			yaml = {  "prettierd", "prettier", stop_after_first = true },
 		},
 	},
 }

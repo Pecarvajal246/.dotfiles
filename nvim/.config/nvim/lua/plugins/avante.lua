@@ -5,11 +5,7 @@ return {
 	opts = {
 		provider = "gemini",
 		gemini = {
-			endpoint = "https://generativelanguage.googleapis.com/v1beta/models",
-			model = "gemini-2.0-flash", -- your desired model (or use gpt-4o, etc.)
-			timeout = 30000, -- Timeout in milliseconds, increase this for reasoning models
-			temperature = 0,
-			max_tokens = 8192, -- Increase this to include reasoning tokens (for reasoning models)
+			model = "gemini-2.0-flash",
 		},
 	},
 	build = "make",

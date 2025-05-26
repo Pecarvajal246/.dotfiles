@@ -1,5 +1,4 @@
-require "user.settings"
-require "user.keymaps"
-require "user.diagnostics"
-require "user.plugins"
-require "user.colorscheme"
+require("user.settings")
+require("user.keymaps")
+require("user.diagnostics")
+require("user.plugins")
