@@ -9,8 +9,7 @@ if wezterm.config_builder then
 end
 
 config.color_scheme = 'tokyonight_night'
--- config.font = wezterm.font 'Iosevka'
-config.font = wezterm.font 'CaskaydiaCove Nerd Font'
+config.font = wezterm.font 'IosevkaTerm Nerd Font'
 config.window_decorations = "NONE"
 -- config.window_decorations = "RESIZE"
 config.window_padding = { left = 0, right = 0, top = 0, bottom = 0 }

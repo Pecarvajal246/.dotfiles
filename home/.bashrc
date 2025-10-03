@@ -7,36 +7,6 @@
 
 [[ -f ~/.welcome_screen ]] && . ~/.welcome_screen
 
-_set_liveuser_PS1() {
-    PS1='[\u@\h \W]\$ '
-    if [ "$(whoami)" = "liveuser" ] ; then
-        local iso_version="$(grep ^VERSION= /usr/lib/endeavouros-release 2>/dev/null | cut -d '=' -f 2)"
-        if [ -n "$iso_version" ] ; then
-            local prefix="eos-"
-            local iso_info="$prefix$iso_version"
-            PS1="[\u@$iso_info \W]\$ "
-        fi
-    fi
-}
-_set_liveuser_PS1
-unset -f _set_liveuser_PS1
-
-ShowInstallerIsoInfo() {
-    local file=/usr/lib/endeavouros-release
-    if [ -r $file ] ; then
-        cat $file
-    else
-        echo "Sorry, installer ISO info is not available." >&2
-    fi
-}
-
-
-alias ls='ls --color=auto'
-alias ll='ls -lav --ignore=..'   # show long listing of all except ".."
-alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles except "."
-
-[[ "$(whoami)" = "root" ]] && return
-
 [[ -z "$FUNCNEST" ]] && export FUNCNEST=100          # limits recursive functions, see 'man bash'
 
 ## Use the up and down arrow keys for finding a command in history
@@ -95,9 +65,6 @@ export PATH=$PATH:/home/pedro/Applications
 export PATH=$PATH:/home/pedro/.cargo/bin
 export VISUAL=nvim
 export EDITOR=nvim
-export BROWSER=firefox
-export MAILCAPS=/home/pedro/.config/tuir/mailcaps
-export TUIR_BROWSER=/home/pedro/.config/tuir/link_handler
 export PATH="/usr/bin/flutter/bin:$PATH"
 export PATH="/usr/local/android-studio/bin:$PATH"
 export PATH="$PATH:/opt/nvim/"
@@ -107,8 +74,14 @@ export PATH="$PATH:/opt/nvim/"
 export PATH=/home/pedro/.fnm:$PATH
 eval "`fnm env`"
 
+# foundry
 export PATH="$PATH:/home/pedro/.foundry/bin"
 
+# Encore
+export ENCORE_INSTALL="/home/pedro/.encore"
+export PATH="$ENCORE_INSTALL/bin:$PATH"
+
+# Start fish shell
 if [[ $(ps --no-header --pid=$PPID --format=cmd) != "fish" && -z ${BASH_EXECUTION_STRING} ]]
 then
 	exec fish

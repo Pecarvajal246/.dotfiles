@@ -3,9 +3,24 @@ return {
 	event = "VeryLazy",
 	version = false, -- Never set this value to "*"! Never!
 	opts = {
-		provider = "gemini",
-		gemini = {
-			model = "gemini-2.0-flash",
+		-- provider = "copilot"
+		-- providers = {
+		-- 	gemini = {
+		-- 		model = "gemini-2.5-flash-preview-05-20",
+		-- 	},
+		-- },
+		provider = "gemini-cli",
+		{
+			acp_providers = {
+				["gemini-cli"] = {
+					command = "gemini",
+					args = { "--experimental-acp" },
+					env = {
+						NODE_NO_WARNINGS = "1",
+						GEMINI_API_KEY = os.getenv("GEMINI_API_KEY"),
+					},
+				},
+			},
 		},
 	},
 	build = "make",
@@ -23,7 +38,7 @@ return {
 			opts = {
 				file_types = { "Avante" },
 			},
-			ft = {"Avante" },
+			ft = { "Avante" },
 		},
 	},
 }

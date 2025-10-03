@@ -17,7 +17,7 @@ return {
 			map("v", "<leader>ghs", function()
 				gs.stage_hunk({ vim.fn.line("."), vim.fn.line("v") })
 			end, { desc = "Hunk Stage" })
-			map("v", "<leader>hr", function()
+			map("v", "<leader>ghu", function()
 				gs.reset_hunk({ vim.fn.line("."), vim.fn.line("v") })
 			end, { desc = "Hunk Reset" })
 			map("n", "<leader>ghu", gs.undo_stage_hunk, { desc = "Hunk Undo Stage" })
