@@ -5,4 +5,4 @@ end
 starship init fish | source
 
 abbr -a -g v nvim
-abbr -a -g ls exa -a --icons
+abbr -a -g ls eza -a --icons

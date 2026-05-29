@@ -1,10 +1,10 @@
 return {
 	{
 		"nvim-treesitter/nvim-treesitter",
+		lazy = false,
 		build = ":TSUpdate",
-		dependencies = { "OXY2DEV/markview.nvim" },
-		opts = {
-			ensure_installed = {
+		config = function()
+			require("nvim-treesitter").install({
 				"python",
 				"lua",
 				"vim",
@@ -23,52 +23,30 @@ return {
 				"markdown",
 				"markdown_inline",
 				"solidity",
-			},
-			highlight = {
-				enable = true,
-				additional_vim_regex_highlighting = false,
-			},
-			indent = {
-				enable = true,
-				disable = { "python" },
-			},
-		},
-		config = function(_, opts)
-			require("nvim-treesitter.configs").setup(opts)
+				"typescript",
+			})
+			vim.api.nvim_create_autocmd("FileType", {
+				callback = function(args)
+					local buf, filetype = args.buf, args.match
+
+					local language = vim.treesitter.language.get_lang(filetype)
+					if not language then
+						return
+					end
+
+					-- check if parser exists and load it
+					if not vim.treesitter.language.add(language) then
+						return
+					end
+
+					-- enables syntax highlighting and other treesitter features
+					vim.treesitter.start(buf, language)
+
+					-- enables treesitter based indentation
+					vim.bo.indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
+				end,
+			})
 		end,
-	},
-	{
-		"m-demare/hlargs.nvim",
-		opts = {
-			color = "#ef9062",
-			highlight = {},
-			excluded_filetypes = {},
-			-- disable = function(lang, bufnr) -- If changed, `excluded_filetypes` will be ignored
-			-- 	return vim.tbl_contains(opts.excluded_filetypes, lang)
-			-- end,
-			paint_arg_declarations = true,
-			paint_arg_usages = true,
-			hl_priority = 10000,
-			excluded_argnames = {
-				declarations = {},
-				usages = {
-					python = { "self", "cls" },
-					lua = { "self" },
-				},
-			},
-			performance = {
-				parse_delay = 1,
-				slow_parse_delay = 50,
-				max_iterations = 400,
-				max_concurrent_partial_parses = 30,
-				debounce = {
-					partial_parse = 3,
-					partial_insert_mode = 100,
-					total_parse = 700,
-					slow_parse = 5000,
-				},
-			},
-		},
 	},
 	{
 		"HiPhish/rainbow-delimiters.nvim",

@@ -1,7 +1,7 @@
 return {
 	"saghen/blink.cmp",
 	-- optional: provides snippets for the snippet source
-	dependencies = { "rafamadriz/friendly-snippets", "Kaiser-Yang/blink-cmp-avante" },
+	dependencies = { "rafamadriz/friendly-snippets" },
 	-- use a release tag to download pre-built binaries
 	version = "1.*",
 	-- AND/OR build from source, requires nightly: https://rust-lang.github.io/rustup/concepts/channels.html#working-with-nightly-rust
@@ -41,16 +41,7 @@ return {
 		-- Default list of enabled providers defined so that you can extend it
 		-- elsewhere in your config, without redefining it, due to `opts_extend`
 		sources = {
-			default = { "avante", "lsp", "path", "snippets", "buffer" },
-			providers = {
-				avante = {
-					module = "blink-cmp-avante",
-					name = "Avante",
-				},
-			},
-			per_filetype = {
-				markdown = { inherit_defaults = true },
-			},
+			default = { "lsp", "path", "snippets", "buffer" },
 		},
 
 		-- (Default) Rust fuzzy matcher for typo resistance and significantly better performance

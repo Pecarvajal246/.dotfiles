@@ -758,7 +758,7 @@ hide_window_decorations yes
 #: insensitive, from the set [0-9A-Z]. Specify your preference as a
 #: string of characters.
 
-# confirm_os_window_close 0
+confirm_os_window_close 0
 
 #: Ask for confirmation when closing an OS window or a Tab with at
 #: least this number of kitty windows in it by window manager (e.g.
@@ -915,7 +915,8 @@ hide_window_decorations yes
 
 #: The foreground and background colors
 
-background_opacity 0.9
+# background_opacity 0.9
+background_opacity 1
 
 #: The opacity of the background. A number between 0 and 1, where 1 is
 #: opaque and 0 is fully transparent.  This will only work if
@@ -1608,11 +1609,11 @@ map ctrl+alt+enter    launch --cwd=current
 
 #: Next window
 
- map kitty_mod+} next_window
+ map kitty_mod+l next_window
 
 #: Previous window
 
- map kitty_mod+{ previous_window
+ map kitty_mod+h previous_window
 
 #: Move window forward
 
@@ -2009,6 +2010,6 @@ map ctrl+alt+enter    launch --cwd=current
 
 
 # BEGIN_KITTY_THEME
-# Tokyo Night Storm
+# Tokyo Night
 include current-theme.conf
 # END_KITTY_THEME

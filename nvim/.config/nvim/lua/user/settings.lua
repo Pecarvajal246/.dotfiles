@@ -25,6 +25,7 @@ vim.opt.listchars = {tab = '▸ ', trail = '·'}
 vim.o.termguicolors = true
 -- vim.o.autochdir = true
 vim.o.clipboard = 'unnamedplus'
+vim.o.winborder = 'rounded'
 
 -- Case-insensitive searching UNLESS \C or capital in search
 vim.o.ignorecase = true

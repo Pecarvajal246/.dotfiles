@@ -80,10 +80,20 @@ export PATH="$PATH:/home/pedro/.foundry/bin"
 # Encore
 export ENCORE_INSTALL="/home/pedro/.encore"
 export PATH="$ENCORE_INSTALL/bin:$PATH"
+#
+# opencode
+export PATH=/home/pedro/.opencode/bin:$PATH
+
+if [[ -n "$ANTIGRAVITY_AGENT" ]]; then
+    export PS1='$ '      # Pure, simple prompt
+    unset PROMPT_COMMAND # Remove hooks that emit invisible codes
+    return               # STOP processing the rest of .bashrc
+fi
+
 
 # Start fish shell
 if [[ $(ps --no-header --pid=$PPID --format=cmd) != "fish" && -z ${BASH_EXECUTION_STRING} ]]
 then
 	exec fish
 fi
-
+. "$HOME/.cargo/env"

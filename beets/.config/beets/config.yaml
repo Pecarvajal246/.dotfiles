@@ -4,7 +4,7 @@ import:
     move: yes
     write: yes
 ignore_hidden: yes
-plugins: lyrics ftintitle fetchart embedart info mbcollection mbsync fish
+plugins: lyrics ftintitle fetchart embedart info mbcollection mbsync fish musicbrainz
 ftintitle:
     auto: yes
     format: (feat. {0})

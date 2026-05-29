@@ -5,8 +5,6 @@ return {
 		{ "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
 		"nvim-telescope/telescope-file-browser.nvim",
 		"AckslD/nvim-neoclip.lua",
-		"cljoly/telescope-repo.nvim",
-		"ghassan0/telescope-glyph.nvim",
 		{ "kevinhwang91/nvim-bqf", ft = "qf" },
 	},
 	config = function()
@@ -48,23 +46,12 @@ return {
 						folder_browser = true,
 					}
 				},
-				repo = {
-					list = {
-						search_dirs = { "~/Documents", "~/python_scripts", "~/Work" },
-					},
-					cached_list = {
-						file_ignore_patterns = { "/%.cache/", "/%.cargo/", "/%.dotfiles", "/%.local/" },
-					},
-				},
 			},
 		})
 
 		telescope.load_extension("neoclip")
 		telescope.load_extension("file_browser")
 		telescope.load_extension("fzf")
-		telescope.load_extension("repo")
-		telescope.load_extension("refactoring")
-		telescope.load_extension("glyph")
 
 		function SearchDotfiles()
 			builtin.find_files({
@@ -74,15 +61,12 @@ return {
 				search_dirs = {
 					"mpv",
 					"mpd",
-					"qtile",
 					"streamlink",
-					"twofi",
-					"sxhkd",
-					"rofi",
 					"kitty",
 					"beets",
 					"wezterm",
 					"fish",
+					'zellij'
 				},
 			})
 		end
@@ -104,12 +88,12 @@ return {
 			}))
 		end
 
-		vim.keymap.set(
-			"n",
-			"<leader>fB",
-			"<cmd>Telescope file_browser<cr>",
-			{ noremap = true, silent = true, desc = "File Browser" }
-		)
+		-- vim.keymap.set(
+		-- 	"n",
+		-- 	"<leader>fB",
+		-- 	"<cmd>Telescope file_browser<cr>",
+		-- 	{ noremap = true, silent = true, desc = "File Browser" }
+		-- )
 		vim.keymap.set(
 			"n",
 			"<leader>fb",
@@ -124,13 +108,6 @@ return {
 		vim.keymap.set("n", "<leader>fn", SearchNotes, { noremap = true, silent = true, desc = "Notes" })
 		vim.keymap.set("n", "<leader>fr", builtin.resume, { noremap = true, silent = true, desc = "Resume Search" })
 		vim.keymap.set("n", "<leader>fp", builtin.pickers, { noremap = true, silent = true, desc = "Pickers" })
-		vim.keymap.set(
-			"n",
-			"<leader>fP",
-			"<cmd>Telescope repo cached_list<cr>",
-			{ noremap = true, silent = true, desc = "Projects" }
-		)
-
 		vim.keymap.set(
 			"n",
 			"<leader>sc",
