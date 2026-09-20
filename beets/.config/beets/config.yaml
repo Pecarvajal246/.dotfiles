@@ -1,15 +1,15 @@
 directory: ~/Music
 import:
     incremental: yes
-    move: yes
+    move: no
+    copy: no
     write: yes
 ignore_hidden: yes
-plugins: lyrics ftintitle fetchart embedart info mbcollection mbsync fish musicbrainz
-ftintitle:
-    auto: yes
-    format: (feat. {0})
+plugins: lyrics fetchart embedart info mbcollection mbsync fish musicbrainz
 lyrics:
     auto: yes
+    keep_synced: yes
+    synced: yes
 fetchart:
     auto: yes
 embedart:

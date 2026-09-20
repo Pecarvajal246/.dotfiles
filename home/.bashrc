@@ -90,6 +90,13 @@ if [[ -n "$ANTIGRAVITY_AGENT" ]]; then
     return               # STOP processing the rest of .bashrc
 fi
 
+# pnpm
+export PNPM_HOME="/home/pedro/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
 
 # Start fish shell
 if [[ $(ps --no-header --pid=$PPID --format=cmd) != "fish" && -z ${BASH_EXECUTION_STRING} ]]

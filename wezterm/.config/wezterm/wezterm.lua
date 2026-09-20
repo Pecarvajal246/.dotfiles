@@ -4,6 +4,7 @@ local mux = wezterm.mux
 
 -- In newer versions of wezterm, use the config_builder which will
 -- help provide clearer error messages
+local config = {}
 if wezterm.config_builder then
   config = wezterm.config_builder()
 end
@@ -23,15 +24,6 @@ config.keys = {
     action = wezterm.action.DisableDefaultAssignment,
   },
 }
-config.webgpu_preferred_adapter = {
-        backend = "Vulkan",
-        device = 9634,
-        device_type = "DiscreteGpu",
-        driver = "NVIDIA",
-        driver_info = "580.119.02",
-        name = "NVIDIA GeForce RTX 3050 Laptop GPU",
-        vendor = 4318,
-    }
 
 wezterm.on('gui-startup', function(cmd)
   local tab, pane, window = mux.spawn_window(cmd or {})

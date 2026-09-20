@@ -3,6 +3,8 @@ if status is-interactive
 end
 
 starship init fish | source
+zoxide init fish | source
 
 abbr -a -g v nvim
 abbr -a -g ls eza -a --icons
+abbr -a -g cd z
