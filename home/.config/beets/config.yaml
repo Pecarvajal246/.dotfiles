@@ -5,7 +5,7 @@ import:
     copy: no
     write: yes
 ignore_hidden: yes
-plugins: lyrics fetchart embedart info mbcollection mbsync fish musicbrainz
+plugins: lyrics fetchart embedart info mbsync fish musicbrainz
 lyrics:
     auto: yes
     keep_synced: yes
@@ -15,6 +15,3 @@ fetchart:
 embedart:
     auto: yes
     ifempty: yes
-musicbrainz:
-    user: azatoth246
-    pass: hcPK5kECBm7aTv
