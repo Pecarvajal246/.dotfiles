@@ -1,4 +1,5 @@
-player=mpv --profile=streamlink
+player=mpv
+player-args=--profile=streamlink
 twitch-low-latency
 default-stream=best
 title "{title} - {author}"
