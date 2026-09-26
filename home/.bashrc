@@ -59,30 +59,12 @@ _open_files_for_editing() {
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
 # END_KITTY_SHELL_INTEGRATION
 
-export PATH=$PATH:/home/pedro/.local/bin
-export PATH=$PATH:/home/pedro/.local/share/nvim/lsp_servers
-export PATH=$PATH:/home/pedro/Applications
-export PATH=$PATH:/home/pedro/.cargo/bin
-export VISUAL=nvim
-export EDITOR=nvim
-export PATH="/usr/bin/flutter/bin:$PATH"
-export PATH="/usr/local/android-studio/bin:$PATH"
-export PATH="$PATH:/opt/nvim/"
+# PATH and other environment variables live in ~/.bash_profile, which runs
+# at login so GNOME and everything launched from it see them too.
 # export FZF_DEFAULT_OPTS= '--cycle --follow --layout=reverse --border --height=90% --preview-window=wrap --marker="*"'
 
 # fnm
-export PATH=/home/pedro/.fnm:$PATH
 eval "`fnm env`"
-
-# foundry
-export PATH="$PATH:/home/pedro/.foundry/bin"
-
-# Encore
-export ENCORE_INSTALL="/home/pedro/.encore"
-export PATH="$ENCORE_INSTALL/bin:$PATH"
-#
-# opencode
-export PATH=/home/pedro/.opencode/bin:$PATH
 
 if [[ -n "$ANTIGRAVITY_AGENT" ]]; then
     export PS1='$ '      # Pure, simple prompt
@@ -90,17 +72,8 @@ if [[ -n "$ANTIGRAVITY_AGENT" ]]; then
     return               # STOP processing the rest of .bashrc
 fi
 
-# pnpm
-export PNPM_HOME="/home/pedro/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-
 # Start fish shell
 if [[ $(ps --no-header --pid=$PPID --format=cmd) != "fish" && -z ${BASH_EXECUTION_STRING} ]]
 then
 	exec fish
 fi
-. "$HOME/.cargo/env"
