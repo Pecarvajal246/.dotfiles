@@ -2,4 +2,4 @@ player=mpv --profile=streamlink
 twitch-low-latency
 default-stream=best
 title "{title} - {author}"
-twitch-proxy-playlist=http://localhost:9595
+#twitch-proxy-playlist=http://localhost:9595
