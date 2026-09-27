@@ -1,0 +1,33 @@
+# ~/.bash_env
+#
+# Environment shared by every bash that starts a session: login shells
+# (GNOME, ssh logins) through ~/.bash_profile, and commands run over ssh
+# (like a remote herdr server) through the top of ~/.bashrc. Safe to source
+# more than once, since PATH entries are only added when missing.
+
+export EDITOR=nvim
+export VISUAL=nvim
+export PNPM_HOME="$HOME/.local/share/pnpm"
+export ENCORE_INSTALL="$HOME/.encore"
+
+# Each directory is prepended, so the last one listed ends up first in PATH.
+# Missing directories are skipped and existing entries are not duplicated.
+for d in \
+  /usr/local/android-studio/bin \
+  /usr/bin/flutter/bin \
+  "$HOME/Applications" \
+  "$HOME/.foundry/bin" \
+  "$HOME/.opencode/bin" \
+  "$ENCORE_INSTALL/bin" \
+  "$PNPM_HOME" \
+  "$HOME/.cargo/bin" \
+  "$HOME/.local/bin"
+do
+  [ -d "$d" ] || continue
+  case ":$PATH:" in
+    *":$d:"*) ;;
+    *) PATH="$d:$PATH" ;;
+  esac
+done
+export PATH
+unset d

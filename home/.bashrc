@@ -2,6 +2,10 @@
 # ~/.bashrc
 #
 
+# Commands run over ssh read this file but return below, so load the shared
+# environment first.
+[ -f ~/.bash_env ] && . ~/.bash_env
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -59,8 +63,7 @@ _open_files_for_editing() {
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
 # END_KITTY_SHELL_INTEGRATION
 
-# PATH and other environment variables live in ~/.bash_profile, which runs
-# at login so GNOME and everything launched from it see them too.
+# PATH and other environment variables live in ~/.bash_env.
 # export FZF_DEFAULT_OPTS= '--cycle --follow --layout=reverse --border --height=90% --preview-window=wrap --marker="*"'
 
 # fnm
