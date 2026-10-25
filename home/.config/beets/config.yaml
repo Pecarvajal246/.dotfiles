@@ -1,4 +1,7 @@
 directory: ~/Music
+# Runtime state lives outside the dotfiles repo; podman-stacks-backup backs it up.
+library: ~/.local/share/beets/library.db
+statefile: ~/.local/share/beets/state.pickle
 import:
     incremental: yes
     move: no
